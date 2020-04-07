@@ -58,7 +58,7 @@ html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "external_links": [
         {
-            'url': "/",
+            'url': "https://perone.github.io/covid19analysis",
             "name": "Main"
         }
     ],

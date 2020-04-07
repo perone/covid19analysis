@@ -168,6 +168,7 @@ at least 4 chains (68k samples, including the tuning steps).
 These are plots using data from Fiocruz (see below for the link of the website with this data).
 
 .. rubric:: Cases per year and per epidemiological week
+
 In this plot, we have Fiocruz data since 2017 until 2020. We can see a huge increase
 of the hospitalizations after the beginning of March and after the first detected
 case of COVID-19 in Brazil.
@@ -182,6 +183,7 @@ case of COVID-19 in Brazil.
           the traditional number of cases. 
 
 .. rubric:: Absolute difference of cases per states in Brazil
+
 This plot is a little more complex to understand:
 
 In the **left panel** we have the absolute difference
