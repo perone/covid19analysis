@@ -163,6 +163,46 @@ at least 4 chains (68k samples, including the tuning steps).
 .. note:: This model uses data from the `official government website <https://covid.saude.gov.br/>`_.
 
 
+**04/April** -- Severe Acute Respiratory Syndrome (SARS) cases in Brazil (Fiocruz)
+------------------------------------------------------------------------------------
+These are plots using data from Fiocruz (see below for the link of the website with this data).
+
+.. rubric:: Cases per year and per epidemiological week
+In this plot, we have Fiocruz data since 2017 until 2020. We can see a huge increase
+of the hospitalizations after the beginning of March and after the first detected
+case of COVID-19 in Brazil.
+
+.. image:: _static/br/infogripe.png
+  :width: 750
+
+.. note:: Note that due to the COVID-19 outbreak, more people went to the hospitals to search
+          for assistance, so there is a inflation there as well. Also note that the fact that
+          the interventions also reduces the basic reproduction number of other viruses, it
+          will also have an effect (very difficult to measure) on this plot as well, by deflating
+          the traditional number of cases. 
+
+.. rubric:: Absolute difference of cases per states in Brazil
+This plot is a little more complex to understand:
+
+In the **left panel** we have the absolute difference
+of cases from the epidemiological week 13th between 2019 and 2020. As we can see, the state
+of São Paulo (SP) is the one with the largest difference when compared with other states, clearly
+showing the evidence of COVID-19 patients.
+
+On the **right panel**, we have have the number of COVID-19 confirmed cases per state in Brazil
+(until April 4th). As we can see, there is a clear correlation of differences in the cases on
+the left panel with the COVID-19 cases on the right panel.
+
+Interesting cases here are RS and DF (among others). When we compare the differences in RJ vs RS, we
+can see that they are very similar, however, when we look at the number of cases, RJ has much more
+cases than RS, an evidence that can tell that the under-reporting in the RS is potentially much
+higher than in the RJ.
+
+.. image:: _static/br/infogripe_states.png
+  :width: 750
+
+.. note:: This model uses official data from Fiocruz `website <http://info.gripe.fiocruz.br>`_.
+
 **07/April** -- Death count analysis and forecast
 -------------------------------------------------------------------------------
 .. rubric:: Forecast from the model
