@@ -76,6 +76,8 @@ html_context = {
 
 html_logo = '_static/logo.png'
 
+google_analytics_id = "UA-30560129-4"
+
 
 
 # Add any paths that contain custom static files (such as style sheets) here,
