@@ -13,7 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sphinx_ustack_theme
+import pytorch_sphinx_theme
 
 
 # -- Project information -----------------------------------------------------
@@ -32,8 +32,11 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-	'sphinx.ext.githubpages',
+    'sphinx.ext.githubpages',
+    'sphinx.ext.autosummary',
 ]
+
+autosummary_generate = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -49,7 +52,30 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_ustack_theme'
+html_theme = "pydata_sphinx_theme"
+
+html_theme_options = {
+    "external_links": [
+        {
+            'url': "/",
+            "name": "Main"
+        }
+    ],
+    "github_url": "https://github.com/perone/covid19analysis",
+    "twitter_url": "https://twitter.com/tarantulae",
+    "use_edit_page_button": False,
+}
+
+html_context = {
+    "github_user": "perone",
+    "github_repo": "covid19analysis",
+    "github_version": "master",
+    "doc_path": "docs",
+}
+
+html_logo = '_static/logo.png'
+
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
