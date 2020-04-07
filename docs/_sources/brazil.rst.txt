@@ -20,7 +20,7 @@ Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
 .. raw:: html
 
 	<video controls width="740">
-    <source src="/_static/br/rsmap.mp4"
+    <source src="_static/br/rsmap.mp4"
             type="video/mp4">
     	Sorry, your browser doesn't support embedded videos.
 	</video>
