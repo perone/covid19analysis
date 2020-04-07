@@ -34,6 +34,7 @@ release = '0.1'
 extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.autosummary',
+    'sphinx.ext.mathjax',
 ]
 
 autosummary_generate = True

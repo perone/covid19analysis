@@ -20,7 +20,7 @@ on different countries.
 
    brazil
 
-
+.. note:: If you use something from this work, please consider citing it.
 
 Indices and tables
 ==================
