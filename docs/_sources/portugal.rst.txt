@@ -36,3 +36,4 @@ of the schools in Portugal.
 
 .. image:: _static/pt/changepoint_apr8.png
   :width: 700
+

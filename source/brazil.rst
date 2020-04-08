@@ -124,6 +124,19 @@ higher than in the RJ.
 .. image:: _static/br/br_deaths_07apr_diag.png
   :width: 750
 
+.. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
+
+**08/April** -- Death count analysis and forecast
+-------------------------------------------------------------------------------
+.. rubric:: Forecast from the model
+
+.. image:: _static/br/br_deaths_08apr.png
+  :width: 750
+
+.. rubric:: Growth coefficient estimation
+
+.. image:: _static/br/br_deaths_08apr_coeff.png
+  :width: 750
 
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
