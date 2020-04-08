@@ -19,6 +19,7 @@ on different countries.
    :caption: Contents:
 
    brazil
+   portugal
 
 .. note:: If you use something from this work, please consider citing it.
 

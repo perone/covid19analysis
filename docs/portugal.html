@@ -18,6 +18,7 @@
     <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="COVID-19 Analysis for Brazil" href="brazil.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -45,6 +46,10 @@
         
         <li class="nav-item ">
             <a class="nav-link" href="brazil.html">COVID-19 Analysis for Brazil</a>
+        </li>
+        
+        <li class="nav-item active">
+            <a class="nav-link" href="">COVID-19 Analysis for Portugal</a>
         </li>
         
         
@@ -94,6 +99,10 @@
       
       
       
+      
+        
+      
+      
     </ul>
 
 </nav>
@@ -103,9 +112,26 @@
           
           <div class="d-none d-xl-block col-xl-2 bd-toc">
               
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
     <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#portugal-country-wide-analysis" class="nav-link">Portugal: country-wide analysis</a><ul class="nav section-nav flex-column">
+                
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#bayesian-cases-changepoint-modelling" class="nav-link">Bayesian cases changepoint modelling</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#april-changepoint-detection-for-covid-19-confirmed-cases" class="nav-link">08/April – Changepoint detection for COVID-19 confirmed cases</a>
+        </li>
+    
+            </ul>
+        </li>
     
     </ul>
 </nav>
@@ -123,6 +149,35 @@
   <div class="section" id="covid-19-analysis-for-portugal">
 <h1>COVID-19 Analysis for Portugal<a class="headerlink" href="#covid-19-analysis-for-portugal" title="Permalink to this headline">¶</a></h1>
 <p>This section contains analysis done for Portugal.</p>
+<div class="section" id="portugal-country-wide-analysis">
+<h2>Portugal: country-wide analysis<a class="headerlink" href="#portugal-country-wide-analysis" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="bayesian-cases-changepoint-modelling">
+<h3>Bayesian cases changepoint modelling<a class="headerlink" href="#bayesian-cases-changepoint-modelling" title="Permalink to this headline">¶</a></h3>
+<p>The changepoint analysis is basically the same as
+described <a class="reference external" href="https://cscherrer.github.io/post/bayesian-changepoint/">in this article</a>,
+where the switchpoint is modelled by a discrete uniform distribution that parametrizes
+an early <span class="math notranslate nohighlight">\(\alpha\)</span> and <span class="math notranslate nohighlight">\(\beta\)</span> parameters of an exponential model using
+a negative binomial likelihood.</p>
+<p>The priors of the model are these:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{rcl}
+\text{switchpoint} &amp;\sim &amp; \text{DiscreteUniform}(\mathit{lower}=f(f()),~\mathit{upper}=f(f()))\\\text{alpha_mu} &amp;\sim &amp; \text{Normal}(\mathit{mu}=0.0,~\mathit{sigma}=6.0)\\\text{early_alpha} &amp;\sim &amp; \text{Normal}(\mathit{mu}=\text{alpha_mu},~\mathit{sigma}=6.0)\\\text{late_alpha} &amp;\sim &amp; \text{Normal}(\mathit{mu}=\text{alpha_mu},~\mathit{sigma}=6.0)\\\text{beta_mu} &amp;\sim &amp; \text{Normal}(\mathit{mu}=0.0,~\mathit{sigma}=6.0)\\\text{early_beta} &amp;\sim &amp; \text{Normal}(\mathit{mu}=\text{beta_mu},~\mathit{sigma}=6.0)\\\text{late_beta} &amp;\sim &amp; \text{Normal}(\mathit{mu}=\text{beta_mu},~\mathit{sigma}=6.0)\\\text{sigma} &amp;\sim &amp; \text{HalfCauchy}(\mathit{beta}=50.0)\\\text{y} &amp;\sim &amp; \text{NegativeBinomial}(\mathit{mu}=f(f(f(f(\text{switchpoint}),~array),~f(\text{early_alpha}),~f(\text{late_alpha})),~f(f(f(f(f(\text{switchpoint}),~array),~f(\text{early_beta}),~f(\text{late_beta})),~\text{data_x}))),~\mathit{alpha}=\text{sigma})
+\end{array}\end{split}\]</div>
+<p>The main idea of the model is that we want to learn a distribution over a discrete
+switchpoint represented by days to identify where the coefficient of growth
+changed and what was the early and late coefficient.</p>
+</div>
+<div class="section" id="april-changepoint-detection-for-covid-19-confirmed-cases">
+<h3><strong>08/April</strong> – Changepoint detection for COVID-19 confirmed cases<a class="headerlink" href="#april-changepoint-detection-for-covid-19-confirmed-cases" title="Permalink to this headline">¶</a></h3>
+<p>This is a changepoint analysis done with data up to April 8th. As we know, recently
+there was a reduction of new cases. All evidence shows that what we’re seeing is
+effect of interventions, however, the question that this analysis tries to answer
+is when can we say that we had a change in the growth factor ? It seems that
+the most likely date that this happened was on March 30th, 14 days after the closure
+of the schools in Portugal.</p>
+<a class="reference internal image-reference" href="_images/changepoint_apr8.png"><img alt="_images/changepoint_apr8.png" src="_images/changepoint_apr8.png" style="width: 700px;" /></a>
+</div>
+</div>
 </div>
 
 
@@ -131,6 +186,7 @@
               
               <div class='prev-next-bottom'>
                 
+    <a class='left-prev' id="prev-link" href="brazil.html" title="previous page">COVID-19 Analysis for Brazil</a>
 
               </div>
               
