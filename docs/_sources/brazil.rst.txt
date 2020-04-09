@@ -168,6 +168,22 @@ higher than in the RJ.
 
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
+
+**09/April** -- Death count analysis and forecast
+-------------------------------------------------------------------------------
+.. rubric:: Forecast from the model
+
+.. image:: _static/br/br_deaths_09apr.png
+  :width: 750
+
+.. rubric:: Growth coefficient estimation
+
+.. image:: _static/br/br_deaths_09apr_coeff.png
+  :width: 750
+
+.. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
+
+
 State: Rio Grande do Sul (RS)
 ===============================================================================
 These are focused analysis on the state of Rio Grande do Sul/Brazil.
