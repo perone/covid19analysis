@@ -168,7 +168,6 @@ higher than in the RJ.
 
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
-
 **09/April** -- Death count analysis and forecast
 -------------------------------------------------------------------------------
 .. rubric:: Forecast from the model
@@ -183,6 +182,31 @@ higher than in the RJ.
 
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
+
+
+**09/April** -- Death count reported by government vs notary's offices
+-------------------------------------------------------------------------------
+These are plots showing the difference in the COVID-19 death counts for the deaths
+that were registered on brazilian notary offices and compared with the
+deaths reported by the government. Data until April 8th.
+
+.. rubric:: Plots for different states of Brazil
+
+.. image:: _static/br/ministerio_vs_cartorio_p1.svg
+  :width: 800
+
+.. image:: _static/br/ministerio_vs_cartorio_p2.svg
+  :width: 800
+
+.. rubric:: For São Paulo (SP) and Rio de Janeiro (RJ)
+
+.. image:: _static/br/ministerio_vs_cartorio_p3.svg
+  :width: 350
+
+.. note:: This plot used data from official government website and from
+          the notary offices open data portal. Note that the notary offices
+          includes also deaths that were not yet COVID-19 confirmed together
+          with COVID-19 confirmed.
 
 State: Rio Grande do Sul (RS)
 ===============================================================================

@@ -1,0 +1,54 @@
+<div id="altair-viz-c997499b90f74f57943c79cd35edaaf1" class="vega-embed has-actions" role="figure" aria-label="Vega visualization"><canvas width="811" height="430" class="marks"></canvas><div class="vega-bindings"></div><details title="Click to view actions"><summary>
+<svg viewBox="0 0 16 16" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+  <circle r="2" cy="8" cx="2"></circle>
+  <circle r="2" cy="8" cx="8"></circle>
+  <circle r="2" cy="8" cx="14"></circle>
+</svg></summary><div class="vega-actions"><a href="#" target="_blank" download="visualization.svg">Save as SVG</a><a href="#" target="_blank" download="visualization.png">Save as PNG</a><a href="#">View Source</a><a href="#">View Compiled Vega</a><a href="#">Open in Vega Editor</a></div></details></div>
+<script type="text/javascript">
+  (function(spec, embedOpt){
+    let outputDiv = document.currentScript.previousElementSibling;
+    if (outputDiv.id !== "altair-viz-c997499b90f74f57943c79cd35edaaf1") {
+      outputDiv = document.getElementById("altair-viz-c997499b90f74f57943c79cd35edaaf1");
+    }
+    const paths = {
+      "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
+      "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
+      "vega-lite": "https://cdn.jsdelivr.net/npm//vega-lite@4.8.1?noext",
+      "vega-embed": "https://cdn.jsdelivr.net/npm//vega-embed@6?noext",
+    };
+
+    function loadScript(lib) {
+      return new Promise(function(resolve, reject) {
+        var s = document.createElement('script');
+        s.src = paths[lib];
+        s.async = true;
+        s.onload = () => resolve(paths[lib]);
+        s.onerror = () => reject(`Error loading script: ${paths[lib]}`);
+        document.getElementsByTagName("head")[0].appendChild(s);
+      });
+    }
+
+    function showError(err) {
+      outputDiv.innerHTML = `<div class="error" style="color:red;">${err}</div>`;
+      throw err;
+    }
+
+    function displayChart(vegaEmbed) {
+      vegaEmbed(outputDiv, spec, embedOpt)
+        .catch(err => showError(`Javascript Error: ${err.message}<br>This usually means there's a typo in your chart specification. See the javascript console for the full traceback.`));
+    }
+
+    if(typeof define === "function" && define.amd) {
+      requirejs.config({paths});
+      require(["vega-embed"], displayChart, err => showError(`Error loading script: ${err.message}`));
+    } else if (typeof vegaEmbed === "function") {
+      displayChart(vegaEmbed);
+    } else {
+      loadScript("vega")
+        .then(() => loadScript("vega-lite"))
+        .then(() => loadScript("vega-embed"))
+        .catch(showError)
+        .then(() => displayChart(vegaEmbed));
+    }
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300, "stroke": "transparent"}, "facet": {"spacing": 12}}, "data": {"name": "data-5520cfea5bac17fb9e53c061f2d3e2cc"}, "mark": "bar", "encoding": {"color": {"type": "nominal", "field": "Source", "scale": {"range": ["#6E4243", "#57B192"]}, "title": null}, "column": {"type": "nominal", "field": "State", "title": "State of Brazil"}, "x": {"type": "nominal", "field": "Source", "title": null}, "y": {"type": "quantitative", "aggregate": "sum", "field": "Death Count", "title": "Death Count"}}, "title": "Death count reported by government vs notary's offices", "width": 40, "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-5520cfea5bac17fb9e53c061f2d3e2cc": [{"State": "AC", "Death Count": 0, "Source": "Cart\u00f3rios"}, {"State": "AL", "Death Count": 3, "Source": "Cart\u00f3rios"}, {"State": "AM", "Death Count": 15, "Source": "Cart\u00f3rios"}, {"State": "AP", "Death Count": 0, "Source": "Cart\u00f3rios"}, {"State": "BA", "Death Count": 7, "Source": "Cart\u00f3rios"}, {"State": "CE", "Death Count": 22, "Source": "Cart\u00f3rios"}, {"State": "DF", "Death Count": 25, "Source": "Cart\u00f3rios"}, {"State": "ES", "Death Count": 11, "Source": "Cart\u00f3rios"}, {"State": "GO", "Death Count": 20, "Source": "Cart\u00f3rios"}, {"State": "MA", "Death Count": 1, "Source": "Cart\u00f3rios"}, {"State": "MG", "Death Count": 22, "Source": "Cart\u00f3rios"}, {"State": "MS", "Death Count": 1, "Source": "Cart\u00f3rios"}, {"State": "MT", "Death Count": 1, "Source": "Cart\u00f3rios"}, {"State": "AC", "Death Count": 2, "Source": "Minist\u00e9rio"}, {"State": "AL", "Death Count": 2, "Source": "Minist\u00e9rio"}, {"State": "AM", "Death Count": 30, "Source": "Minist\u00e9rio"}, {"State": "AP", "Death Count": 2, "Source": "Minist\u00e9rio"}, {"State": "BA", "Death Count": 15, "Source": "Minist\u00e9rio"}, {"State": "CE", "Death Count": 43, "Source": "Minist\u00e9rio"}, {"State": "DF", "Death Count": 12, "Source": "Minist\u00e9rio"}, {"State": "ES", "Death Count": 6, "Source": "Minist\u00e9rio"}, {"State": "GO", "Death Count": 7, "Source": "Minist\u00e9rio"}, {"State": "MA", "Death Count": 11, "Source": "Minist\u00e9rio"}, {"State": "MG", "Death Count": 14, "Source": "Minist\u00e9rio"}, {"State": "MS", "Death Count": 2, "Source": "Minist\u00e9rio"}, {"State": "MT", "Death Count": 1, "Source": "Minist\u00e9rio"}]}}, {"mode": "vega-lite"});
+</script>
