@@ -36,7 +36,7 @@ arises from the nature of viruses transmission dynamics. The model is:
 
 .. math::
 
-	f(t) = \alpha e^{\beta x}
+	f(t) = \alpha e^{\beta t}
 
 Where :math:`\beta` is the growth coefficient and :math:`t` is the time index. The model in plate notation
 is also shown below:
@@ -60,6 +60,34 @@ at least 4 chains (68k samples, including the tuning steps).
              by the government.
 
 .. note:: This model uses data from the `official government website <https://covid.saude.gov.br/>`_.
+
+
+
+.. _ICUModelling:
+
+Bayesian ICU (UTI) occupancy forecasts
+-------------------------------------------------------------------------------
+This model is a very simple bayesian regression for a discrete negative
+binomial distribution with the following priors:
+
+.. math::
+
+	\begin{array}{rcl}
+	\text{alpha} &\sim & \text{Normal}(\mathit{mu}=0.0,~\mathit{sigma}=10.0)\\\text{beta} &\sim & \text{Normal}(\mathit{mu}=0.0,~\mathit{sigma}=10.0)\\\text{sigma} &\sim & \text{HalfCauchy}(\mathit{beta}=10.0)\\\text{y} &\sim & \text{NegativeBinomial}(\mathit{mu}=f(f(f(\text{alpha}),~f(f(\text{beta}),~\text{data_x}))),~\mathit{alpha}=\text{sigma})
+	\end{array}
+
+And the following model diagram:
+
+.. raw:: html
+	:file: icu_poa_model_plate.html
+
+Where the model is:
+
+.. math::
+	
+	f(t) = e^{\alpha + \beta t} \sim \text{NegativeBinomial}
+
+.. note:: This model uses data from the `official SMS-POA website <http://www.portoalegre.rs.gov.br/>`_.
 
 
 **04/April** -- Severe Acute Respiratory Syndrome (SARS) cases in Brazil (Fiocruz)
@@ -160,3 +188,31 @@ Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
 
 .. note:: This animation used data from `Brasil.io <http://www.brasil.io/>`_, which is collected from
           the `TI Saude RS <http://ti.saude.rs.gov.br/covid19/>`_.
+
+**09/April** -- Mapping transmission through time
+-------------------------------------------------------------------------------
+This is a short animation showing the cities with reported infections in 
+Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
+**April 9th**.
+
+.. raw:: html
+
+	<video controls width="740">
+    <source src="_static/br/rsmap_apr09.mp4"
+            type="video/mp4">
+    	Sorry, your browser doesn't support embedded videos.
+	</video>
+
+.. note:: This animation used data from `Brasil.io <http://www.brasil.io/>`_, which is collected from
+          the `TI Saude RS <http://ti.saude.rs.gov.br/covid19/>`_.
+
+
+**09/April** -- ICU (UTI) Occupancy Forecast for Porto Alegre/RS
+-------------------------------------------------------------------------------
+.. rubric:: ICU forecast
+
+.. image:: _static/br/icu_apr9_portoalegre.png
+  :width: 750
+
+.. seealso:: This model uses the modelling approach described at :ref:`ICUModelling`.
+

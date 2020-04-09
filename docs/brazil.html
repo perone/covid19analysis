@@ -128,6 +128,10 @@
         </li>
     
         <li class="nav-item toc-entry toc-h3">
+            <a href="#bayesian-icu-uti-occupancy-forecasts" class="nav-link">Bayesian ICU (UTI) occupancy forecasts</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
             <a href="#april-severe-acute-respiratory-syndrome-sars-cases-in-brazil-fiocruz" class="nav-link">04/April – Severe Acute Respiratory Syndrome (SARS) cases in Brazil (Fiocruz)</a>
         </li>
     
@@ -147,6 +151,14 @@
                 
         <li class="nav-item toc-entry toc-h3">
             <a href="#april-mapping-transmission-through-time" class="nav-link">07/April – Mapping transmission through time</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#id2" class="nav-link">09/April – Mapping transmission through time</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#april-icu-uti-occupancy-forecast-for-porto-alegre-rs" class="nav-link">09/April – ICU (UTI) Occupancy Forecast for Porto Alegre/RS</a>
         </li>
     
             </ul>
@@ -191,7 +203,7 @@ therefore we can have more flexibility to model variance separately.</p>
 <p>The model is an exponential model as it is a very good approximation due to the natural phenomena that
 arises from the nature of viruses transmission dynamics. The model is:</p>
 <div class="math notranslate nohighlight">
-\[f(t) = \alpha e^{\beta x}\]</div>
+\[f(t) = \alpha e^{\beta t}\]</div>
 <p>Where <span class="math notranslate nohighlight">\(\beta\)</span> is the growth coefficient and <span class="math notranslate nohighlight">\(t\)</span> is the time index. The model in plate notation
 is also shown below:</p>
 <div style="width: 500pt; height: 298pt;"><svg width="674pt" height="298pt" viewBox="0.00 0.00 674.16 298.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%;">
@@ -311,6 +323,99 @@ by the government.</p>
 <p>This model uses data from the <a class="reference external" href="https://covid.saude.gov.br/">official government website</a>.</p>
 </div>
 </div>
+<div class="section" id="bayesian-icu-uti-occupancy-forecasts">
+<span id="icumodelling"></span><h3>Bayesian ICU (UTI) occupancy forecasts<a class="headerlink" href="#bayesian-icu-uti-occupancy-forecasts" title="Permalink to this headline">¶</a></h3>
+<p>This model is a very simple bayesian regression for a discrete negative
+binomial distribution with the following priors:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{rcl}
+\text{alpha} &amp;\sim &amp; \text{Normal}(\mathit{mu}=0.0,~\mathit{sigma}=10.0)\\\text{beta} &amp;\sim &amp; \text{Normal}(\mathit{mu}=0.0,~\mathit{sigma}=10.0)\\\text{sigma} &amp;\sim &amp; \text{HalfCauchy}(\mathit{beta}=10.0)\\\text{y} &amp;\sim &amp; \text{NegativeBinomial}(\mathit{mu}=f(f(f(\text{alpha}),~f(f(\text{beta}),~\text{data_x}))),~\mathit{alpha}=\text{sigma})
+\end{array}\end{split}\]</div>
+<p>And the following model diagram:</p>
+<div style="width: 500pt; height: 242pt;"><svg width="673pt" height="242pt" viewBox="0.00 0.00 673.16 242.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 100%; height: 100%;">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 238)">
+<title>%3</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-238 669.16,-238 669.16,4 -4,4"></polygon>
+<g id="clust1" class="cluster">
+<title>cluster21</title>
+<path fill="none" stroke="black" d="M20,-8C20,-8 190,-8 190,-8 196,-8 202,-14 202,-20 202,-20 202,-214 202,-214 202,-220 196,-226 190,-226 190,-226 20,-226 20,-226 14,-226 8,-220 8,-214 8,-214 8,-20 8,-20 8,-14 14,-8 20,-8"></path>
+<text text-anchor="middle" x="187" y="-14.8" font-family="Times,serif" font-size="14.00">21</text>
+</g>
+<!-- y -->
+<g id="node1" class="node">
+<title>y</title>
+<ellipse fill="lightgrey" stroke="black" cx="105" cy="-128" rx="88.64" ry="18"></ellipse>
+<text text-anchor="middle" x="105" y="-123.8" font-family="Times,serif" font-size="14.00">y ~ NegativeBinomial</text>
+</g>
+<!-- data_y -->
+<g id="node2" class="node">
+<title>data_y</title>
+<path fill="lightgrey" stroke="black" d="M140.32,-74C140.32,-74 69.68,-74 69.68,-74 63.68,-74 57.68,-68 57.68,-62 57.68,-62 57.68,-50 57.68,-50 57.68,-44 63.68,-38 69.68,-38 69.68,-38 140.32,-38 140.32,-38 146.32,-38 152.32,-44 152.32,-50 152.32,-50 152.32,-62 152.32,-62 152.32,-68 146.32,-74 140.32,-74"></path>
+<text text-anchor="middle" x="105" y="-51.8" font-family="Times,serif" font-size="14.00">data_y ~ Data</text>
+</g>
+<!-- y&#45;&gt;data_y -->
+<g id="edge1" class="edge">
+<title>y-&gt;data_y</title>
+<path fill="none" stroke="black" d="M105,-109.7C105,-101.98 105,-92.71 105,-84.11"></path>
+<polygon fill="black" stroke="black" points="108.5,-84.1 105,-74.1 101.5,-84.1 108.5,-84.1"></polygon>
+</g>
+<!-- data_x -->
+<g id="node3" class="node">
+<title>data_x</title>
+<path fill="lightgrey" stroke="black" d="M140.32,-218C140.32,-218 69.68,-218 69.68,-218 63.68,-218 57.68,-212 57.68,-206 57.68,-206 57.68,-194 57.68,-194 57.68,-188 63.68,-182 69.68,-182 69.68,-182 140.32,-182 140.32,-182 146.32,-182 152.32,-188 152.32,-194 152.32,-194 152.32,-206 152.32,-206 152.32,-212 146.32,-218 140.32,-218"></path>
+<text text-anchor="middle" x="105" y="-195.8" font-family="Times,serif" font-size="14.00">data_x ~ Data</text>
+</g>
+<!-- data_x&#45;&gt;y -->
+<g id="edge2" class="edge">
+<title>data_x-&gt;y</title>
+<path fill="none" stroke="black" d="M105,-181.7C105,-173.98 105,-164.71 105,-156.11"></path>
+<polygon fill="black" stroke="black" points="108.5,-156.1 105,-146.1 101.5,-156.1 108.5,-156.1"></polygon>
+</g>
+<!-- alpha -->
+<g id="node4" class="node">
+<title>alpha</title>
+<ellipse fill="none" stroke="black" cx="275" cy="-200" rx="65.46" ry="18"></ellipse>
+<text text-anchor="middle" x="275" y="-195.8" font-family="Times,serif" font-size="14.00">alpha ~ Normal</text>
+</g>
+<!-- alpha&#45;&gt;y -->
+<g id="edge3" class="edge">
+<title>alpha-&gt;y</title>
+<path fill="none" stroke="black" d="M240.19,-184.67C214.73,-174.18 179.91,-159.84 151.98,-148.35"></path>
+<polygon fill="black" stroke="black" points="153,-144.98 142.42,-144.41 150.33,-151.45 153,-144.98"></polygon>
+</g>
+<!-- beta -->
+<g id="node5" class="node">
+<title>beta</title>
+<ellipse fill="none" stroke="black" cx="420" cy="-200" rx="61.11" ry="18"></ellipse>
+<text text-anchor="middle" x="420" y="-195.8" font-family="Times,serif" font-size="14.00">beta ~ Normal</text>
+</g>
+<!-- beta&#45;&gt;y -->
+<g id="edge4" class="edge">
+<title>beta-&gt;y</title>
+<path fill="none" stroke="black" d="M374.2,-187.88C365.83,-185.89 357.16,-183.86 349,-182 290.09,-168.55 222.99,-154.03 174.08,-143.6"></path>
+<polygon fill="black" stroke="black" points="174.75,-140.16 164.24,-141.5 173.29,-147.01 174.75,-140.16"></polygon>
+</g>
+<!-- sigma -->
+<g id="node6" class="node">
+<title>sigma</title>
+<ellipse fill="none" stroke="black" cx="582" cy="-200" rx="83.33" ry="18"></ellipse>
+<text text-anchor="middle" x="582" y="-195.8" font-family="Times,serif" font-size="14.00">sigma ~ HalfCauchy</text>
+</g>
+<!-- sigma&#45;&gt;y -->
+<g id="edge5" class="edge">
+<title>sigma-&gt;y</title>
+<path fill="none" stroke="black" d="M521.69,-187.45C511.14,-185.54 500.26,-183.65 490,-182 386.57,-165.33 266.96,-149.39 188.86,-139.42"></path>
+<polygon fill="black" stroke="black" points="188.96,-135.9 178.6,-138.11 188.08,-142.85 188.96,-135.9"></polygon>
+</g>
+</g>
+</svg></div><p>Where the model is:</p>
+<div class="math notranslate nohighlight">
+\[f(t) = e^{\alpha + \beta t} \sim \text{NegativeBinomial}\]</div>
+<div class="alert alert-info">
+<p class="admonition-title">Note</p>
+<p>This model uses data from the <a class="reference external" href="http://www.portoalegre.rs.gov.br/">official SMS-POA website</a>.</p>
+</div>
+</div>
 <div class="section" id="april-severe-acute-respiratory-syndrome-sars-cases-in-brazil-fiocruz">
 <h3><strong>04/April</strong> – Severe Acute Respiratory Syndrome (SARS) cases in Brazil (Fiocruz)<a class="headerlink" href="#april-severe-acute-respiratory-syndrome-sars-cases-in-brazil-fiocruz" title="Permalink to this headline">¶</a></h3>
 <p>These are plots using data from Fiocruz (see below for the link of the website with this data).</p>
@@ -388,6 +493,30 @@ Rio Grande do Sul (RS)/Brazil for the date range of <strong>March 10th</strong> 
 <p class="admonition-title">Note</p>
 <p>This animation used data from <a class="reference external" href="http://www.brasil.io/">Brasil.io</a>, which is collected from
 the <a class="reference external" href="http://ti.saude.rs.gov.br/covid19/">TI Saude RS</a>.</p>
+</div>
+</div>
+<div class="section" id="id2">
+<h3><strong>09/April</strong> – Mapping transmission through time<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>This is a short animation showing the cities with reported infections in
+Rio Grande do Sul (RS)/Brazil for the date range of <strong>March 10th</strong> until
+<strong>April 9th</strong>.</p>
+    <video controls width="740">
+<source src="_static/br/rsmap_apr09.mp4"
+        type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+    </video><div class="alert alert-info">
+<p class="admonition-title">Note</p>
+<p>This animation used data from <a class="reference external" href="http://www.brasil.io/">Brasil.io</a>, which is collected from
+the <a class="reference external" href="http://ti.saude.rs.gov.br/covid19/">TI Saude RS</a>.</p>
+</div>
+</div>
+<div class="section" id="april-icu-uti-occupancy-forecast-for-porto-alegre-rs">
+<h3><strong>09/April</strong> – ICU (UTI) Occupancy Forecast for Porto Alegre/RS<a class="headerlink" href="#april-icu-uti-occupancy-forecast-for-porto-alegre-rs" title="Permalink to this headline">¶</a></h3>
+<p class="rubric">ICU forecast</p>
+<a class="reference internal image-reference" href="_images/icu_apr9_portoalegre.png"><img alt="_images/icu_apr9_portoalegre.png" src="_images/icu_apr9_portoalegre.png" style="width: 750px;" /></a>
+<div class="alert alert-info">
+<p class="admonition-title">See also</p>
+<p>This model uses the modelling approach described at <a class="reference internal" href="#icumodelling"><span class="std std-ref">Bayesian ICU (UTI) occupancy forecasts</span></a>.</p>
 </div>
 </div>
 </div>
