@@ -5,6 +5,8 @@ This section contains analysis done for Portugal.
 Portugal: country-wide analysis
 ===============================================================================
 
+.. _ChangepointModelling:
+
 Bayesian cases changepoint modelling
 -------------------------------------------------------------------------------
 The changepoint analysis is basically the same as
@@ -25,6 +27,21 @@ The main idea of the model is that we want to learn a distribution over a discre
 switchpoint represented by days to identify where the coefficient of growth
 changed and what was the early and late coefficient.
 
+**05/April** -- Modelling ICU occupancy in Portugal
+-------------------------------------------------------------------------------
+This is a short animation showing ICU occupancy forecast for the days before
+April 5th. After that date, the model started to become misspecified due to
+potential intervention effects or change of criteria/procedures from
+the portuguese government.
+
+.. raw:: html
+
+	<video controls width="740">
+    <source src="_static/pt/icu_forecast_pt.mp4"
+            type="video/mp4">
+    	Sorry, your browser doesn't support embedded videos.
+	</video>
+
 **08/April** -- Changepoint detection for COVID-19 confirmed cases
 ------------------------------------------------------------------------------------
 This is a changepoint analysis done with data up to April 8th. As we know, recently
@@ -36,4 +53,6 @@ of the schools in Portugal.
 
 .. image:: _static/pt/changepoint_apr8.png
   :width: 700
+
+.. seealso:: This model uses the modelling approach described at :ref:`ChangepointModelling`.
 

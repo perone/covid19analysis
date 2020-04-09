@@ -127,6 +127,10 @@
         </li>
     
         <li class="nav-item toc-entry toc-h3">
+            <a href="#april-modelling-icu-occupancy-in-portugal" class="nav-link">05/April – Modelling ICU occupancy in Portugal</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
             <a href="#april-changepoint-detection-for-covid-19-confirmed-cases" class="nav-link">08/April – Changepoint detection for COVID-19 confirmed cases</a>
         </li>
     
@@ -152,7 +156,7 @@
 <div class="section" id="portugal-country-wide-analysis">
 <h2>Portugal: country-wide analysis<a class="headerlink" href="#portugal-country-wide-analysis" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="bayesian-cases-changepoint-modelling">
-<h3>Bayesian cases changepoint modelling<a class="headerlink" href="#bayesian-cases-changepoint-modelling" title="Permalink to this headline">¶</a></h3>
+<span id="changepointmodelling"></span><h3>Bayesian cases changepoint modelling<a class="headerlink" href="#bayesian-cases-changepoint-modelling" title="Permalink to this headline">¶</a></h3>
 <p>The changepoint analysis is basically the same as
 described <a class="reference external" href="https://cscherrer.github.io/post/bayesian-changepoint/">in this article</a>,
 where the switchpoint is modelled by a discrete uniform distribution that parametrizes
@@ -167,6 +171,17 @@ a negative binomial likelihood.</p>
 switchpoint represented by days to identify where the coefficient of growth
 changed and what was the early and late coefficient.</p>
 </div>
+<div class="section" id="april-modelling-icu-occupancy-in-portugal">
+<h3><strong>05/April</strong> – Modelling ICU occupancy in Portugal<a class="headerlink" href="#april-modelling-icu-occupancy-in-portugal" title="Permalink to this headline">¶</a></h3>
+<p>This is a short animation showing ICU occupancy forecast for the days before
+April 5th. After that date, the model started to become misspecified due to
+potential intervention effects or change of criteria/procedures from
+the portuguese government.</p>
+    <video controls width="740">
+<source src="_static/pt/icu_forecast_pt.mp4"
+        type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+    </video></div>
 <div class="section" id="april-changepoint-detection-for-covid-19-confirmed-cases">
 <h3><strong>08/April</strong> – Changepoint detection for COVID-19 confirmed cases<a class="headerlink" href="#april-changepoint-detection-for-covid-19-confirmed-cases" title="Permalink to this headline">¶</a></h3>
 <p>This is a changepoint analysis done with data up to April 8th. As we know, recently
@@ -176,6 +191,10 @@ is when can we say that we had a change in the growth factor ? It seems that
 the most likely date that this happened was on March 30th, 14 days after the closure
 of the schools in Portugal.</p>
 <a class="reference internal image-reference" href="_images/changepoint_apr8.png"><img alt="_images/changepoint_apr8.png" src="_images/changepoint_apr8.png" style="width: 700px;" /></a>
+<div class="alert alert-info">
+<p class="admonition-title">See also</p>
+<p>This model uses the modelling approach described at <a class="reference internal" href="#changepointmodelling"><span class="std std-ref">Bayesian cases changepoint modelling</span></a>.</p>
+</div>
 </div>
 </div>
 </div>
