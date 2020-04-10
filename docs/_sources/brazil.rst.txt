@@ -176,8 +176,6 @@ higher than in the RJ.
 
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
-
-
 **09/April** -- Death count reported by government vs notary's offices
 -------------------------------------------------------------------------------
 These are plots showing the difference in the COVID-19 death counts for the deaths
@@ -250,3 +248,25 @@ Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
 
 .. seealso:: This model uses the modelling approach described at :ref:`ICUModelling`.
 
+**10/April** -- ICU (UTI) Occupancy Forecast for Porto Alegre/RS
+-------------------------------------------------------------------------------
+.. rubric:: ICU forecast
+
+.. image:: _static/br/icu_apr10_portoalegre.png
+  :width: 750
+
+.. seealso:: This model uses the modelling approach described at :ref:`ICUModelling`.
+
+**10/April** -- ICU (UTI) Occupancy Animation for Porto Alegre/RS
+-------------------------------------------------------------------------------
+.. rubric:: ICU forecast
+
+.. raw:: html
+
+  <video controls width="740">
+    <source src="_static/br/icu_poa_anim.mp4"
+            type="video/mp4">
+      Sorry, your browser doesn't support embedded videos.
+  </video>
+
+.. seealso:: This model uses the modelling approach described at :ref:`ICUModelling`.
