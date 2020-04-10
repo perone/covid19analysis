@@ -176,6 +176,21 @@ higher than in the RJ.
 
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
+**10/April** -- Death count analysis and forecast
+-------------------------------------------------------------------------------
+.. rubric:: Forecast from the model
+
+.. image:: _static/br/br_deaths_10apr.png
+  :width: 750
+
+.. rubric:: Growth coefficient estimation
+
+.. image:: _static/br/br_deaths_10apr_coeff.png
+  :width: 750
+
+.. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
+
+
 **09/April** -- Death count reported by government vs notary's offices
 -------------------------------------------------------------------------------
 These are plots showing the difference in the COVID-19 death counts for the deaths
@@ -270,3 +285,8 @@ Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
   </video>
 
 .. seealso:: This model uses the modelling approach described at :ref:`ICUModelling`.
+
+
+
+
+
