@@ -333,7 +333,7 @@ by the government.</p>
 </div>
 <div class="section" id="bayesian-icu-uti-occupancy-forecasts">
 <span id="icumodelling"></span><h3>Bayesian ICU (UTI) occupancy forecasts<a class="headerlink" href="#bayesian-icu-uti-occupancy-forecasts" title="Permalink to this headline">¶</a></h3>
-<p>This model is a very simple bayesian regression for a discrete negative
+<p>This model is a very simple bayesian exponential regression for a discrete negative
 binomial distribution with the following priors:</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}\begin{array}{rcl}
@@ -416,10 +416,7 @@ binomial distribution with the following priors:</p>
 <polygon fill="black" stroke="black" points="188.96,-135.9 178.6,-138.11 188.08,-142.85 188.96,-135.9"></polygon>
 </g>
 </g>
-</svg></div><p>Where the model is:</p>
-<div class="math notranslate nohighlight">
-\[f(t) = e^{\alpha + \beta t} \sim \text{NegativeBinomial}\]</div>
-<div class="alert alert-info">
+</svg></div><div class="alert alert-info">
 <p class="admonition-title">Note</p>
 <p>This model uses data from the <a class="reference external" href="http://www.portoalegre.rs.gov.br/">official SMS-POA website</a>.</p>
 </div>

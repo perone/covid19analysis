@@ -67,7 +67,7 @@ at least 4 chains (68k samples, including the tuning steps).
 
 Bayesian ICU (UTI) occupancy forecasts
 -------------------------------------------------------------------------------
-This model is a very simple bayesian regression for a discrete negative
+This model is a very simple bayesian exponential regression for a discrete negative
 binomial distribution with the following priors:
 
 .. math::
@@ -80,12 +80,6 @@ And the following model diagram:
 
 .. raw:: html
 	:file: icu_poa_model_plate.html
-
-Where the model is:
-
-.. math::
-	
-	f(t) = e^{\alpha + \beta t} \sim \text{NegativeBinomial}
 
 .. note:: This model uses data from the `official SMS-POA website <http://www.portoalegre.rs.gov.br/>`_.
 
