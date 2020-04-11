@@ -298,7 +298,7 @@ cases by the time of notification (y-axis). Data until Apr 10th 2020.
           until Apr 10th 2020.
 
 **11/April** -- Gender distribution of infected cases by time for Porto Alegre/RS
--------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
 This plot shows the gender distribution of infected
 cases by the time of notification (x-axis). Data until Apr 10th 2020.
 
@@ -307,6 +307,23 @@ cases by the time of notification (x-axis). Data until Apr 10th 2020.
 
 .. note:: This plot uses official data from Porto Alegre/RS reports until
           until Apr 10th 2020.
+
+
+**11/April** -- Estimated instantaneous reproduction number for Rio Grande do Sul (RS)
+--------------------------------------------------------------------------------------
+This plot shows the estimation of the instantaneous reproduction number for Rio
+Grande do Sul (RS) / Brazil. This plot uses the method described in the work 
+`A New Framework and Software to Estimate Time-Varying Reproduction Numbers During Epidemics <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816335/>`_. We used the serial interval parameters similar to the ones used
+by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3.7 - 6.0)`
+and :math:`\sigma = 2.9 (1.9 - 4.9)` with a log-normal distribution.
+
+.. image:: _static/br/rs_effective_r_11apr.png
+
+
+.. note:: This plot uses official data from government, reports until
+          Apr 11th 2020.
+
+
 
 
 
