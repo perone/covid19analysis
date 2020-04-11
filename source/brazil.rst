@@ -286,7 +286,14 @@ Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
 
 .. seealso:: This model uses the modelling approach described at :ref:`ICUModelling`.
 
+**11/April** -- Age distribution of infected cases by time of notification
+-------------------------------------------------------------------------------
+This plot shows the age (binned in steps of 5) distribution of infected
+cases by the time of notification (y-axis). Data until Apr 10th 2020.
 
+.. image:: _static/br/poa_age_time_apr11.svg
+  :width: 800
 
-
+.. note:: This plot uses official data from Porto Alegre/RS reports until
+          until Apr 10th 2020.
 
