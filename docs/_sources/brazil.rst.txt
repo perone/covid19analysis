@@ -321,7 +321,13 @@ and :math:`\sigma = 2.9 (1.9 - 4.9)` with a log-normal distribution.
 
 
 .. note:: This plot uses official data from government, reports until
-          Apr 11th 2020.
+          Apr 11th 2020. This method is sensitive to changes in COVID-19
+          testing procedures and the level of effort used to detect cases.
+          Therefore, changes in the testing efforts will introduce bias
+          if the testing practices are not kept consistent. So please
+          keep in mind these limitations, that are often not stated in
+          many analysis around there.
+
 
 
 
