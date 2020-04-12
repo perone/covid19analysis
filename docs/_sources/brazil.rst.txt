@@ -328,9 +328,35 @@ and :math:`\sigma = 2.9 (1.9 - 4.9)` with a log-normal distribution.
           keep in mind these limitations, that are often not stated in
           many analysis around there.
 
+**12/April** -- What Rio Grande do Sul (RS) and Portugal have in common ?
+--------------------------------------------------------------------------------------
+Portugal and Rio Grande do Sul (RS), a state of Brazil, share not only
+the same language but also other similarities in the fight for COVID-19.
 
+First, their populations are very similar, with 10.28 million in Portugal
+and 11.29 million in Rio Grande do Sul (RS). During the COVID-19 outbreak,
+they adopted similar measures and coincidentally some of them were
+taken at the same time, such as school closures and state of emergency.
 
+This is an interesting comparison because Portugal had the first confirmed
+case on March 2nd while Rio Grande do Sul (RS) had the first confirmed
+case on March 10th.
 
+Below you can see a plot with the estimated R number both for Portugal
+and for Rio Grande do Sul. Given all the limitations of this comparison
+(see below), it is nevertheless interesting to see that Rio Grande do Sul (RS)
+seems to have achieved a lower R value before Portugal probably due to the
+short time to take measures after confirming the first case.
+
+.. image:: _static/br/pt_rs_comparison.png
+
+.. note:: Limitations:
+  
+  - Population density is different;
+  - Imported cases probably much higher in Portugal;
+  - Different testing capacities (RS is doing ~400/day now);
+  - Biased R estimation due to changes in testing procedures;
+  - Interventions after state of emergency were a little different;
 
 
 
