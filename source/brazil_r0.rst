@@ -1,7 +1,5 @@
 COVID-19 Time varying reproduction numbers estimation for Brazil
 *******************************************************************************
-This section contains analysis done for Brazil.
-
 These plots show the estimation of the instantaneous reproduction number for all
 the states in Brazil. These reports uses the method described in the work 
 `A New Framework and Software to Estimate Time-Varying Reproduction Numbers During Epidemics <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816335/>`_. We used the serial interval parameters similar to the ones used
@@ -15,6 +13,13 @@ and :math:`\sigma = 2.9 (1.9 - 4.9)` with a log-normal distribution.
           if the testing practices are not kept consistent. So please
           keep in mind these limitations, that are often not stated in
           many analysis around there.
+
+Summary for the last instantaneous reproduction number estimate
+===============================================================================
+.. rubric:: Summary for the last instantaneous reproduction number estimate
+
+.. image:: _static/br/r0_estim/estim_all.svg
+  :width: 700
 
 
 **State**: Acre / AC
