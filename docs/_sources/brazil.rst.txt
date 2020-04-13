@@ -176,21 +176,6 @@ higher than in the RJ.
 
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
-**10/April** -- Death count analysis and forecast
--------------------------------------------------------------------------------
-.. rubric:: Forecast from the model
-
-.. image:: _static/br/br_deaths_10apr.png
-  :width: 750
-
-.. rubric:: Growth coefficient estimation
-
-.. image:: _static/br/br_deaths_10apr_coeff.png
-  :width: 750
-
-.. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
-
-
 **09/April** -- Death count reported by government vs notary's offices
 -------------------------------------------------------------------------------
 These are plots showing the difference in the COVID-19 death counts for the deaths
@@ -214,6 +199,50 @@ deaths reported by the government. Data until April 8th.
           the notary offices open data portal. Note that the notary offices
           includes also deaths that were not yet COVID-19 confirmed together
           with COVID-19 confirmed.
+
+**10/April** -- Death count analysis and forecast
+-------------------------------------------------------------------------------
+.. rubric:: Forecast from the model
+
+.. image:: _static/br/br_deaths_10apr.png
+  :width: 750
+
+.. rubric:: Growth coefficient estimation
+
+.. image:: _static/br/br_deaths_10apr_coeff.png
+  :width: 750
+
+.. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
+
+**11/April** -- Death count analysis and forecast
+-------------------------------------------------------------------------------
+.. rubric:: Forecast from the model
+
+.. image:: _static/br/br_deaths_11apr.png
+  :width: 750
+
+.. rubric:: Growth coefficient estimation
+
+.. image:: _static/br/br_deaths_11apr_coeff.png
+  :width: 750
+
+.. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
+
+
+**12/April** -- Death count analysis and forecast
+-------------------------------------------------------------------------------
+.. rubric:: Forecast from the model
+
+.. image:: _static/br/br_deaths_12apr.png
+  :width: 750
+
+.. rubric:: Growth coefficient estimation
+
+.. image:: _static/br/br_deaths_12apr_coeff.png
+  :width: 750
+
+.. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
+
 
 State: Rio Grande do Sul (RS)
 ===============================================================================
@@ -358,5 +387,29 @@ short time to take measures after confirming the first case.
   - Biased R estimation due to changes in testing procedures;
   - Interventions after state of emergency were a little different;
 
+**12/April** -- Mapping transmission through time
+-------------------------------------------------------------------------------
+This is a short animation showing the cities with reported infections in 
+Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
+**April 12th**.
+
+.. raw:: html
+
+  <video controls width="740">
+    <source src="_static/br/rsmap_apr12.mp4"
+            type="video/mp4">
+      Sorry, your browser doesn't support embedded videos.
+  </video>
+
+.. note:: This animation used data from `Brasil.io <http://www.brasil.io/>`_, which is collected from
+          the `TI Saude RS <http://ti.saude.rs.gov.br/covid19/>`_.
 
 
+**12/April** -- ICU (UTI) Occupancy Forecast for Porto Alegre/RS
+-------------------------------------------------------------------------------
+.. rubric:: ICU forecast
+
+.. image:: _static/br/icu_apr12_portoalegre.png
+  :width: 750
+
+.. seealso:: This model uses the modelling approach described at :ref:`ICUModelling`.
