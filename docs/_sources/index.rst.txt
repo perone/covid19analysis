@@ -9,10 +9,13 @@ COVID-19 Analysis Repository
 This is a repository with on-going analysis I'm working on for COVID-19
 on different countries.
 
-.. warning:: I'm not an epidemiologist, I have some background on epidemiology due to my background
-             on biomedical engineering, but I'm a Machine Learning engineer/researcher. Please read
-             about the limitations on each modelling approach, as this is very important for you
-             to understand what you're looking. In case of doubts, please contact me.
+.. note:: I'm not an epidemiologist, I have some background on epidemiology due to my background
+          on biomedical engineering, but I'm a Machine Learning engineer/researcher. However, data
+          is data and statistics is statistics. Please read about the limitations on each modelling
+          approach, as this is very important for you to understand what you're looking. In case
+          of doubt, please contact me on my `personal blog <http://blog.christianperone.com>`_ or
+          `twitter <http://www.twitter.com/tarantulae>`_. If you use something from this work,
+          please consider citing it.
 
 .. toctree::
    :maxdepth: 4
@@ -21,8 +24,6 @@ on different countries.
    brazil
    brazil_r0
    portugal
-
-.. note:: If you use something from this work, please consider citing it.
 
 Indices and tables
 ==================
