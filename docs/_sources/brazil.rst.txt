@@ -446,10 +446,8 @@ of P=11,300.000 (11.3M) people. So, P*(K/N) gives us 5395 with the proportion
 of 0.047% and not the 5650 that they got by rounding numbers.
 
 Another issue that bothers me a lot is that they reported the results without
-proper confidence interval, that would yield a range of 1130-22600 with a
-CI of 95%.
-
-But wait, there is more, the test has a sensitivity of 77% and a
+proper confidence interval, which is of course huge due to the small
+sample size. But wait, there is more, the test has a sensitivity of 77% and a
 specificity of 98% (tested by themselves), so where is this uncertainty ?
 
 I wonder what epidemiologists of UFPel are doing by being so naive in these
