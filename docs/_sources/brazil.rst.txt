@@ -427,3 +427,45 @@ Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
   :width: 750
 
 .. seealso:: This model uses the modelling approach described at :ref:`ICUModelling`.
+
+**15/April** -- Regarding results from UFPel study in Brazil
+-------------------------------------------------------------------------------
+I just became aware of the results from UFPel in Brazil, where they did a
+randomized study with N=4189 valid tests in 8 cities of Rio Grande do Sul (RS).
+The results found anti-bodies in K=2 subjects, among N=4189 tested subjects.
+
+What I found impressive, is that UFPel did a terrible job in presenting the
+results, by not incorporating the uncertainty into the results that they
+showed to the public. This was a terrible mistake they did, not to mention
+the rounding of some numbers (to make it look bigger ?).
+
+Let's go with the analysis: we have N=4189 and K=2, this means a proportion
+of 0.047% and not 0.05% that they reported. Secondly, they estimated a total
+of 5650 infections for the state by taking into consideration a population
+of P=11,300.000 (11.3M) people. So, P*(K/N) gives us 5395 with the proportion
+of 0.047% and not the 5650 that they got by rounding numbers.
+
+Another issue that bothers me a lot is that they reported the results without
+proper confidence interval, that would yield a range of 1130-22600 with a
+CI of 95%.
+
+But wait, there is more, the test has a sensitivity of 77% and a
+specificity of 98% (tested by themselves), so where is this uncertainty ?
+
+I wonder what epidemiologists of UFPel are doing by being so naive in these
+calculations that are crucial to incorporate uncertainty and report it
+correctly to the public. The state is spending a lot of tests into this
+study, and those tests are tests that won't be used for contact tracing
+and control, so it is very frustrating to see these analysis.
+
+
+
+
+
+
+
+
+
+
+
+

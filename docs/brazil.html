@@ -18,7 +18,7 @@
     <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="13/April – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
+    <link rel="next" title="15/April – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
     <link rel="prev" title="COVID-19 Analysis Repository" href="index.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -50,11 +50,15 @@
         </li>
         
         <li class="nav-item ">
-            <a class="nav-link" href="brazil_r0.html">13/April – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+            <a class="nav-link" href="brazil_r0.html">15/April – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
         </li>
         
         <li class="nav-item ">
             <a class="nav-link" href="portugal.html">COVID-19 Analysis for Portugal</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="portugal_r0.html">15/April – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
         </li>
         
         
@@ -104,6 +108,8 @@
       
       
         
+      
+      
       
       
       
@@ -221,6 +227,10 @@
     
         <li class="nav-item toc-entry toc-h3">
             <a href="#id14" class="nav-link">12/April – ICU (UTI) Occupancy Forecast for Porto Alegre/RS</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#april-regarding-results-from-ufpel-study-in-brazil" class="nav-link">15/April – Regarding results from UFPel study in Brazil</a>
         </li>
     
             </ul>
@@ -766,6 +776,31 @@ the <a class="reference external" href="http://ti.saude.rs.gov.br/covid19/">TI S
 <p>This model uses the modelling approach described at <a class="reference internal" href="#icumodelling"><span class="std std-ref">Bayesian ICU (UTI) occupancy forecasts</span></a>.</p>
 </div>
 </div>
+<div class="section" id="april-regarding-results-from-ufpel-study-in-brazil">
+<h3><strong>15/April</strong> – Regarding results from UFPel study in Brazil<a class="headerlink" href="#april-regarding-results-from-ufpel-study-in-brazil" title="Permalink to this headline">¶</a></h3>
+<p>I just became aware of the results from UFPel in Brazil, where they did a
+randomized study with N=4189 valid tests in 8 cities of Rio Grande do Sul (RS).
+The results found anti-bodies in K=2 subjects, among N=4189 tested subjects.</p>
+<p>What I found impressive, is that UFPel did a terrible job in presenting the
+results, by not incorporating the uncertainty into the results that they
+showed to the public. This was a terrible mistake they did, not to mention
+the rounding of some numbers (to make it look bigger ?).</p>
+<p>Let’s go with the analysis: we have N=4189 and K=2, this means a proportion
+of 0.047% and not 0.05% that they reported. Secondly, they estimated a total
+of 5650 infections for the state by taking into consideration a population
+of P=11,300.000 (11.3M) people. So, P*(K/N) gives us 5395 with the proportion
+of 0.047% and not the 5650 that they got by rounding numbers.</p>
+<p>Another issue that bothers me a lot is that they reported the results without
+proper confidence interval, that would yield a range of 1130-22600 with a
+CI of 95%.</p>
+<p>But wait, there is more, the test has a sensitivity of 77% and a
+specificity of 98% (tested by themselves), so where is this uncertainty ?</p>
+<p>I wonder what epidemiologists of UFPel are doing by being so naive in these
+calculations that are crucial to incorporate uncertainty and report it
+correctly to the public. The state is spending a lot of tests into this
+study, and those tests are tests that won’t be used for contact tracing
+and control, so it is very frustrating to see these analysis.</p>
+</div>
 </div>
 </div>
 
@@ -776,7 +811,7 @@ the <a class="reference external" href="http://ti.saude.rs.gov.br/covid19/">TI S
               <div class='prev-next-bottom'>
                 
     <a class='left-prev' id="prev-link" href="index.html" title="previous page">COVID-19 Analysis Repository</a>
-    <a class='right-next' id="next-link" href="brazil_r0.html" title="next page"><strong>13/April</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+    <a class='right-next' id="next-link" href="brazil_r0.html" title="next page"><strong>15/April</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
 
               </div>
               
