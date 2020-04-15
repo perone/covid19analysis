@@ -24,6 +24,7 @@ on different countries.
    brazil
    brazil_r0
    portugal
+   portugal_r0
 
 Indices and tables
 ==================

@@ -1,0 +1,335 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>15/April – COVID-19 Time varying reproduction numbers estimation for Portugal &#8212; covid19analysis 0.1 documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link href="_static/css/index.css" rel="stylesheet">
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="COVID-19 Analysis for Portugal" href="portugal.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="docsearch:language" content="en">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
+<div class="container-xl">
+
+    
+    <a class="navbar-brand" href="index.html">
+      <img src="_static/logo.png" class="logo" alt="logo">
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="navbar-menu" class="col-9 collapse navbar-collapse">
+      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
+        
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="brazil.html">COVID-19 Analysis for Brazil</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="brazil_r0.html">14/April – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+        </li>
+        
+        <li class="nav-item ">
+            <a class="nav-link" href="portugal.html">COVID-19 Analysis for Portugal</a>
+        </li>
+        
+        <li class="nav-item active">
+            <a class="nav-link" href="">15/April – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
+        </li>
+        
+        
+        <li class="nav-item">
+            <a class="nav-link nav-external" href="https://perone.github.io/covid19analysis">Main<i class="fas fa-external-link-alt"></i></a>
+        </li>
+        
+      </ul>
+
+      <ul class="navbar-nav">
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/perone/covid19analysis" target="_blank" rel="noopener">
+              <span><i class="fab fa-github-square"></i></span>
+            </a>
+          </li>
+        
+        
+          <li class="nav-item">
+            <a class="nav-link" href="https://twitter.com/tarantulae" target="_blank" rel="noopener">
+              <span><i class="fab fa-twitter-square"></i></span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+          <div class="col-12 col-md-3 bd-sidebar">
+
+<form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form>
+
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+
+  <div class="bd-toc-item active">
+  
+
+  <ul class="nav bd-sidenav">
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      
+    </ul>
+
+</nav>
+          </div>
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+              
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="nav section-nav flex-column">
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#summary-for-the-last-instantaneous-reproduction-number-estimate" class="nav-link">Summary for the last instantaneous reproduction number estimate</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#region-alentejo" class="nav-link">Region: Alentejo</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#region-algarve" class="nav-link">Region: Algarve</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#region-centro" class="nav-link">Region: Centro</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#region-norte" class="nav-link">Region: Norte</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h2">
+            <a href="#region-rlvt" class="nav-link">Region: Rlvt</a>
+        </li>
+    
+    </ul>
+</nav>
+
+
+              
+          </div>
+          
+
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="april-covid-19-time-varying-reproduction-numbers-estimation-for-portugal">
+<h1><strong>15/April</strong> – COVID-19 Time varying reproduction numbers estimation for Portugal<a class="headerlink" href="#april-covid-19-time-varying-reproduction-numbers-estimation-for-portugal" title="Permalink to this headline">¶</a></h1>
+<p>These plots show the estimation of the instantaneous reproduction number for all
+the regions in continental Portugal. These reports uses the method described in the work
+<a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816335/">A New Framework and Software to Estimate Time-Varying Reproduction Numbers During Epidemics</a>. We used the serial interval parameters similar to the ones used
+by <a class="reference external" href="https://cmmid.github.io/topics/covid19/">CMMID</a> with a <span class="math notranslate nohighlight">\(\mu = 4.7 (3.7 - 6.0)\)</span>
+and <span class="math notranslate nohighlight">\(\sigma = 2.9 (1.9 - 4.9)\)</span> with a log-normal distribution.</p>
+<div class="alert alert-info">
+<p class="admonition-title">Note</p>
+<p>This plot uses official data Data Science for Social Good Portugal, reports until
+15/April. This method is sensitive to changes in COVID-19
+testing procedures and the level of effort used to detect cases.
+Therefore, changes in the testing efforts will introduce bias
+if the testing practices are not kept consistent. So please
+keep in mind these limitations, that are often not stated in
+many analysis around there.</p>
+</div>
+<div class="section" id="summary-for-the-last-instantaneous-reproduction-number-estimate">
+<h2>Summary for the last instantaneous reproduction number estimate<a class="headerlink" href="#summary-for-the-last-instantaneous-reproduction-number-estimate" title="Permalink to this headline">¶</a></h2>
+<p class="rubric">Map for the accumulated cases</p>
+<iframe src="_static/restim_cases_map_pt_continental.html" height="750px" width="100%" frameBorder="0"></iframe><p class="rubric">Map for the last instantaneous reproduction number estimate</p>
+<iframe src="_static/restim_map_pt_continental.html" height="750px" width="100%" frameBorder="0"></iframe><p class="rubric">Map of states with mean reproduction number R(t) &gt; 1.0</p>
+<iframe src="_static/restim_badr_map_pt_continental.html" height="750px" width="100%" frameBorder="0"></iframe><p class="rubric">Summary for the last instantaneous reproduction number estimate</p>
+<p>Last update: <strong>15/April</strong></p>
+<a class="reference internal image-reference" href="_images/estim_all1.svg"><img alt="_images/estim_all1.svg" src="_images/estim_all1.svg" width="700" /></a>
+<p class="rubric">Summary table for the last instantaneous reproduction number estimate</p>
+<style>
+    table.greyGridTable {
+      border: 2px solid #FFFFFF;
+      width: 100%;
+      text-align: center;
+      border-collapse: collapse;
+    }
+    table.greyGridTable td, table.greyGridTable th {
+      border: 1px solid #FFFFFF;
+      padding: 3px 4px;
+    }
+    table.greyGridTable tbody td {
+      font-size: 13px;
+    }
+    table.greyGridTable td:nth-child(even) {
+      background: #EBEBEB;
+    }
+    table.greyGridTable thead {
+      background: #FFFFFF;
+      border-bottom: 4px solid #333333;
+    }
+    table.greyGridTable thead th {
+      font-size: 15px;
+      font-weight: bold;
+      color: #333333;
+      text-align: center;
+      border-left: 2px solid #333333;
+    }
+    table.greyGridTable thead th:first-child {
+      border-left: none;
+    }
+
+    table.greyGridTable tfoot {
+      font-size: 14px;
+      font-weight: bold;
+      color: #333333;
+      border-top: 4px solid #333333;
+    }
+    table.greyGridTable tfoot td {
+      font-size: 14px;
+    }
+</style>
+
+<table class="greyGridTable">
+<thead>
+<tr>
+<th>Region</th>
+<th>Mean Estimated R (CI 0.975)</th>
+</tr>
+</thead>
+<tbody>
+
+<tr>
+    <td>alentejo</td>
+    <td>1.18 (0.90 - 1.51)</td>
+</tr>
+
+<tr>
+    <td>norte</td>
+    <td>1.11 (1.06 - 1.17)</td>
+</tr>
+
+<tr>
+    <td>centro</td>
+    <td>0.87 (0.81 - 0.94)</td>
+</tr>
+
+<tr>
+    <td>rlvt</td>
+    <td>0.60 (0.51 - 0.69)</td>
+</tr>
+
+<tr>
+    <td>algarve</td>
+    <td>0.55 (0.39 - 0.74)</td>
+</tr>
+
+</tbody>
+</table></div>
+<div class="section" id="region-alentejo">
+<h2><strong>Region</strong>: Alentejo<a class="headerlink" href="#region-alentejo" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/state_alentejo.png"><img alt="_images/state_alentejo.png" src="_images/state_alentejo.png" style="width: 700px;" /></a>
+</div>
+<div class="section" id="region-algarve">
+<h2><strong>Region</strong>: Algarve<a class="headerlink" href="#region-algarve" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/state_algarve.png"><img alt="_images/state_algarve.png" src="_images/state_algarve.png" style="width: 700px;" /></a>
+</div>
+<div class="section" id="region-centro">
+<h2><strong>Region</strong>: Centro<a class="headerlink" href="#region-centro" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/state_centro.png"><img alt="_images/state_centro.png" src="_images/state_centro.png" style="width: 700px;" /></a>
+</div>
+<div class="section" id="region-norte">
+<h2><strong>Region</strong>: Norte<a class="headerlink" href="#region-norte" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/state_norte.png"><img alt="_images/state_norte.png" src="_images/state_norte.png" style="width: 700px;" /></a>
+</div>
+<div class="section" id="region-rlvt">
+<h2><strong>Region</strong>: Rlvt<a class="headerlink" href="#region-rlvt" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/state_rlvt.png"><img alt="_images/state_rlvt.png" src="_images/state_rlvt.png" style="width: 700px;" /></a>
+</div>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+    <a class='left-prev' id="prev-link" href="portugal.html" title="previous page">COVID-19 Analysis for Portugal</a>
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+
+    <script src="_static/js/index.js"></script>
+    
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    <p>
+          &copy; Copyright 2020, Christian S. Perone.<br/>
+        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.<br/>
+    </p>
+  </div>
+</footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-30560129-4");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
