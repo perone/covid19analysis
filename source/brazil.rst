@@ -258,6 +258,19 @@ deaths reported by the government. Data until April 8th.
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
 
+**17/April** -- Death count analysis and forecast
+-------------------------------------------------------------------------------
+.. rubric:: Forecast from the model
+
+.. image:: _static/br/br_deaths_17apr.png
+  :width: 750
+
+.. rubric:: Growth coefficient estimation
+
+.. image:: _static/br/br_deaths_17apr_coeff.png
+
+.. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
+
 State: Rio Grande do Sul (RS)
 ===============================================================================
 These are focused analysis on the state of Rio Grande do Sul/Brazil.
