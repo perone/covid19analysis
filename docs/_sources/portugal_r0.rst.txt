@@ -121,7 +121,7 @@ Last update: **17/April**
     
     <tr>
         <td>algarve</td>
-        <td>0.41 (0.26 - 0.59)</td>
+        <td>0.40 (0.26 - 0.59)</td>
     </tr>
     
     </tbody>
