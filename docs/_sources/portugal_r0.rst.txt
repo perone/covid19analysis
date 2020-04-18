@@ -1,4 +1,4 @@
-**17/April** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**18/April** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)` with a log-normal distribution.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          17/April. This method is sensitive to changes in COVID-19
+          18/April. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -36,9 +36,15 @@ Summary for the last instantaneous reproduction number estimate
 
     <iframe src="_static/restim_badr_map_pt_continental.html" height="750px" width="100%" frameBorder="0"></iframe>
 
+.. rubric:: Map for the accumulated deaths by COVID-19
+
+.. raw:: html
+
+    <iframe src="_static/restim_deaths_map_pt_continental.html" height="750px" width="100%" frameBorder="0"></iframe>
+
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **17/April**
+Last update: **18/April**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -101,27 +107,27 @@ Last update: **17/April**
     
     <tr>
         <td>norte</td>
-        <td>0.77 (0.74 - 0.81)</td>
-    </tr>
-    
-    <tr>
-        <td>centro</td>
-        <td>0.68 (0.62 - 0.75)</td>
-    </tr>
-    
-    <tr>
-        <td>alentejo</td>
-        <td>0.59 (0.41 - 0.81)</td>
+        <td>0.81 (0.77 - 0.86)</td>
     </tr>
     
     <tr>
         <td>rlvt</td>
-        <td>0.50 (0.42 - 0.57)</td>
+        <td>0.68 (0.59 - 0.79)</td>
+    </tr>
+    
+    <tr>
+        <td>centro</td>
+        <td>0.65 (0.58 - 0.73)</td>
+    </tr>
+    
+    <tr>
+        <td>alentejo</td>
+        <td>0.52 (0.34 - 0.73)</td>
     </tr>
     
     <tr>
         <td>algarve</td>
-        <td>0.40 (0.26 - 0.59)</td>
+        <td>0.47 (0.30 - 0.70)</td>
     </tr>
     
     </tbody>
