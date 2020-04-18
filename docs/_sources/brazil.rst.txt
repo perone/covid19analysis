@@ -492,6 +492,27 @@ Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
 .. image:: _static/br/elderly_rs_risk.png
   :width: 800
 
+**17/April** -- Age distribution of infected cases by time for Porto Alegre/RS
+-------------------------------------------------------------------------------
+This plot shows the age (binned in steps of 5) distribution of infected
+cases by the time of notification (y-axis). Data until Apr 17th 2020.
+
+.. image:: _static/br/poa_age_time_apr17.svg
+  :width: 800
+
+.. note:: This plot uses official data from Porto Alegre/RS reports until
+          until Apr 17th 2020.
+
+**17/April** -- Gender distribution of infected cases by time for Porto Alegre/RS
+---------------------------------------------------------------------------------
+This plot shows the gender distribution of infected
+cases by the time of notification (x-axis). Data until Apr 17th 2020.
+
+.. image:: _static/br/poa_gender_time_apr17.svg
+  :width: 800
+
+.. note:: This plot uses official data from Porto Alegre/RS reports until
+          until Apr 17th 2020.
 
 
 
