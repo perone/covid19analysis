@@ -514,8 +514,13 @@ cases by the time of notification (x-axis). Data until Apr 17th 2020.
 .. note:: This plot uses official data from Porto Alegre/RS reports until
           until Apr 17th 2020.
 
+**21/April** -- High-resolution elderly population density in Rio Grande do Sul
+------------------------------------------------------------------------------------
+Just made a map of the elderly (>=60) population density in Rio Grande do Sul using Facebook's
+high-resolution population maps (30 meters level resolution) with population allocation
+estimation using satellite imagery + machine learning. Working on an interactive version of it.
 
+Click on it for a high-resolution version.
 
-
-
-
+.. image:: _static/br/rs_elderly_map.png
+  :width: 700
