@@ -56,3 +56,14 @@ of the schools in Portugal.
 
 .. seealso:: This model uses the modelling approach described at :ref:`ChangepointModelling`.
 
+**21/April** -- High-resolution elderly population density in Portugal
+------------------------------------------------------------------------------------
+Just made a map of the elderly (>=60) population density in Portugal using Facebook's
+high-resolution population maps (30 meters level resolution) with population allocation
+estimation using satellite imagery + machine learning. Working on an interactive version of it.
+
+Click on it for a high-resolution version.
+
+.. image:: _static/pt/pt_map_elderly_density.png
+  :width: 700
+
