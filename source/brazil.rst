@@ -524,3 +524,20 @@ Click on it for a high-resolution version.
 
 .. image:: _static/br/rs_elderly_map.png
   :width: 700
+
+**23/April** -- Mapping transmission through time
+-------------------------------------------------------------------------------
+This is a short animation showing the cities with reported infections in 
+Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
+**April 23th**.
+
+.. raw:: html
+
+  <video controls width="740">
+    <source src="_static/br/rsmap_apr23.mp4"
+            type="video/mp4">
+      Sorry, your browser doesn't support embedded videos.
+  </video>
+
+.. note:: This animation used data from `Brasil.io <http://www.brasil.io/>`_, which is collected from
+          the `TI Saude RS <http://ti.saude.rs.gov.br/covid19/>`_.
