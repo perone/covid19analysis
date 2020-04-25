@@ -1,4 +1,4 @@
-**24/April** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**25/April** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)` with a log-normal distribution.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          24/April. This method is sensitive to changes in COVID-19
+          25/April. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -44,7 +44,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **24/April**
+Last update: **25/April**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -107,27 +107,27 @@ Last update: **24/April**
     
     <tr>
         <td>rlvt</td>
-        <td>1.19 (1.07 - 1.37)</td>
-    </tr>
-    
-    <tr>
-        <td>norte</td>
-        <td>0.93 (0.88 - 0.99)</td>
+        <td>1.17 (1.06 - 1.31)</td>
     </tr>
     
     <tr>
         <td>alentejo</td>
-        <td>0.92 (0.59 - 1.33)</td>
+        <td>1.05 (0.69 - 1.49)</td>
+    </tr>
+    
+    <tr>
+        <td>norte</td>
+        <td>0.93 (0.88 - 0.98)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>0.65 (0.55 - 0.76)</td>
+        <td>0.67 (0.57 - 0.78)</td>
     </tr>
     
     <tr>
         <td>algarve</td>
-        <td>0.54 (0.31 - 0.85)</td>
+        <td>0.57 (0.32 - 0.91)</td>
     </tr>
     
     </tbody>
