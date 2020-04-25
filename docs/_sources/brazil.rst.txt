@@ -541,3 +541,14 @@ Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
 
 .. note:: This animation used data from `Brasil.io <http://www.brasil.io/>`_, which is collected from
           the `TI Saude RS <http://ti.saude.rs.gov.br/covid19/>`_.
+
+
+**25/April** -- Map of ICU units and confirmed cases in Rio Grande do Sul
+------------------------------------------------------------------------------------
+This is a map with data from SES-RS where it shows the distribution of ICU
+units and current COVID-19 confirmed cases for each city.
+
+Click on it for a high-resolution version.
+
+.. image:: _static/br/rs_map_icu_25apr.png
+  :width: 700
