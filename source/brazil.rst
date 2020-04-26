@@ -552,3 +552,17 @@ Click on it for a high-resolution version.
 
 .. image:: _static/br/rs_map_icu_25apr.png
   :width: 700
+
+
+**26/April** -- High-resolution elderly population density in Passo Fundo / RS
+------------------------------------------------------------------------------------
+Just made a map of the elderly (>=60) population density in Passo Fundo using Facebook's
+high-resolution population maps (30 meters level resolution) with population allocation
+estimation using satellite imagery + machine learning. This high-resolution data
+clearly shows its value when we look at where a nursing home with COVID-19 was
+found and the density showed by the map at that region.
+
+Click on it for a high-resolution version.
+
+.. image:: _static/br/map_rs_pf.png
+  :width: 700
