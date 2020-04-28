@@ -1,4 +1,4 @@
-**27/April** -- COVID-19 Time varying reproduction numbers estimation for Brazil
+**28/April** -- COVID-19 Time varying reproduction numbers estimation for Brazil
 *****************************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the states in Brazil. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)` with a log-normal distribution.
 
 .. note:: This plot uses official data from government, reports until
-          27/April. This method is sensitive to changes in COVID-19
+          28/April. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -42,7 +42,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **27/April**
+Last update: **28/April**
 
 .. image:: _static/br/r0_estim/estim_all.svg
     :width: 700
@@ -105,137 +105,137 @@ Last update: **27/April**
     
     <tr>
         <td>TO</td>
-        <td>2.75 (1.75 - 3.99)</td>
-    </tr>
-    
-    <tr>
-        <td>AL</td>
-        <td>2.09 (1.61 - 2.78)</td>
-    </tr>
-    
-    <tr>
-        <td>AP</td>
-        <td>1.82 (1.47 - 2.23)</td>
+        <td>2.80 (1.75 - 4.15)</td>
     </tr>
     
     <tr>
         <td>SE</td>
-        <td>1.72 (1.37 - 2.14)</td>
+        <td>2.62 (2.16 - 3.14)</td>
+    </tr>
+    
+    <tr>
+        <td>AL</td>
+        <td>2.09 (1.65 - 2.67)</td>
     </tr>
     
     <tr>
         <td>PB</td>
-        <td>1.71 (1.41 - 2.06)</td>
+        <td>1.88 (1.55 - 2.26)</td>
     </tr>
     
     <tr>
-        <td>CE</td>
-        <td>1.66 (1.50 - 1.83)</td>
-    </tr>
-    
-    <tr>
-        <td>PA</td>
-        <td>1.58 (1.38 - 1.80)</td>
-    </tr>
-    
-    <tr>
-        <td>PI</td>
-        <td>1.56 (1.29 - 1.86)</td>
-    </tr>
-    
-    <tr>
-        <td>RJ</td>
-        <td>1.52 (1.42 - 1.61)</td>
-    </tr>
-    
-    <tr>
-        <td>RS</td>
-        <td>1.49 (1.27 - 1.72)</td>
-    </tr>
-    
-    <tr>
-        <td>AM</td>
-        <td>1.48 (1.24 - 1.77)</td>
-    </tr>
-    
-    <tr>
-        <td>GO</td>
-        <td>1.47 (1.28 - 1.68)</td>
-    </tr>
-    
-    <tr>
-        <td>PE</td>
-        <td>1.45 (1.30 - 1.60)</td>
-    </tr>
-    
-    <tr>
-        <td>RO</td>
-        <td>1.44 (1.18 - 1.75)</td>
-    </tr>
-    
-    <tr>
-        <td>SP</td>
-        <td>1.31 (1.24 - 1.37)</td>
-    </tr>
-    
-    <tr>
-        <td>BA</td>
-        <td>1.30 (1.18 - 1.43)</td>
-    </tr>
-    
-    <tr>
-        <td>MT</td>
-        <td>1.27 (0.97 - 1.63)</td>
+        <td>AP</td>
+        <td>1.79 (1.43 - 2.24)</td>
     </tr>
     
     <tr>
         <td>SC</td>
-        <td>1.26 (1.12 - 1.41)</td>
+        <td>1.63 (1.45 - 1.82)</td>
+    </tr>
+    
+    <tr>
+        <td>GO</td>
+        <td>1.57 (1.33 - 1.82)</td>
+    </tr>
+    
+    <tr>
+        <td>AM</td>
+        <td>1.54 (1.36 - 1.81)</td>
+    </tr>
+    
+    <tr>
+        <td>RS</td>
+        <td>1.54 (1.31 - 1.80)</td>
+    </tr>
+    
+    <tr>
+        <td>SP</td>
+        <td>1.53 (1.42 - 1.62)</td>
+    </tr>
+    
+    <tr>
+        <td>PI</td>
+        <td>1.51 (1.26 - 1.81)</td>
+    </tr>
+    
+    <tr>
+        <td>RJ</td>
+        <td>1.49 (1.34 - 1.62)</td>
+    </tr>
+    
+    <tr>
+        <td>CE</td>
+        <td>1.49 (1.31 - 1.66)</td>
+    </tr>
+    
+    <tr>
+        <td>PA</td>
+        <td>1.43 (1.24 - 1.63)</td>
+    </tr>
+    
+    <tr>
+        <td>PE</td>
+        <td>1.41 (1.27 - 1.56)</td>
     </tr>
     
     <tr>
         <td>DF</td>
-        <td>1.16 (1.03 - 1.31)</td>
+        <td>1.38 (1.23 - 1.54)</td>
     </tr>
     
     <tr>
-        <td>MS</td>
-        <td>1.16 (0.90 - 1.45)</td>
+        <td>BA</td>
+        <td>1.27 (1.15 - 1.39)</td>
     </tr>
     
     <tr>
-        <td>MA</td>
-        <td>1.14 (1.04 - 1.24)</td>
+        <td>MT</td>
+        <td>1.26 (0.98 - 1.58)</td>
     </tr>
     
     <tr>
         <td>RR</td>
-        <td>1.14 (0.96 - 1.33)</td>
+        <td>1.20 (1.02 - 1.39)</td>
     </tr>
     
     <tr>
-        <td>MG</td>
-        <td>1.07 (0.97 - 1.19)</td>
+        <td>RO</td>
+        <td>1.19 (1.00 - 1.43)</td>
+    </tr>
+    
+    <tr>
+        <td>MA</td>
+        <td>1.15 (1.06 - 1.24)</td>
     </tr>
     
     <tr>
         <td>AC</td>
-        <td>1.03 (0.84 - 1.25)</td>
+        <td>1.13 (0.93 - 1.36)</td>
     </tr>
     
     <tr>
-        <td>ES</td>
-        <td>1.01 (0.91 - 1.11)</td>
-    </tr>
-    
-    <tr>
-        <td>RN</td>
-        <td>0.92 (0.80 - 1.05)</td>
+        <td>MS</td>
+        <td>1.13 (0.88 - 1.42)</td>
     </tr>
     
     <tr>
         <td>PR</td>
-        <td>0.77 (0.65 - 0.91)</td>
+        <td>1.12 (0.96 - 1.30)</td>
+    </tr>
+    
+    <tr>
+        <td>MG</td>
+        <td>1.11 (1.01 - 1.23)</td>
+    </tr>
+    
+    <tr>
+        <td>ES</td>
+        <td>1.07 (0.98 - 1.16)</td>
+    </tr>
+    
+    <tr>
+        <td>RN</td>
+        <td>0.95 (0.83 - 1.08)</td>
     </tr>
     
     </tbody>
