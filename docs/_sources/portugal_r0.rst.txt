@@ -1,4 +1,4 @@
-**30/April** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**01/May** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)` with a log-normal distribution.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          30/April. This method is sensitive to changes in COVID-19
+          01/May. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -44,7 +44,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **30/April**
+Last update: **01/May**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -107,27 +107,27 @@ Last update: **30/April**
     
     <tr>
         <td>alentejo</td>
-        <td>1.35 (0.94 - 1.83)</td>
+        <td>1.20 (0.83 - 1.65)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>0.90 (0.78 - 1.02)</td>
-    </tr>
-    
-    <tr>
-        <td>algarve</td>
-        <td>0.81 (0.44 - 1.28)</td>
-    </tr>
-    
-    <tr>
-        <td>norte</td>
-        <td>0.80 (0.74 - 0.87)</td>
+        <td>0.92 (0.80 - 1.05)</td>
     </tr>
     
     <tr>
         <td>rlvt</td>
-        <td>0.72 (0.64 - 0.82)</td>
+        <td>0.82 (0.71 - 0.93)</td>
+    </tr>
+    
+    <tr>
+        <td>norte</td>
+        <td>0.75 (0.69 - 0.82)</td>
+    </tr>
+    
+    <tr>
+        <td>algarve</td>
+        <td>0.73 (0.38 - 1.20)</td>
     </tr>
     
     </tbody>
