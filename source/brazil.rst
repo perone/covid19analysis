@@ -566,3 +566,14 @@ Click on it for a high-resolution version.
 
 .. image:: _static/br/map_rs_pf.png
   :width: 700
+
+**03/May** -- ICU ocuppancy on Porto Alegre/RS and Portugal
+------------------------------------------------------------------------------------
+Just saw this incredible similarity of ICU occupancy of Portugal and the city
+of Porto Alegre/RS in Brazil. The occupancy count was standardized and Porto Alegre
+dates were shifted by 4 days.
+
+Click on it for a high-resolution version.
+
+.. image:: _static/br/poa_pt_icus.png
+  :width: 700
