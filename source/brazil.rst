@@ -271,6 +271,19 @@ deaths reported by the government. Data until April 8th.
 
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
+
+**04/May** -- Daily death count analysis and forecast
+-------------------------------------------------------------------------------
+.. rubric:: Forecast from the model
+
+.. image:: _static/br/daily_deaths_may4.png
+  :width: 750
+
+Predicted daily deaths by COVID-19 for Brazil in May 5th: 782 (between 455-907 w/ HPD 50%).
+
+.. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
+
+
 State: Rio Grande do Sul (RS)
 ===============================================================================
 These are focused analysis on the state of Rio Grande do Sul/Brazil.
