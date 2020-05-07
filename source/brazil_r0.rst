@@ -1,4 +1,4 @@
-**06/May** -- COVID-19 Time varying reproduction numbers estimation for Brazil
+**07/May** -- COVID-19 Time varying reproduction numbers estimation for Brazil
 *****************************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the states in Brazil. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data from government, reports until
-          06/May. This method is sensitive to changes in COVID-19
+          07/May. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -42,7 +42,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **06/May**
+Last update: **07/May**
 
 .. image:: _static/br/r0_estim/estim_all.svg
     :width: 700
@@ -97,145 +97,145 @@ Last update: **06/May**
     <table class="greyGridTable">
     <thead>
     <tr>
-    <th>State</th>
+    <th>State</th> 
     <th>Mean Estimated R (CI 0.975)</th>
     </tr>
     </thead>
     <tbody>
     
     <tr>
-        <td>AC</td>
-        <td>2.04 (1.60 - 2.63)</td>
-    </tr>
-    
-    <tr>
         <td>TO</td>
-        <td>1.76 (1.37 - 2.27)</td>
-    </tr>
-    
-    <tr>
-        <td>AM</td>
-        <td>1.69 (1.50 - 1.88)</td>
-    </tr>
-    
-    <tr>
-        <td>AP</td>
-        <td>1.68 (1.38 - 2.01)</td>
-    </tr>
-    
-    <tr>
-        <td>RO</td>
-        <td>1.67 (1.44 - 1.92)</td>
-    </tr>
-    
-    <tr>
-        <td>SE</td>
-        <td>1.61 (1.34 - 1.99)</td>
-    </tr>
-    
-    <tr>
-        <td>RR</td>
-        <td>1.61 (1.35 - 1.92)</td>
+        <td>1.83 (1.48 - 2.26)</td>
     </tr>
     
     <tr>
         <td>CE</td>
-        <td>1.57 (1.39 - 1.70)</td>
+        <td>1.78 (1.56 - 2.01)</td>
     </tr>
     
     <tr>
-        <td>PA</td>
-        <td>1.51 (1.38 - 1.66)</td>
+        <td>AC</td>
+        <td>1.76 (1.40 - 2.21)</td>
     </tr>
     
     <tr>
-        <td>MG</td>
-        <td>1.50 (1.29 - 1.71)</td>
-    </tr>
-    
-    <tr>
-        <td>RS</td>
-        <td>1.48 (1.35 - 1.62)</td>
-    </tr>
-    
-    <tr>
-        <td>PB</td>
-        <td>1.46 (1.28 - 1.66)</td>
-    </tr>
-    
-    <tr>
-        <td>PI</td>
-        <td>1.45 (1.25 - 1.67)</td>
-    </tr>
-    
-    <tr>
-        <td>MA</td>
-        <td>1.41 (1.29 - 1.55)</td>
-    </tr>
-    
-    <tr>
-        <td>BA</td>
-        <td>1.40 (1.27 - 1.52)</td>
+        <td>RO</td>
+        <td>1.75 (1.48 - 2.04)</td>
     </tr>
     
     <tr>
         <td>DF</td>
-        <td>1.30 (1.14 - 1.50)</td>
+        <td>1.73 (1.56 - 1.93)</td>
     </tr>
     
     <tr>
-        <td>RJ</td>
-        <td>1.24 (1.18 - 1.31)</td>
+        <td>AM</td>
+        <td>1.66 (1.44 - 1.89)</td>
     </tr>
     
     <tr>
-        <td>ES</td>
-        <td>1.23 (1.10 - 1.37)</td>
+        <td>SE</td>
+        <td>1.65 (1.41 - 1.95)</td>
     </tr>
     
     <tr>
-        <td>GO</td>
-        <td>1.18 (1.04 - 1.33)</td>
+        <td>AP</td>
+        <td>1.60 (1.35 - 1.91)</td>
     </tr>
     
     <tr>
-        <td>SP</td>
-        <td>1.12 (1.06 - 1.18)</td>
+        <td>MG</td>
+        <td>1.51 (1.32 - 1.74)</td>
     </tr>
     
     <tr>
-        <td>PE</td>
-        <td>1.11 (1.06 - 1.18)</td>
+        <td>RR</td>
+        <td>1.50 (1.27 - 1.77)</td>
+    </tr>
+    
+    <tr>
+        <td>PI</td>
+        <td>1.44 (1.26 - 1.65)</td>
+    </tr>
+    
+    <tr>
+        <td>PB</td>
+        <td>1.42 (1.26 - 1.61)</td>
+    </tr>
+    
+    <tr>
+        <td>PA</td>
+        <td>1.42 (1.28 - 1.56)</td>
     </tr>
     
     <tr>
         <td>MT</td>
-        <td>1.03 (0.83 - 1.26)</td>
+        <td>1.38 (1.14 - 1.64)</td>
     </tr>
     
     <tr>
-        <td>SC</td>
-        <td>0.98 (0.87 - 1.10)</td>
+        <td>RS</td>
+        <td>1.36 (1.21 - 1.50)</td>
     </tr>
     
     <tr>
-        <td>AL</td>
-        <td>0.97 (0.88 - 1.08)</td>
+        <td>BA</td>
+        <td>1.32 (1.20 - 1.46)</td>
     </tr>
     
     <tr>
-        <td>RN</td>
-        <td>0.96 (0.84 - 1.09)</td>
+        <td>MA</td>
+        <td>1.30 (1.18 - 1.42)</td>
     </tr>
     
     <tr>
-        <td>PR</td>
-        <td>0.87 (0.76 - 0.98)</td>
+        <td>RJ</td>
+        <td>1.27 (1.21 - 1.34)</td>
     </tr>
     
     <tr>
         <td>MS</td>
-        <td>0.80 (0.56 - 1.09)</td>
+        <td>1.20 (0.90 - 1.55)</td>
+    </tr>
+    
+    <tr>
+        <td>PE</td>
+        <td>1.16 (1.11 - 1.22)</td>
+    </tr>
+    
+    <tr>
+        <td>ES</td>
+        <td>1.08 (0.99 - 1.18)</td>
+    </tr>
+    
+    <tr>
+        <td>SP</td>
+        <td>1.07 (1.02 - 1.11)</td>
+    </tr>
+    
+    <tr>
+        <td>RN</td>
+        <td>1.06 (0.95 - 1.17)</td>
+    </tr>
+    
+    <tr>
+        <td>AL</td>
+        <td>1.05 (0.96 - 1.15)</td>
+    </tr>
+    
+    <tr>
+        <td>SC</td>
+        <td>1.01 (0.92 - 1.11)</td>
+    </tr>
+    
+    <tr>
+        <td>GO</td>
+        <td>0.90 (0.79 - 1.02)</td>
+    </tr>
+    
+    <tr>
+        <td>PR</td>
+        <td>0.78 (0.68 - 0.88)</td>
     </tr>
     
     </tbody>
@@ -244,189 +244,459 @@ Last update: **06/May**
 
 **State**: Acre / AC
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ac.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_ac.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Alagoas / AL
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_al.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_al.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Amazonas / AM
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_am.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_am.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Amapá / AP
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ap.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_ap.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Bahia / BA
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ba.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_ba.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Ceará / CE
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ce.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_ce.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Distrito Federal / DF
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_df.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_df.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Espírito Santo / ES
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_es.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_es.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Goiás / GO
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_go.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_go.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Maranhão / MA
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ma.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_ma.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Minas Gerais / MG
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_mg.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_mg.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Mato Grosso do Sul / MS
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ms.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_ms.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Mato Grosso / MT
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_mt.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_mt.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Pará / PA
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pa.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_pa.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Paraíba / PB
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pb.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_pb.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Pernambuco / PE
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pe.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_pe.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Piauí / PI
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pi.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_pi.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Paraná / PR
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pr.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_pr.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Rio de Janeiro / RJ
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_rj.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_rj.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Rio Grande do Norte / RN
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_rn.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_rn.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Rondônia / RO
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ro.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_ro.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Roraima / RR
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_rr.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_rr.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Rio Grande do Sul / RS
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_rs.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_rs.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Santa Catarina / SC
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_sc.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_sc.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Sergipe / SE
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_se.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_se.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: São Paulo / SP
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_sp.png
   :width: 700
 
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_sp.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
+
 
 **State**: Tocantins / TO
 ===============================================================================
+.. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_to.png
   :width: 700
+
+.. rubric:: Mobility data for the state
+
+.. image:: _static/br/r0_estim/mobility_state_to.png
+  :width: 900
+
+.. note:: This plot uses official data from Brazilian government as well as
+          mobility data from Google Community Mobility Reports. The red markers
+          on the x-axis are weekends or holidays.
 
