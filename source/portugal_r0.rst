@@ -1,4 +1,4 @@
-**06/May** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**07/May** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          06/May. This method is sensitive to changes in COVID-19
+          07/May. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -44,7 +44,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **06/May**
+Last update: **07/May**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -107,27 +107,27 @@ Last update: **06/May**
     
     <tr>
         <td>rlvt</td>
-        <td>1.48 (1.36 - 1.60)</td>
+        <td>1.70 (1.50 - 1.87)</td>
     </tr>
     
     <tr>
         <td>algarve</td>
-        <td>1.21 (0.64 - 1.99)</td>
-    </tr>
-    
-    <tr>
-        <td>centro</td>
-        <td>0.63 (0.53 - 0.74)</td>
+        <td>1.30 (0.69 - 2.11)</td>
     </tr>
     
     <tr>
         <td>norte</td>
-        <td>0.63 (0.54 - 0.73)</td>
+        <td>0.70 (0.60 - 0.81)</td>
+    </tr>
+    
+    <tr>
+        <td>centro</td>
+        <td>0.64 (0.53 - 0.76)</td>
     </tr>
     
     <tr>
         <td>alentejo</td>
-        <td>0.24 (0.10 - 0.45)</td>
+        <td>0.13 (0.03 - 0.31)</td>
     </tr>
     
     </tbody>
