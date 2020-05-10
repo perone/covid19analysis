@@ -30,6 +30,9 @@ Some important points:
 
 .. note:: This plot uses official data from SIVED system in Brazil, the maximum of the 
           notification date for this data was 04/May.
+          Thanks to `Marcelo Oliveira <https://twitter.com/Capyvara>`_ and to
+          `Raphael Saldanha <https://twitter.com/rfsaldanhario>`_ for the help with
+          the SIVED dataset.
 
 Summary for the last instantaneous reproduction number estimate
 ===============================================================================
