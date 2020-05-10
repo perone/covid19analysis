@@ -1,4 +1,4 @@
-**09/May** -- COVID-19 Time varying reproduction numbers estimation for Brazil
+**10/May** -- COVID-19 Time varying reproduction numbers estimation for Brazil
 *****************************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the states in Brazil. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data from government, reports until
-          09/May. This method is sensitive to changes in COVID-19
+          10/May. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -20,32 +20,32 @@ Summary for the last instantaneous reproduction number estimate
 
 .. raw:: html
 
-    <iframe src="_static/restim_cases_map.html" height="591px" width="100%" frameBorder="0"></iframe>
+    <iframe src="_static/restim_cases_map.html" height="591px" width="800px" frameBorder="0"></iframe>
 
 .. rubric:: Map for the last instantaneous reproduction number estimate
 
 .. raw:: html
 
-    <iframe src="_static/restim_map.html" height="591px" width="100%" frameBorder="0"></iframe>
+    <iframe src="_static/restim_map.html" height="591px" width="800px" frameBorder="0"></iframe>
 
 .. rubric:: Map of states with mean reproduction number R(t) > 1.0
 
 .. raw:: html
 
-    <iframe src="_static/restim_badr_map.html" height="591px" width="100%" frameBorder="0"></iframe>
+    <iframe src="_static/restim_badr_map.html" height="591px" width="800px" frameBorder="0"></iframe>
 
 .. rubric:: Map for the accumulated deaths by COVID-19
 
 .. raw:: html
 
-    <iframe src="_static/restim_deaths_map.html" height="591px" width="100%" frameBorder="0"></iframe>
+    <iframe src="_static/restim_deaths_map.html" height="591px" width="800px" frameBorder="0"></iframe>
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **09/May**
+Last update: **10/May**
 
 .. image:: _static/br/r0_estim/estim_all.svg
-    :width: 700
+    :width: 800
 
 .. rubric:: Summary table for the last instantaneous reproduction number estimate
 
@@ -109,133 +109,133 @@ Last update: **09/May**
     </tr>
     
     <tr>
-        <td>MT</td>
-        <td>1.76 (1.45 - 2.09)</td>
-    </tr>
-    
-    <tr>
-        <td>CE</td>
-        <td>1.70 (1.43 - 2.02)</td>
-    </tr>
-    
-    <tr>
-        <td>AC</td>
-        <td>1.69 (1.43 - 2.02)</td>
-    </tr>
-    
-    <tr>
-        <td>SE</td>
-        <td>1.68 (1.43 - 1.94)</td>
-    </tr>
-    
-    <tr>
         <td>MS</td>
-        <td>1.66 (1.29 - 2.09)</td>
-    </tr>
-    
-    <tr>
-        <td>AM</td>
-        <td>1.61 (1.42 - 1.83)</td>
-    </tr>
-    
-    <tr>
-        <td>DF</td>
-        <td>1.57 (1.34 - 1.81)</td>
-    </tr>
-    
-    <tr>
-        <td>PB</td>
-        <td>1.57 (1.36 - 1.78)</td>
-    </tr>
-    
-    <tr>
-        <td>RJ</td>
-        <td>1.55 (1.41 - 1.66)</td>
+        <td>1.74 (1.32 - 2.22)</td>
     </tr>
     
     <tr>
         <td>MA</td>
-        <td>1.54 (1.42 - 1.67)</td>
+        <td>1.71 (1.53 - 1.87)</td>
     </tr>
     
     <tr>
-        <td>RS</td>
-        <td>1.51 (1.29 - 1.73)</td>
+        <td>MT</td>
+        <td>1.69 (1.36 - 2.06)</td>
+    </tr>
+    
+    <tr>
+        <td>CE</td>
+        <td>1.63 (1.39 - 1.94)</td>
+    </tr>
+    
+    <tr>
+        <td>SE</td>
+        <td>1.56 (1.33 - 1.81)</td>
+    </tr>
+    
+    <tr>
+        <td>AC</td>
+        <td>1.52 (1.29 - 1.78)</td>
+    </tr>
+    
+    <tr>
+        <td>PB</td>
+        <td>1.48 (1.28 - 1.69)</td>
+    </tr>
+    
+    <tr>
+        <td>AM</td>
+        <td>1.46 (1.29 - 1.66)</td>
+    </tr>
+    
+    <tr>
+        <td>DF</td>
+        <td>1.45 (1.24 - 1.67)</td>
     </tr>
     
     <tr>
         <td>PA</td>
-        <td>1.51 (1.36 - 1.67)</td>
-    </tr>
-    
-    <tr>
-        <td>AP</td>
-        <td>1.49 (1.31 - 1.72)</td>
+        <td>1.42 (1.26 - 1.57)</td>
     </tr>
     
     <tr>
         <td>MG</td>
-        <td>1.47 (1.30 - 1.67)</td>
+        <td>1.37 (1.21 - 1.54)</td>
     </tr>
     
     <tr>
-        <td>RO</td>
-        <td>1.41 (1.19 - 1.67)</td>
+        <td>RS</td>
+        <td>1.36 (1.18 - 1.58)</td>
     </tr>
     
     <tr>
         <td>BA</td>
-        <td>1.33 (1.22 - 1.45)</td>
+        <td>1.35 (1.24 - 1.47)</td>
+    </tr>
+    
+    <tr>
+        <td>RJ</td>
+        <td>1.32 (1.17 - 1.46)</td>
     </tr>
     
     <tr>
         <td>RR</td>
-        <td>1.32 (1.16 - 1.51)</td>
+        <td>1.27 (1.13 - 1.43)</td>
     </tr>
     
     <tr>
-        <td>PI</td>
-        <td>1.30 (1.16 - 1.47)</td>
-    </tr>
-    
-    <tr>
-        <td>SP</td>
-        <td>1.22 (1.19 - 1.26)</td>
+        <td>RO</td>
+        <td>1.25 (1.08 - 1.45)</td>
     </tr>
     
     <tr>
         <td>PE</td>
-        <td>1.20 (1.13 - 1.26)</td>
+        <td>1.23 (1.17 - 1.30)</td>
     </tr>
     
     <tr>
-        <td>ES</td>
-        <td>1.08 (1.01 - 1.15)</td>
+        <td>SP</td>
+        <td>1.23 (1.18 - 1.27)</td>
     </tr>
     
     <tr>
-        <td>RN</td>
-        <td>1.02 (0.92 - 1.12)</td>
+        <td>AP</td>
+        <td>1.18 (1.04 - 1.34)</td>
     </tr>
     
     <tr>
-        <td>SC</td>
-        <td>1.02 (0.94 - 1.10)</td>
-    </tr>
-    
-    <tr>
-        <td>AL</td>
-        <td>1.01 (0.93 - 1.09)</td>
+        <td>PI</td>
+        <td>1.16 (1.03 - 1.29)</td>
     </tr>
     
     <tr>
         <td>PR</td>
-        <td>0.98 (0.84 - 1.12)</td>
+        <td>1.09 (0.96 - 1.23)</td>
+    </tr>
+    
+    <tr>
+        <td>ES</td>
+        <td>1.08 (1.02 - 1.15)</td>
+    </tr>
+    
+    <tr>
+        <td>SC</td>
+        <td>1.06 (0.99 - 1.14)</td>
+    </tr>
+    
+    <tr>
+        <td>AL</td>
+        <td>1.03 (0.95 - 1.11)</td>
+    </tr>
+    
+    <tr>
+        <td>RN</td>
+        <td>0.99 (0.90 - 1.08)</td>
     </tr>
     
     <tr>
         <td>GO</td>
-        <td>0.90 (0.79 - 1.03)</td>
+        <td>0.92 (0.80 - 1.05)</td>
     </tr>
     
     </tbody>
@@ -247,12 +247,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ac.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ac.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -264,12 +264,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_al.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_al.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -281,12 +281,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_am.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_am.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -298,12 +298,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ap.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ap.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -315,12 +315,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ba.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ba.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -332,12 +332,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ce.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ce.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -349,12 +349,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_df.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_df.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -366,12 +366,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_es.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_es.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -383,12 +383,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_go.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_go.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -400,12 +400,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ma.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ma.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -417,12 +417,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_mg.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_mg.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -434,12 +434,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ms.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ms.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -451,12 +451,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_mt.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_mt.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -468,12 +468,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pa.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_pa.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -485,12 +485,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pb.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_pb.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -502,12 +502,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pe.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_pe.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -519,12 +519,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pi.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_pi.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -536,12 +536,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_pr.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_pr.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -553,12 +553,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_rj.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_rj.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -570,12 +570,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_rn.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_rn.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -587,12 +587,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_ro.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ro.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -604,12 +604,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_rr.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_rr.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -621,12 +621,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_rs.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_rs.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -638,12 +638,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_sc.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_sc.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -655,12 +655,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_se.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_se.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -672,12 +672,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_sp.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_sp.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
@@ -689,12 +689,12 @@ Last update: **09/May**
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
 .. image:: _static/br/r0_estim/state_to.png
-  :width: 700
+  :width: 900
 
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_to.png
-  :width: 900
+  :width: 1000
 
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
