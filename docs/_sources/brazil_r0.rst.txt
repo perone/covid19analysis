@@ -20,25 +20,25 @@ Summary for the last instantaneous reproduction number estimate
 
 .. raw:: html
 
-    <iframe src="_static/restim_cases_map.html" height="591px" width="800px" frameBorder="0"></iframe>
+    <iframe src="_static/restim_cases_map.html" height="591px" width="100%" frameBorder="0"></iframe>
 
 .. rubric:: Map for the last instantaneous reproduction number estimate
 
 .. raw:: html
 
-    <iframe src="_static/restim_map.html" height="591px" width="800px" frameBorder="0"></iframe>
+    <iframe src="_static/restim_map.html" height="591px" width="100%" frameBorder="0"></iframe>
 
 .. rubric:: Map of states with mean reproduction number R(t) > 1.0
 
 .. raw:: html
 
-    <iframe src="_static/restim_badr_map.html" height="591px" width="800px" frameBorder="0"></iframe>
+    <iframe src="_static/restim_badr_map.html" height="591px" width="100%" frameBorder="0"></iframe>
 
 .. rubric:: Map for the accumulated deaths by COVID-19
 
 .. raw:: html
 
-    <iframe src="_static/restim_deaths_map.html" height="591px" width="800px" frameBorder="0"></iframe>
+    <iframe src="_static/restim_deaths_map.html" height="591px" width="100%" frameBorder="0"></iframe>
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
@@ -105,27 +105,27 @@ Last update: **10/May**
     
     <tr>
         <td>TO</td>
-        <td>1.85 (1.52 - 2.22)</td>
+        <td>1.86 (1.52 - 2.23)</td>
     </tr>
     
     <tr>
         <td>MS</td>
-        <td>1.74 (1.32 - 2.22)</td>
+        <td>1.73 (1.32 - 2.22)</td>
     </tr>
     
     <tr>
         <td>MA</td>
-        <td>1.71 (1.53 - 1.87)</td>
+        <td>1.71 (1.54 - 1.87)</td>
     </tr>
     
     <tr>
         <td>MT</td>
-        <td>1.69 (1.36 - 2.06)</td>
+        <td>1.69 (1.35 - 2.05)</td>
     </tr>
     
     <tr>
         <td>CE</td>
-        <td>1.63 (1.39 - 1.94)</td>
+        <td>1.66 (1.41 - 1.96)</td>
     </tr>
     
     <tr>
@@ -135,22 +135,22 @@ Last update: **10/May**
     
     <tr>
         <td>AC</td>
-        <td>1.52 (1.29 - 1.78)</td>
+        <td>1.53 (1.29 - 1.79)</td>
     </tr>
     
     <tr>
         <td>PB</td>
-        <td>1.48 (1.28 - 1.69)</td>
+        <td>1.47 (1.28 - 1.69)</td>
     </tr>
     
     <tr>
         <td>AM</td>
-        <td>1.46 (1.29 - 1.66)</td>
+        <td>1.47 (1.29 - 1.67)</td>
     </tr>
     
     <tr>
         <td>DF</td>
-        <td>1.45 (1.24 - 1.67)</td>
+        <td>1.43 (1.24 - 1.67)</td>
     </tr>
     
     <tr>
@@ -165,12 +165,12 @@ Last update: **10/May**
     
     <tr>
         <td>RS</td>
-        <td>1.36 (1.18 - 1.58)</td>
+        <td>1.37 (1.18 - 1.59)</td>
     </tr>
     
     <tr>
         <td>BA</td>
-        <td>1.35 (1.24 - 1.47)</td>
+        <td>1.32 (1.22 - 1.43)</td>
     </tr>
     
     <tr>
@@ -180,12 +180,12 @@ Last update: **10/May**
     
     <tr>
         <td>RR</td>
-        <td>1.27 (1.13 - 1.43)</td>
+        <td>1.27 (1.12 - 1.43)</td>
     </tr>
     
     <tr>
         <td>RO</td>
-        <td>1.25 (1.08 - 1.45)</td>
+        <td>1.25 (1.08 - 1.46)</td>
     </tr>
     
     <tr>
@@ -200,22 +200,22 @@ Last update: **10/May**
     
     <tr>
         <td>AP</td>
-        <td>1.18 (1.04 - 1.34)</td>
+        <td>1.18 (1.04 - 1.33)</td>
     </tr>
     
     <tr>
         <td>PI</td>
-        <td>1.16 (1.03 - 1.29)</td>
+        <td>1.16 (1.04 - 1.30)</td>
+    </tr>
+    
+    <tr>
+        <td>ES</td>
+        <td>1.15 (1.08 - 1.22)</td>
     </tr>
     
     <tr>
         <td>PR</td>
         <td>1.09 (0.96 - 1.23)</td>
-    </tr>
-    
-    <tr>
-        <td>ES</td>
-        <td>1.08 (1.02 - 1.15)</td>
     </tr>
     
     <tr>
@@ -235,7 +235,7 @@ Last update: **10/May**
     
     <tr>
         <td>GO</td>
-        <td>0.92 (0.80 - 1.05)</td>
+        <td>0.92 (0.80 - 1.04)</td>
     </tr>
     
     </tbody>
