@@ -1,4 +1,4 @@
-**10/May** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**13/May** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,14 +7,17 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          10/May. This method is sensitive to changes in COVID-19
+          13/May. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
           keep in mind these limitations, that are often not stated in
           many analysis around there. Imported cases weren't also
           considered in this analysis, neither the delay of the symptoms
-          onset and reporting.
+          onset and reporting. I tried many times to enter in contact
+          with DGS to understand why sometimes *accumulated cases* decrease
+          from ony day to another, but they never answered, therefore I do
+          linear interpolation when I have negative incidence.
 
 Summary for the last instantaneous reproduction number estimate
 ===============================================================================
@@ -44,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **10/May**
+Last update: **13/May**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -106,28 +109,28 @@ Last update: **10/May**
     <tbody>
     
     <tr>
-        <td>algarve</td>
-        <td>1.43 (0.81 - 2.25)</td>
-    </tr>
-    
-    <tr>
-        <td>rlvt</td>
-        <td>1.37 (1.19 - 1.62)</td>
-    </tr>
-    
-    <tr>
         <td>alentejo</td>
-        <td>1.05 (0.61 - 1.64)</td>
+        <td>1.14 (0.68 - 1.73)</td>
     </tr>
     
     <tr>
         <td>norte</td>
-        <td>1.04 (0.92 - 1.18)</td>
+        <td>0.97 (0.89 - 1.05)</td>
+    </tr>
+    
+    <tr>
+        <td>rlvt</td>
+        <td>0.95 (0.87 - 1.04)</td>
+    </tr>
+    
+    <tr>
+        <td>algarve</td>
+        <td>0.77 (0.38 - 1.30)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>0.70 (0.57 - 0.84)</td>
+        <td>0.62 (0.49 - 0.78)</td>
     </tr>
     
     </tbody>
@@ -138,33 +141,33 @@ Last update: **10/May**
 ===============================================================================
 
 .. image:: _static/pt/r0_estim/state_alentejo.png
-  :width: 700
+  :width: 900
 
 
 **Region**: Algarve
 ===============================================================================
 
 .. image:: _static/pt/r0_estim/state_algarve.png
-  :width: 700
+  :width: 900
 
 
 **Region**: Centro
 ===============================================================================
 
 .. image:: _static/pt/r0_estim/state_centro.png
-  :width: 700
+  :width: 900
 
 
 **Region**: Norte
 ===============================================================================
 
 .. image:: _static/pt/r0_estim/state_norte.png
-  :width: 700
+  :width: 900
 
 
 **Region**: Rlvt
 ===============================================================================
 
 .. image:: _static/pt/r0_estim/state_rlvt.png
-  :width: 700
+  :width: 900
 
