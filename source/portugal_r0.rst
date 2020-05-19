@@ -1,4 +1,4 @@
-**18/May** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**19/May** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          18/May. This method is sensitive to changes in COVID-19
+          19/May. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -47,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **18/May**
+Last update: **19/May**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -110,27 +110,27 @@ Last update: **18/May**
     
     <tr>
         <td>rlvt</td>
-        <td>1.06 (0.98 - 1.14)</td>
+        <td>1.02 (0.95 - 1.08)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>0.89 (0.69 - 1.12)</td>
-    </tr>
-    
-    <tr>
-        <td>algarve</td>
-        <td>0.80 (0.38 - 1.38)</td>
-    </tr>
-    
-    <tr>
-        <td>norte</td>
-        <td>0.59 (0.49 - 0.70)</td>
+        <td>1.01 (0.80 - 1.27)</td>
     </tr>
     
     <tr>
         <td>alentejo</td>
-        <td>0.56 (0.23 - 1.04)</td>
+        <td>0.72 (0.31 - 1.30)</td>
+    </tr>
+    
+    <tr>
+        <td>norte</td>
+        <td>0.71 (0.59 - 0.84)</td>
+    </tr>
+    
+    <tr>
+        <td>algarve</td>
+        <td>0.66 (0.28 - 1.21)</td>
     </tr>
     
     </tbody>
@@ -170,4 +170,247 @@ Last update: **18/May**
 
 .. image:: _static/pt/r0_estim/state_rlvt.png
   :width: 900
+
+
+
+
+**Mobility region**: Aveiro District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_aveiro-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Azores
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_azores.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Beja District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_beja-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Braga
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_braga.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Bragança District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_braganca-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Castelo Branco District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_castelo-branco-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Coimbra District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_coimbra-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Évora District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_evora-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Faro District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_faro-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Guarda District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_guarda-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Leiria District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_leiria-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Lisbon
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_lisbon.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Madeira
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_madeira.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Portalegre District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_portalegre-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Porto District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_porto-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Santarém District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_santarem-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Setubal
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_setubal.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Viana do Castelo District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_viana-do-castelo-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Vila Real District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_vila-real-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
+
+**Mobility region**: Viseu District
+===============================================================================
+.. rubric:: Mobility data for the sub-region
+
+.. image:: _static/pt/r0_estim/mobility_state_viseu-district.png
+  :width: 1000
+
+.. note:: This plot uses official mobility data from Google Community
+          Mobility Reports. The red markers on the x-axis are
+          weekends or holidays.
+
 
