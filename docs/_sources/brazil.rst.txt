@@ -306,6 +306,9 @@ Only patients with dates filled are represented in this plot.
 
 .. note:: This visualization used data
           from `SRAG 2020 <https://opendatasus.saude.gov.br/dataset/bd-srag-2020>`_.
+          For more information about each label meaning, please look at the
+          `data dictionary <https://opendatasus.saude.gov.br/dataset/9bc2013f-f293-4f3e-94e7-fa76204fc035/resource/20e51b77-b129-4fd5-84f6-e9428ab5e286/download/dicionario_de_dados_srag_hospitalizado_atual-sivepgripe.pdf>`_.
+
 
 State: Rio Grande do Sul (RS)
 ===============================================================================
