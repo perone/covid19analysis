@@ -283,6 +283,29 @@ Predicted daily deaths by COVID-19 for Brazil in May 5th: 782 (between 455-907 w
 
 .. seealso:: This model uses the modelling approach described at :ref:`DeathCountModelling`.
 
+**24/May** -- SIVEP deaths and ICUs
+-------------------------------------------------------------------------------
+.. rubric:: Graph visualization
+
+This is a graph plot of the SIVEP date transitions for confirmed COVID-19 
+patients who went into an ICU and died. Only patients with dates filled
+are represented in this plot. The `DT_SAIDUTI` was not used as it is
+unclear how it was filled.
+
+.. image:: _static/br/sivep_graph_icu_confirmed_deaths.png
+  :width: 900
+
+.. rubric:: Graph visualization
+
+This is a graph plot of the SIVEP date transitions for confirmed COVID-19 
+patients who went into an ICU and independent of the outcome (death/recover).
+Only patients with dates filled are represented in this plot.
+
+.. image:: _static/br/sivep_graph_icu_confirmed.png
+  :width: 900
+
+.. note:: This visualization used data
+          from `SRAG 2020 <https://opendatasus.saude.gov.br/dataset/bd-srag-2020>`_.
 
 State: Rio Grande do Sul (RS)
 ===============================================================================
