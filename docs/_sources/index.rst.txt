@@ -24,6 +24,7 @@ on different countries.
    brazil
    brazil_r0
    brazil_onset_delay
+   brazil_icu_stay
    portugal
    portugal_r0
 
