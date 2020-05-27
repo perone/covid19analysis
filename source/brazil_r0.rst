@@ -112,27 +112,22 @@ Last update: **26/May**
     
     <tr>
         <td>AC</td>
-        <td>1.51 (1.28 - 1.83)</td>
+        <td>1.52 (1.29 - 1.83)</td>
     </tr>
     
     <tr>
         <td>MA</td>
-        <td>1.49 (1.32 - 1.66)</td>
+        <td>1.50 (1.32 - 1.66)</td>
     </tr>
     
     <tr>
         <td>MG</td>
-        <td>1.45 (1.33 - 1.59)</td>
+        <td>1.46 (1.33 - 1.59)</td>
     </tr>
     
     <tr>
         <td>RS</td>
-        <td>1.41 (1.26 - 1.59)</td>
-    </tr>
-    
-    <tr>
-        <td>PR</td>
-        <td>1.39 (1.23 - 1.57)</td>
+        <td>1.40 (1.26 - 1.58)</td>
     </tr>
     
     <tr>
@@ -141,23 +136,28 @@ Last update: **26/May**
     </tr>
     
     <tr>
-        <td>AL</td>
-        <td>1.39 (1.25 - 1.52)</td>
+        <td>PR</td>
+        <td>1.39 (1.23 - 1.56)</td>
     </tr>
     
     <tr>
         <td>RN</td>
-        <td>1.38 (1.30 - 1.47)</td>
+        <td>1.39 (1.30 - 1.48)</td>
     </tr>
     
     <tr>
         <td>AP</td>
-        <td>1.38 (1.24 - 1.56)</td>
+        <td>1.39 (1.23 - 1.56)</td>
     </tr>
     
     <tr>
         <td>PA</td>
         <td>1.38 (1.29 - 1.48)</td>
+    </tr>
+    
+    <tr>
+        <td>AL</td>
+        <td>1.38 (1.25 - 1.52)</td>
     </tr>
     
     <tr>
@@ -177,7 +177,7 @@ Last update: **26/May**
     
     <tr>
         <td>PI</td>
-        <td>1.19 (1.10 - 1.27)</td>
+        <td>1.19 (1.11 - 1.27)</td>
     </tr>
     
     <tr>
@@ -207,7 +207,7 @@ Last update: **26/May**
     
     <tr>
         <td>RJ</td>
-        <td>1.02 (0.95 - 1.11)</td>
+        <td>1.03 (0.95 - 1.12)</td>
     </tr>
     
     <tr>
@@ -227,7 +227,7 @@ Last update: **26/May**
     
     <tr>
         <td>SE</td>
-        <td>0.92 (0.86 - 0.98)</td>
+        <td>0.92 (0.86 - 0.97)</td>
     </tr>
     
     <tr>
@@ -243,6 +243,226 @@ Last update: **26/May**
     </tbody>
     </table>
 
+.. rubric:: Summary for the Facebook COVID-like illness survey (last date)
+
+.. image:: _static/br/facebook_survey/estim_all.svg
+    :width: 800
+
+.. note:: This is the summary for the Facebook COVID-like illness survey using
+          the last survey date available for each state. Note that not all states
+          have the same last date available, for more information please look
+          at the plots for each state to see dynamics of these results and
+          also the last available date.
+
+.. rubric:: Summary table for the Facebook COVID-like illness (CLI) survey (last date)
+
+.. raw:: html
+    
+    <table class="greyGridTable">
+    <thead>
+    <tr>
+    <th>State</th> 
+    <th>Weighted Percent of CLI responses (95% CI)</th>
+    <th>Sample Size</th>
+    <th>Survey Date</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr>
+        <td>Pará</td>
+        <td>9.85 (6.32 - 13.38)</td>
+        <td>388</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Amapá</td>
+        <td>7.71 (3.14 - 12.29)</td>
+        <td>173</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Roraima</td>
+        <td>6.54 (0.98 - 12.10)</td>
+        <td>114</td>
+        <td>19-05-2020
+    </tr>
+    
+    <tr>
+        <td>Alagoas</td>
+        <td>5.75 (2.99 - 8.50)</td>
+        <td>402</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Maranhão</td>
+        <td>5.26 (3.05 - 7.47)</td>
+        <td>545</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Minas Gerais</td>
+        <td>4.63 (2.25 - 7.00)</td>
+        <td>844</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Amazonas</td>
+        <td>4.61 (2.37 - 6.86)</td>
+        <td>672</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Pernambuco</td>
+        <td>3.52 (1.54 - 5.50)</td>
+        <td>551</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Rondônia</td>
+        <td>3.00 (0.79 - 5.22)</td>
+        <td>349</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Rio Grande do Norte</td>
+        <td>2.95 (1.46 - 4.44)</td>
+        <td>723</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Piauí</td>
+        <td>2.91 (0.63 - 5.20)</td>
+        <td>396</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Paraíba</td>
+        <td>2.74 (1.20 - 4.27)</td>
+        <td>703</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Ceará</td>
+        <td>2.70 (1.01 - 4.38)</td>
+        <td>497</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Acre</td>
+        <td>2.38 (-1.03 - 5.78)</td>
+        <td>105</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Mato Grosso</td>
+        <td>2.16 (0.84 - 3.49)</td>
+        <td>685</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Sergipe</td>
+        <td>2.11 (0.07 - 4.15)</td>
+        <td>285</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Rio de Janeiro</td>
+        <td>1.98 (0.89 - 3.06)</td>
+        <td>1000</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Espírito Santo</td>
+        <td>1.96 (0.90 - 3.03)</td>
+        <td>1058</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Mato Grosso do Sul</td>
+        <td>1.94 (0.65 - 3.23)</td>
+        <td>723</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Distrito Federal</td>
+        <td>1.89 (0.87 - 2.92)</td>
+        <td>1943</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Tocantins</td>
+        <td>1.83 (-0.38 - 4.05)</td>
+        <td>204</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Goiás</td>
+        <td>1.27 (0.21 - 2.34)</td>
+        <td>703</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>São Paulo</td>
+        <td>1.25 (0.75 - 1.75)</td>
+        <td>3065</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Bahia</td>
+        <td>1.10 (0.01 - 2.18)</td>
+        <td>549</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Paraná</td>
+        <td>0.94 (-0.09 - 1.97)</td>
+        <td>562</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Rio Grande do Sul</td>
+        <td>0.49 (-0.16 - 1.13)</td>
+        <td>707</td>
+        <td>25-05-2020
+    </tr>
+    
+    <tr>
+        <td>Santa Catarina</td>
+        <td>0.23 (-0.28 - 0.75)</td>
+        <td>605</td>
+        <td>25-05-2020
+    </tr>
+    
+    </tbody>
+    </table>
+
+
 
 **State**: Acre / AC
 ===============================================================================
@@ -256,9 +476,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_ac.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_ac.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Alagoas / AL
@@ -273,9 +499,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_al.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_al.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Amazonas / AM
@@ -290,9 +522,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_am.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_am.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Amapá / AP
@@ -307,9 +545,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_ap.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_ap.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Bahia / BA
@@ -324,9 +568,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_ba.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_ba.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Ceará / CE
@@ -341,9 +591,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_ce.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_ce.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Distrito Federal / DF
@@ -358,9 +614,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_df.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_df.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Espírito Santo / ES
@@ -375,9 +637,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_es.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_es.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Goiás / GO
@@ -392,9 +660,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_go.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_go.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Maranhão / MA
@@ -409,9 +683,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_ma.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_ma.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Minas Gerais / MG
@@ -426,9 +706,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_mg.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_mg.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Mato Grosso do Sul / MS
@@ -443,9 +729,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_ms.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_ms.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Mato Grosso / MT
@@ -460,9 +752,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_mt.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_mt.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Pará / PA
@@ -477,9 +775,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_pa.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_pa.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Paraíba / PB
@@ -494,9 +798,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_pb.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_pb.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Pernambuco / PE
@@ -511,9 +821,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_pe.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_pe.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Piauí / PI
@@ -528,9 +844,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_pi.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_pi.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Paraná / PR
@@ -545,9 +867,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_pr.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_pr.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Rio de Janeiro / RJ
@@ -562,9 +890,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_rj.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_rj.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Rio Grande do Norte / RN
@@ -579,9 +913,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_rn.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_rn.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Rondônia / RO
@@ -596,9 +936,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_ro.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_ro.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Roraima / RR
@@ -613,9 +959,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_rr.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_rr.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Rio Grande do Sul / RS
@@ -630,9 +982,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_rs.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_rs.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Santa Catarina / SC
@@ -647,9 +1005,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_sc.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_sc.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Sergipe / SE
@@ -664,9 +1028,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_se.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_se.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: São Paulo / SP
@@ -681,9 +1051,15 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_sp.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_sp.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
 
 **State**: Tocantins / TO
@@ -698,7 +1074,13 @@ Last update: **26/May**
 .. image:: _static/br/r0_estim/mobility_state_to.png
   :width: 1000
 
+.. rubric:: Facebook symptom survey for the state
+
+.. image:: _static/br/facebook_survey/state_to.png
+  :width: 1000
+
 .. note:: This plot uses official data from Brazilian government as well as
           mobility data from Google Community Mobility Reports. The red markers
-          on the x-axis are weekends or holidays.
+          on the x-axis are weekends or holidays. This plot also uses data from
+          the Facebook Symptom survey data kindly hosted by University of Maryland.
 
