@@ -1,4 +1,4 @@
-**26/May** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**27/May** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          26/May. This method is sensitive to changes in COVID-19
+          27/May. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -47,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **26/May**
+Last update: **27/May**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -115,22 +115,22 @@ Last update: **26/May**
     
     <tr>
         <td>rlvt</td>
-        <td>1.15 (1.08 - 1.23)</td>
+        <td>1.19 (1.12 - 1.27)</td>
     </tr>
     
     <tr>
         <td>alentejo</td>
-        <td>0.95 (0.47 - 1.61)</td>
+        <td>0.87 (0.41 - 1.50)</td>
     </tr>
     
     <tr>
         <td>norte</td>
-        <td>0.64 (0.56 - 0.74)</td>
+        <td>0.64 (0.55 - 0.74)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>0.63 (0.46 - 0.84)</td>
+        <td>0.52 (0.36 - 0.72)</td>
     </tr>
     
     </tbody>
