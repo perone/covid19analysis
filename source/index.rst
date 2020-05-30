@@ -25,6 +25,7 @@ on different countries.
    brazil_r0
    brazil_onset_delay
    brazil_icu_stay
+   brazil_symptoms_reg
    portugal
    portugal_r0
 
