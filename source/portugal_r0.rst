@@ -110,22 +110,22 @@ Last update: **30/May**
     
     <tr>
         <td>rlvt</td>
-        <td>1.23 (1.14 - 1.32)</td>
+        <td>1.23 (1.14 - 1.33)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>1.15 (0.87 - 1.47)</td>
+        <td>1.15 (0.87 - 1.46)</td>
     </tr>
     
     <tr>
         <td>algarve</td>
-        <td>1.07 (0.45 - 1.97)</td>
+        <td>1.07 (0.45 - 1.96)</td>
     </tr>
     
     <tr>
         <td>alentejo</td>
-        <td>0.78 (0.33 - 1.43)</td>
+        <td>0.79 (0.33 - 1.44)</td>
     </tr>
     
     <tr>
