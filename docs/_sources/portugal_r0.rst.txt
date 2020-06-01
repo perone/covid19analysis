@@ -115,22 +115,22 @@ Last update: **31/May**
     
     <tr>
         <td>rlvt</td>
-        <td>1.28 (1.19 - 1.39)</td>
+        <td>1.28 (1.19 - 1.38)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>1.10 (0.83 - 1.42)</td>
+        <td>1.11 (0.83 - 1.43)</td>
     </tr>
     
     <tr>
         <td>alentejo</td>
-        <td>0.83 (0.35 - 1.51)</td>
+        <td>0.83 (0.35 - 1.52)</td>
     </tr>
     
     <tr>
         <td>norte</td>
-        <td>0.41 (0.31 - 0.54)</td>
+        <td>0.41 (0.31 - 0.53)</td>
     </tr>
     
     </tbody>
