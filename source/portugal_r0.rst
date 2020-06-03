@@ -110,12 +110,12 @@ Last update: **01/June**
     
     <tr>
         <td>algarve</td>
-        <td>1.65 (0.87 - 2.67)</td>
+        <td>1.65 (0.87 - 2.68)</td>
     </tr>
     
     <tr>
         <td>rlvt</td>
-        <td>1.25 (1.15 - 1.35)</td>
+        <td>1.25 (1.16 - 1.35)</td>
     </tr>
     
     <tr>
