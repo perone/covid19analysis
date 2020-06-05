@@ -24,6 +24,13 @@ and :math:`\sigma = 2.9 (1.9 - 4.9)`.
              before relaxing interventions, so keep in mind that it is not
              about being below 1.0 for a single day but for weeks.
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_all.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-all_states-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p>
+
 Summary for the last instantaneous reproduction number estimate
 ===============================================================================
 .. rubric:: Map for the accumulated cases
@@ -115,7 +122,7 @@ Last update: **04/June**
     
     <tr>
         <td>CE</td>
-        <td>1.83 (1.53 - 2.25)</td>
+        <td>1.84 (1.51 - 2.28)</td>
     </tr>
     
     <tr>
@@ -125,12 +132,12 @@ Last update: **04/June**
     
     <tr>
         <td>BA</td>
-        <td>1.48 (1.27 - 1.67)</td>
+        <td>1.48 (1.28 - 1.67)</td>
     </tr>
     
     <tr>
         <td>GO</td>
-        <td>1.48 (1.29 - 1.68)</td>
+        <td>1.46 (1.28 - 1.68)</td>
     </tr>
     
     <tr>
@@ -140,7 +147,7 @@ Last update: **04/June**
     
     <tr>
         <td>RN</td>
-        <td>1.41 (1.28 - 1.55)</td>
+        <td>1.41 (1.29 - 1.56)</td>
     </tr>
     
     <tr>
@@ -150,7 +157,7 @@ Last update: **04/June**
     
     <tr>
         <td>AL</td>
-        <td>1.33 (1.22 - 1.45)</td>
+        <td>1.33 (1.23 - 1.45)</td>
     </tr>
     
     <tr>
@@ -170,7 +177,7 @@ Last update: **04/June**
     
     <tr>
         <td>ES</td>
-        <td>1.27 (1.18 - 1.35)</td>
+        <td>1.27 (1.17 - 1.35)</td>
     </tr>
     
     <tr>
@@ -180,7 +187,7 @@ Last update: **04/June**
     
     <tr>
         <td>SP</td>
-        <td>1.25 (1.15 - 1.35)</td>
+        <td>1.24 (1.15 - 1.34)</td>
     </tr>
     
     <tr>
@@ -195,7 +202,7 @@ Last update: **04/June**
     
     <tr>
         <td>SE</td>
-        <td>1.17 (1.09 - 1.25)</td>
+        <td>1.18 (1.10 - 1.26)</td>
     </tr>
     
     <tr>
@@ -210,17 +217,17 @@ Last update: **04/June**
     
     <tr>
         <td>AP</td>
-        <td>1.08 (1.02 - 1.14)</td>
+        <td>1.08 (1.03 - 1.14)</td>
     </tr>
     
     <tr>
         <td>TO</td>
-        <td>1.07 (1.00 - 1.15)</td>
+        <td>1.07 (1.00 - 1.14)</td>
     </tr>
     
     <tr>
         <td>RJ</td>
-        <td>1.05 (1.02 - 1.09)</td>
+        <td>1.06 (1.02 - 1.09)</td>
     </tr>
     
     <tr>
@@ -240,7 +247,7 @@ Last update: **04/June**
     
     <tr>
         <td>AM</td>
-        <td>0.93 (0.90 - 0.96)</td>
+        <td>0.93 (0.91 - 0.96)</td>
     </tr>
     
     <tr>
@@ -280,37 +287,16 @@ Last update: **04/June**
     
     <tr>
         <td>Amapá</td>
-        <td>9.96 (4.24 - 15.67)</td>
-        <td>176</td>
-        <td>02-06-2020
+        <td>7.27 (2.38 - 12.16)</td>
+        <td>140</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
         <td>Amazonas</td>
-        <td>7.20 (4.25 - 10.16)</td>
-        <td>587</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Pará</td>
-        <td>6.83 (3.77 - 9.89)</td>
-        <td>394</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Tocantins</td>
-        <td>5.96 (0.20 - 11.73)</td>
-        <td>147</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Maranhão</td>
-        <td>5.76 (3.31 - 8.21)</td>
-        <td>507</td>
-        <td>02-06-2020
+        <td>5.83 (3.13 - 8.54)</td>
+        <td>538</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
@@ -321,10 +307,10 @@ Last update: **04/June**
     </tr>
     
     <tr>
-        <td>Rio Grande do Norte</td>
-        <td>5.28 (3.16 - 7.40)</td>
-        <td>690</td>
-        <td>02-06-2020
+        <td>Pará</td>
+        <td>4.87 (2.39 - 7.35)</td>
+        <td>410</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
@@ -335,136 +321,157 @@ Last update: **04/June**
     </tr>
     
     <tr>
-        <td>Alagoas</td>
-        <td>4.52 (1.71 - 7.32)</td>
-        <td>339</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Paraíba</td>
-        <td>3.43 (1.55 - 5.31)</td>
-        <td>573</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Rondônia</td>
-        <td>3.33 (0.97 - 5.69)</td>
-        <td>346</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Distrito Federal</td>
-        <td>2.68 (1.41 - 3.96)</td>
-        <td>1896</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Pernambuco</td>
-        <td>2.56 (0.82 - 4.30)</td>
-        <td>519</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Rio de Janeiro</td>
-        <td>2.41 (1.13 - 3.69)</td>
-        <td>953</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Ceará</td>
-        <td>2.24 (0.63 - 3.85)</td>
-        <td>498</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Espírito Santo</td>
-        <td>2.13 (0.69 - 3.57)</td>
-        <td>963</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Piauí</td>
-        <td>2.08 (0.31 - 3.86)</td>
-        <td>395</td>
-        <td>02-06-2020
+        <td>Maranhão</td>
+        <td>4.30 (2.18 - 6.42)</td>
+        <td>456</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
         <td>Bahia</td>
-        <td>2.02 (0.60 - 3.45)</td>
-        <td>543</td>
-        <td>02-06-2020
+        <td>4.07 (1.95 - 6.18)</td>
+        <td>503</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
-        <td>São Paulo</td>
-        <td>1.65 (1.08 - 2.22)</td>
-        <td>3163</td>
-        <td>02-06-2020
+        <td>Paraíba</td>
+        <td>3.54 (0.13 - 6.95)</td>
+        <td>534</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
-        <td>Mato Grosso</td>
-        <td>1.60 (0.37 - 2.84)</td>
-        <td>712</td>
-        <td>02-06-2020
+        <td>Alagoas</td>
+        <td>3.31 (1.05 - 5.56)</td>
+        <td>325</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Ceará</td>
+        <td>3.17 (1.24 - 5.11)</td>
+        <td>482</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Pernambuco</td>
+        <td>3.06 (1.19 - 4.93)</td>
+        <td>505</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Rondônia</td>
+        <td>2.47 (0.61 - 4.33)</td>
+        <td>332</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Rio de Janeiro</td>
+        <td>2.35 (1.03 - 3.67)</td>
+        <td>948</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Espírito Santo</td>
+        <td>2.19 (0.95 - 3.44)</td>
+        <td>869</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Piauí</td>
+        <td>2.09 (0.27 - 3.92)</td>
+        <td>352</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Rio Grande do Norte</td>
+        <td>2.07 (0.71 - 3.43)</td>
+        <td>656</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
         <td>Sergipe</td>
-        <td>1.32 (-0.42 - 3.07)</td>
-        <td>257</td>
-        <td>02-06-2020
+        <td>1.94 (-0.33 - 4.20)</td>
+        <td>218</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Mato Grosso</td>
+        <td>1.91 (0.58 - 3.24)</td>
+        <td>599</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>São Paulo</td>
+        <td>1.81 (1.20 - 2.42)</td>
+        <td>3026</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Distrito Federal</td>
+        <td>1.73 (0.74 - 2.73)</td>
+        <td>1768</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Tocantins</td>
+        <td>1.67 (-0.74 - 4.07)</td>
+        <td>159</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
         <td>Goiás</td>
-        <td>1.26 (0.22 - 2.31)</td>
-        <td>758</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Minas Gerais</td>
-        <td>1.17 (0.26 - 2.07)</td>
-        <td>834</td>
-        <td>02-06-2020
+        <td>1.57 (0.40 - 2.75)</td>
+        <td>735</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
         <td>Paraná</td>
-        <td>0.98 (0.01 - 1.96)</td>
-        <td>668</td>
-        <td>02-06-2020
+        <td>1.38 (0.28 - 2.48)</td>
+        <td>673</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Minas Gerais</td>
+        <td>0.86 (0.06 - 1.66)</td>
+        <td>791</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
         <td>Mato Grosso do Sul</td>
-        <td>0.76 (-0.05 - 1.56)</td>
-        <td>731</td>
-        <td>02-06-2020
-    </tr>
-    
-    <tr>
-        <td>Rio Grande do Sul</td>
-        <td>0.43 (-0.19 - 1.05)</td>
-        <td>687</td>
-        <td>02-06-2020
+        <td>0.71 (-0.11 - 1.53)</td>
+        <td>593</td>
+        <td>03-06-2020
     </tr>
     
     <tr>
         <td>Santa Catarina</td>
-        <td>0.42 (-0.26 - 1.10)</td>
-        <td>586</td>
-        <td>02-06-2020
+        <td>0.64 (-0.20 - 1.48)</td>
+        <td>568</td>
+        <td>03-06-2020
+    </tr>
+    
+    <tr>
+        <td>Rio Grande do Sul</td>
+        <td>0.61 (-0.12 - 1.34)</td>
+        <td>669</td>
+        <td>03-06-2020
     </tr>
     
     </tbody>
@@ -475,6 +482,13 @@ Last update: **04/June**
 **State**: Acre / AC
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_ac.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_ac-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_ac.png
   :width: 900
@@ -499,6 +513,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_al.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_al-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_al.png
   :width: 900
 
@@ -521,6 +542,13 @@ Last update: **04/June**
 **State**: Amazonas / AM
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_am.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_am-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_am.png
   :width: 900
@@ -545,6 +573,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_ap.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_ap-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_ap.png
   :width: 900
 
@@ -567,6 +602,13 @@ Last update: **04/June**
 **State**: Bahia / BA
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_ba.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_ba-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_ba.png
   :width: 900
@@ -591,6 +633,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_ce.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_ce-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_ce.png
   :width: 900
 
@@ -613,6 +662,13 @@ Last update: **04/June**
 **State**: Distrito Federal / DF
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_df.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_df-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_df.png
   :width: 900
@@ -637,6 +693,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_es.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_es-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_es.png
   :width: 900
 
@@ -659,6 +722,13 @@ Last update: **04/June**
 **State**: Goiás / GO
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_go.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_go-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_go.png
   :width: 900
@@ -683,6 +753,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_ma.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_ma-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_ma.png
   :width: 900
 
@@ -705,6 +782,13 @@ Last update: **04/June**
 **State**: Minas Gerais / MG
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_mg.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_mg-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_mg.png
   :width: 900
@@ -729,6 +813,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_ms.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_ms-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_ms.png
   :width: 900
 
@@ -751,6 +842,13 @@ Last update: **04/June**
 **State**: Mato Grosso / MT
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_mt.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_mt-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_mt.png
   :width: 900
@@ -775,6 +873,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_pa.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_pa-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_pa.png
   :width: 900
 
@@ -797,6 +902,13 @@ Last update: **04/June**
 **State**: Paraíba / PB
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_pb.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_pb-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_pb.png
   :width: 900
@@ -821,6 +933,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_pe.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_pe-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_pe.png
   :width: 900
 
@@ -843,6 +962,13 @@ Last update: **04/June**
 **State**: Piauí / PI
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_pi.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_pi-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_pi.png
   :width: 900
@@ -867,6 +993,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_pr.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_pr-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_pr.png
   :width: 900
 
@@ -889,6 +1022,13 @@ Last update: **04/June**
 **State**: Rio de Janeiro / RJ
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_rj.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_rj-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_rj.png
   :width: 900
@@ -913,6 +1053,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_rn.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_rn-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_rn.png
   :width: 900
 
@@ -935,6 +1082,13 @@ Last update: **04/June**
 **State**: Rondônia / RO
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_ro.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_ro-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_ro.png
   :width: 900
@@ -959,6 +1113,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_rr.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_rr-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_rr.png
   :width: 900
 
@@ -981,6 +1142,13 @@ Last update: **04/June**
 **State**: Rio Grande do Sul / RS
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_rs.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_rs-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_rs.png
   :width: 900
@@ -1005,6 +1173,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_sc.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_sc-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_sc.png
   :width: 900
 
@@ -1027,6 +1202,13 @@ Last update: **04/June**
 **State**: Sergipe / SE
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_se.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_se-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_se.png
   :width: 900
@@ -1051,6 +1233,13 @@ Last update: **04/June**
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
 
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_sp.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_sp-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
+
 .. image:: _static/br/r0_estim/state_sp.png
   :width: 900
 
@@ -1073,6 +1262,13 @@ Last update: **04/June**
 **State**: Tocantins / TO
 ===============================================================================
 .. rubric:: R(t) estimate, incidence and accumulated cases
+
+.. raw:: html
+    
+    <p align="right">
+    <a href="https://perone.github.io/covid19analysis/_static/br/r0_estim/r_state_to.csv">
+    <img src="https://raster.shields.io/badge/Download_Data-State:_to-blue.png?style=for-the-badge&logo=codesandbox"/>
+    </a></p><br/><br/>
 
 .. image:: _static/br/r0_estim/state_to.png
   :width: 900
