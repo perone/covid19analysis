@@ -1,4 +1,4 @@
-**05/June** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**06/June** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          05/June. This method is sensitive to changes in COVID-19
+          06/June. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -47,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **05/June**
+Last update: **06/June**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -110,27 +110,27 @@ Last update: **05/June**
     
     <tr>
         <td>algarve</td>
-        <td>1.57 (0.89 - 2.45)</td>
-    </tr>
-    
-    <tr>
-        <td>rlvt</td>
-        <td>1.11 (1.05 - 1.18)</td>
-    </tr>
-    
-    <tr>
-        <td>centro</td>
-        <td>0.98 (0.75 - 1.25)</td>
-    </tr>
-    
-    <tr>
-        <td>norte</td>
-        <td>0.88 (0.68 - 1.12)</td>
+        <td>1.57 (0.90 - 2.42)</td>
     </tr>
     
     <tr>
         <td>alentejo</td>
-        <td>0.83 (0.29 - 1.65)</td>
+        <td>1.36 (0.61 - 2.41)</td>
+    </tr>
+    
+    <tr>
+        <td>rlvt</td>
+        <td>1.15 (1.09 - 1.22)</td>
+    </tr>
+    
+    <tr>
+        <td>norte</td>
+        <td>0.99 (0.77 - 1.24)</td>
+    </tr>
+    
+    <tr>
+        <td>centro</td>
+        <td>0.97 (0.74 - 1.22)</td>
     </tr>
     
     </tbody>
