@@ -6,9 +6,6 @@
 COVID-19 Analysis Repository
 ===========================================
 
-This is a repository with on-going analysis I'm working on for COVID-19
-on different countries.
-
 .. note:: My name is Christian S. Perone and I'm a Computer Scientist with BSc in Computer Science (UPF/Brazil) and a MSc in
           Biomedical Engineering (Polytechnique Montreal/UdeM/Canada). This website contains analysis related
           to the COVID-19 outbreak for Brazil and Portugal. Please read about the
