@@ -5,98 +5,49 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>04/May – Symptom onset to confirmation delay estimation for states in Brazil &#8212; covid19analysis 0.1 documentation</title>
+    <title>04/May – Symptom onset to confirmation delay estimation for states in Brazil &#8212; COVID-19 Analysis</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/language_data.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
     <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="_static/logo.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="COVID-19 Analysis for Portugal" href="portugal.html" />
-    <link rel="prev" title="09/May – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
+    <link rel="next" title="18/May – ICU length of stay (LOS) estimation for states in Brazil" href="brazil_icu_stay.html" />
+    <link rel="prev" title="07/June – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
-    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
-<div class="container-xl">
 
-    
-    <a class="navbar-brand" href="index.html">
-      <img src="_static/logo.png" class="logo" alt="logo">
-    </a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div id="navbar-menu" class="col-9 collapse navbar-collapse">
-      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
-        
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="brazil.html">COVID-19 Analysis for Brazil</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="brazil_r0.html">09/May – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
-        </li>
-        
-        <li class="nav-item active">
-            <a class="nav-link" href="">04/May – Symptom onset to confirmation delay estimation for states in Brazil</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="portugal.html">COVID-19 Analysis for Portugal</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="portugal_r0.html">10/May – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
-        </li>
-        
-        
-        <li class="nav-item">
-            <a class="nav-link nav-external" href="https://perone.github.io/covid19analysis">Main<i class="fas fa-external-link-alt"></i></a>
-        </li>
-        
-      </ul>
-
-      <ul class="navbar-nav">
-        
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/perone/covid19analysis" target="_blank" rel="noopener">
-              <span><i class="fab fa-github-square"></i></span>
-            </a>
-          </li>
-        
-        
-          <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/tarantulae" target="_blank" rel="noopener">
-              <span><i class="fab fa-twitter-square"></i></span>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-</div>
-    </nav>
-    
-
-    <div class="container-fluid">
+    <div class="container-xl">
       <div class="row">
           
-          <div class="col-12 col-md-3 bd-sidebar">
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">COVID-19 Analysis</h1>
+  
+</a>
+</div>
 
 <form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
@@ -104,33 +55,101 @@
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-
-  <div class="bd-toc-item active">
   
-
-  <ul class="nav bd-sidenav">
-      
-      
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-    </ul>
-
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="index.html">COVID-19 Analysis Repository</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">Contents:</p>
+</li>
+  <li class="">
+    <a href="brazil.html">COVID-19 Analysis for Brazil</a>
+  </li>
+  <li class="">
+    <a href="brazil_r0.html">07/June – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+  </li>
+  <li class="active">
+    <a href="">04/May – Symptom onset to confirmation delay estimation for states in Brazil</a>
+  </li>
+  <li class="">
+    <a href="brazil_icu_stay.html">18/May – ICU length of stay (LOS) estimation for states in Brazil</a>
+  </li>
+  <li class="">
+    <a href="brazil_death_reg.html">7/June – Death regression analysis for each state in Brazil</a>
+  </li>
+  <li class="">
+    <a href="brazil_symptoms_reg.html">18/May – Symptom regression for each state in Brazil</a>
+  </li>
+  <li class="">
+    <a href="portugal.html">COVID-19 Analysis for Portugal</a>
+  </li>
+  <li class="">
+    <a href="portugal_r0.html">08/June – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
+  </li>
+</ul>
 </nav>
-          </div>
-          
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
 
           
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-              
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="_sources/brazil_onset_delay.rst.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.rst</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Source interaction buttons -->
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+            <div class="dropdown-buttons sourcebuttons">
+                <a class="repository-button" href="https://github.com/perone/covid19analysis"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left" title="Source repository"><i class="fab fa-github"></i>repository</button></a>
+                <a class="issues-button" href="https://github.com/perone/covid19analysis/issues/new?title=Issue%20on%20page%20%2Fbrazil_onset_delay.html&body=Your%20issue%20content%20here."><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left" title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+                
+            </div>
+        </div>
+        
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
 <div class="tocsection onthispage pt-5 pb-3">
     <i class="fas fa-list"></i> On this page
 </div>
@@ -234,13 +253,11 @@
 </nav>
 
 
-              
-          </div>
-          
-
-          
-          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
-              
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
               <div>
                 
   <div class="section" id="may-symptom-onset-to-confirmation-delay-estimation-for-states-in-brazil">
@@ -271,7 +288,7 @@ and the date where the results of the test was available;</p></li>
 <li><p>I’m not modelling the temporal changes of this delay, so the estimate distribution
 will end up with larger uncertainty due to this to cover up for these changes;</p></li>
 </ul>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from SIVED system in Brazil, the maximum of the
 notification date for this data was 04/May.
@@ -452,63 +469,63 @@ the SIVED dataset.</p>
 <div class="section" id="state-alagoas-al">
 <h2><strong>State</strong>: Alagoas / AL<a class="headerlink" href="#state-alagoas-al" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_AL_delay.png"><img alt="_images/state_AL_delay.png" src="_images/state_AL_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_AL_delay1.png"><img alt="_images/state_AL_delay1.png" src="_images/state_AL_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_AL_posterior.png"><img alt="_images/state_AL_posterior.png" src="_images/state_AL_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-amazonas-am">
 <h2><strong>State</strong>: Amazonas / AM<a class="headerlink" href="#state-amazonas-am" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_AM_delay.png"><img alt="_images/state_AM_delay.png" src="_images/state_AM_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_AM_delay1.png"><img alt="_images/state_AM_delay1.png" src="_images/state_AM_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_AM_posterior.png"><img alt="_images/state_AM_posterior.png" src="_images/state_AM_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-bahia-ba">
 <h2><strong>State</strong>: Bahia / BA<a class="headerlink" href="#state-bahia-ba" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_BA_delay.png"><img alt="_images/state_BA_delay.png" src="_images/state_BA_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_BA_delay1.png"><img alt="_images/state_BA_delay1.png" src="_images/state_BA_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_BA_posterior.png"><img alt="_images/state_BA_posterior.png" src="_images/state_BA_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-ceara-ce">
 <h2><strong>State</strong>: Ceará / CE<a class="headerlink" href="#state-ceara-ce" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_CE_delay.png"><img alt="_images/state_CE_delay.png" src="_images/state_CE_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_CE_delay1.png"><img alt="_images/state_CE_delay1.png" src="_images/state_CE_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_CE_posterior.png"><img alt="_images/state_CE_posterior.png" src="_images/state_CE_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-distrito-federal-df">
 <h2><strong>State</strong>: Distrito Federal / DF<a class="headerlink" href="#state-distrito-federal-df" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_DF_delay.png"><img alt="_images/state_DF_delay.png" src="_images/state_DF_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_DF_delay1.png"><img alt="_images/state_DF_delay1.png" src="_images/state_DF_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_DF_posterior.png"><img alt="_images/state_DF_posterior.png" src="_images/state_DF_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-espirito-santo-es">
 <h2><strong>State</strong>: Espírito Santo / ES<a class="headerlink" href="#state-espirito-santo-es" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_ES_delay.png"><img alt="_images/state_ES_delay.png" src="_images/state_ES_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_ES_delay1.png"><img alt="_images/state_ES_delay1.png" src="_images/state_ES_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_ES_posterior.png"><img alt="_images/state_ES_posterior.png" src="_images/state_ES_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-goias-go">
 <h2><strong>State</strong>: Goiás / GO<a class="headerlink" href="#state-goias-go" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_GO_delay.png"><img alt="_images/state_GO_delay.png" src="_images/state_GO_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_GO_delay1.png"><img alt="_images/state_GO_delay1.png" src="_images/state_GO_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_GO_posterior.png"><img alt="_images/state_GO_posterior.png" src="_images/state_GO_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-maranhao-ma">
 <h2><strong>State</strong>: Maranhão / MA<a class="headerlink" href="#state-maranhao-ma" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_MA_delay.png"><img alt="_images/state_MA_delay.png" src="_images/state_MA_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_MA_delay1.png"><img alt="_images/state_MA_delay1.png" src="_images/state_MA_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_MA_posterior.png"><img alt="_images/state_MA_posterior.png" src="_images/state_MA_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-minas-gerais-mg">
 <h2><strong>State</strong>: Minas Gerais / MG<a class="headerlink" href="#state-minas-gerais-mg" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_MG_delay.png"><img alt="_images/state_MG_delay.png" src="_images/state_MG_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_MG_delay1.png"><img alt="_images/state_MG_delay1.png" src="_images/state_MG_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_MG_posterior.png"><img alt="_images/state_MG_posterior.png" src="_images/state_MG_posterior.png" style="width: 700px;" /></a>
 </div>
@@ -529,21 +546,21 @@ the SIVED dataset.</p>
 <div class="section" id="state-para-pa">
 <h2><strong>State</strong>: Pará / PA<a class="headerlink" href="#state-para-pa" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_PA_delay.png"><img alt="_images/state_PA_delay.png" src="_images/state_PA_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_PA_delay1.png"><img alt="_images/state_PA_delay1.png" src="_images/state_PA_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_PA_posterior.png"><img alt="_images/state_PA_posterior.png" src="_images/state_PA_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-paraiba-pb">
 <h2><strong>State</strong>: Paraíba / PB<a class="headerlink" href="#state-paraiba-pb" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_PB_delay.png"><img alt="_images/state_PB_delay.png" src="_images/state_PB_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_PB_delay1.png"><img alt="_images/state_PB_delay1.png" src="_images/state_PB_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_PB_posterior.png"><img alt="_images/state_PB_posterior.png" src="_images/state_PB_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-pernambuco-pe">
 <h2><strong>State</strong>: Pernambuco / PE<a class="headerlink" href="#state-pernambuco-pe" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_PE_delay.png"><img alt="_images/state_PE_delay.png" src="_images/state_PE_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_PE_delay1.png"><img alt="_images/state_PE_delay1.png" src="_images/state_PE_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_PE_posterior.png"><img alt="_images/state_PE_posterior.png" src="_images/state_PE_posterior.png" style="width: 700px;" /></a>
 </div>
@@ -557,35 +574,35 @@ the SIVED dataset.</p>
 <div class="section" id="state-parana-pr">
 <h2><strong>State</strong>: Paraná / PR<a class="headerlink" href="#state-parana-pr" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_PR_delay.png"><img alt="_images/state_PR_delay.png" src="_images/state_PR_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_PR_delay1.png"><img alt="_images/state_PR_delay1.png" src="_images/state_PR_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_PR_posterior.png"><img alt="_images/state_PR_posterior.png" src="_images/state_PR_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-rio-de-janeiro-rj">
 <h2><strong>State</strong>: Rio de Janeiro / RJ<a class="headerlink" href="#state-rio-de-janeiro-rj" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_RJ_delay.png"><img alt="_images/state_RJ_delay.png" src="_images/state_RJ_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_RJ_delay1.png"><img alt="_images/state_RJ_delay1.png" src="_images/state_RJ_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_RJ_posterior.png"><img alt="_images/state_RJ_posterior.png" src="_images/state_RJ_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-rio-grande-do-norte-rn">
 <h2><strong>State</strong>: Rio Grande do Norte / RN<a class="headerlink" href="#state-rio-grande-do-norte-rn" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_RN_delay.png"><img alt="_images/state_RN_delay.png" src="_images/state_RN_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_RN_delay1.png"><img alt="_images/state_RN_delay1.png" src="_images/state_RN_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_RN_posterior.png"><img alt="_images/state_RN_posterior.png" src="_images/state_RN_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-rio-grande-do-sul-rs">
 <h2><strong>State</strong>: Rio Grande do Sul / RS<a class="headerlink" href="#state-rio-grande-do-sul-rs" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_RS_delay.png"><img alt="_images/state_RS_delay.png" src="_images/state_RS_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_RS_delay1.png"><img alt="_images/state_RS_delay1.png" src="_images/state_RS_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_RS_posterior.png"><img alt="_images/state_RS_posterior.png" src="_images/state_RS_posterior.png" style="width: 700px;" /></a>
 </div>
 <div class="section" id="state-santa-catarina-sc">
 <h2><strong>State</strong>: Santa Catarina / SC<a class="headerlink" href="#state-santa-catarina-sc" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_SC_delay.png"><img alt="_images/state_SC_delay.png" src="_images/state_SC_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_SC_delay1.png"><img alt="_images/state_SC_delay1.png" src="_images/state_SC_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_SC_posterior.png"><img alt="_images/state_SC_posterior.png" src="_images/state_SC_posterior.png" style="width: 700px;" /></a>
 </div>
@@ -599,7 +616,7 @@ the SIVED dataset.</p>
 <div class="section" id="state-sao-paulo-sp">
 <h2><strong>State</strong>: São Paulo / SP<a class="headerlink" href="#state-sao-paulo-sp" title="Permalink to this headline">¶</a></h2>
 <p class="rubric">Scatter plot of symptom onset vs confirmation and empirical distribution</p>
-<a class="reference internal image-reference" href="_images/state_SP_delay.png"><img alt="_images/state_SP_delay.png" src="_images/state_SP_delay.png" style="width: 1200px;" /></a>
+<a class="reference internal image-reference" href="_images/state_SP_delay1.png"><img alt="_images/state_SP_delay1.png" src="_images/state_SP_delay1.png" style="width: 1200px;" /></a>
 <p class="rubric">Posterior distribution for the mean of the Gamma distribution</p>
 <a class="reference internal image-reference" href="_images/state_SP_posterior.png"><img alt="_images/state_SP_posterior.png" src="_images/state_SP_posterior.png" style="width: 700px;" /></a>
 </div>
@@ -608,39 +625,33 @@ the SIVED dataset.</p>
 
               </div>
               
-              
-              <div class='prev-next-bottom'>
-                
-    <a class='left-prev' id="prev-link" href="brazil_r0.html" title="previous page"><strong>09/May</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
-    <a class='right-next' id="next-link" href="portugal.html" title="next page">COVID-19 Analysis for Portugal</a>
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="brazil_r0.html" title="previous page"><strong>07/June</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+    <a class='right-next' id="next-link" href="brazil_icu_stay.html" title="next page"><strong>18/May</strong> – ICU length of stay (LOS) estimation for states in Brazil</a>
 
-              </div>
-              
-          </main>
-          
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Christian S. Perone<br/>
+        
+            &copy; Copyright 2020, Christian S. Perone.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
 
       </div>
     </div>
 
     <script src="_static/js/index.js"></script>
     
-<footer class="footer mt-5 mt-md-0">
-  <div class="container">
-    <p>
-          &copy; Copyright 2020, Christian S. Perone.<br/>
-        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.<br/>
-    </p>
-  </div>
-</footer>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-30560129-4");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
   </body>
 </html>

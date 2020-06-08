@@ -17,9 +17,20 @@ on different countries.
           `twitter <http://www.twitter.com/tarantulae>`_. If you use something from this work,
           please consider citing it.
 
+.. raw:: html
+
+    <a href="/brazil_r0.html" class="btn btn-primary btn-block" role="button" style="color:#fff">
+      <strong>R(t)</strong> estimates for Brazil
+    </a>
+
+    <a href="/portugal_r0.html" class="btn btn-primary btn-block" role="button" style="color:#fff">
+      <strong>R(t)</strong> estimates for Portugal
+    </a>
+
+    <br/><br/>
+
 .. toctree::
    :maxdepth: 3
-   :caption: Contents:
 
    brazil
    brazil_r0

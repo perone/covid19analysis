@@ -5,17 +5,20 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>07/June – COVID-19 Time varying reproduction numbers estimation for Brazil &#8212; covid19analysis 0.1 documentation</title>
+    <title>07/June – COVID-19 Time varying reproduction numbers estimation for Brazil &#8212; COVID-19 Analysis</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link href="_static/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/language_data.js"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
     <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="shortcut icon" href="_static/logo.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="04/May – Symptom onset to confirmation delay estimation for states in Brazil" href="brazil_onset_delay.html" />
@@ -24,91 +27,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
-    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main">
-<div class="container-xl">
 
-    
-    <a class="navbar-brand" href="index.html">
-      <img src="_static/logo.png" class="logo" alt="logo">
-    </a>
-    
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div id="navbar-menu" class="col-9 collapse navbar-collapse">
-      <ul id="navbar-main-elements" class="navbar-nav mr-auto">
-        
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="brazil.html">COVID-19 Analysis for Brazil</a>
-        </li>
-        
-        <li class="nav-item active">
-            <a class="nav-link" href="">07/June – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="brazil_onset_delay.html">04/May – Symptom onset to confirmation delay estimation for states in Brazil</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="brazil_icu_stay.html">18/May – ICU length of stay (LOS) estimation for states in Brazil</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="brazil_death_reg.html">7/June – Death regression analysis for each state in Brazil</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="brazil_symptoms_reg.html">18/May – Symptom regression for each state in Brazil</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="portugal.html">COVID-19 Analysis for Portugal</a>
-        </li>
-        
-        <li class="nav-item ">
-            <a class="nav-link" href="portugal_r0.html">07/June – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
-        </li>
-        
-        
-        <li class="nav-item">
-            <a class="nav-link nav-external" href="https://perone.github.io/covid19analysis">Main<i class="fas fa-external-link-alt"></i></a>
-        </li>
-        
-      </ul>
-
-      <ul class="navbar-nav">
-        
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/perone/covid19analysis" target="_blank" rel="noopener">
-              <span><i class="fab fa-github-square"></i></span>
-            </a>
-          </li>
-        
-        
-          <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/tarantulae" target="_blank" rel="noopener">
-              <span><i class="fab fa-twitter-square"></i></span>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-</div>
-    </nav>
-    
-
-    <div class="container-fluid">
+    <div class="container-xl">
       <div class="row">
           
-          <div class="col-12 col-md-3 bd-sidebar">
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">COVID-19 Analysis</h1>
+  
+</a>
+</div>
 
 <form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
@@ -116,39 +55,101 @@
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-
-  <div class="bd-toc-item active">
   
-
-  <ul class="nav bd-sidenav">
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    </ul>
-
+  <ul class="nav sidenav_l1">
+  <li class="">
+    <a href="index.html">COVID-19 Analysis Repository</a>
+  </li>
+<li class="navbar-special">
+<p class="margin-caption">Contents:</p>
+</li>
+  <li class="">
+    <a href="brazil.html">COVID-19 Analysis for Brazil</a>
+  </li>
+  <li class="active">
+    <a href="">07/June – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+  </li>
+  <li class="">
+    <a href="brazil_onset_delay.html">04/May – Symptom onset to confirmation delay estimation for states in Brazil</a>
+  </li>
+  <li class="">
+    <a href="brazil_icu_stay.html">18/May – ICU length of stay (LOS) estimation for states in Brazil</a>
+  </li>
+  <li class="">
+    <a href="brazil_death_reg.html">7/June – Death regression analysis for each state in Brazil</a>
+  </li>
+  <li class="">
+    <a href="brazil_symptoms_reg.html">18/May – Symptom regression for each state in Brazil</a>
+  </li>
+  <li class="">
+    <a href="portugal.html">COVID-19 Analysis for Portugal</a>
+  </li>
+  <li class="">
+    <a href="portugal_r0.html">08/June – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
+  </li>
+</ul>
 </nav>
-          </div>
-          
+
+ <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Theme by the <a href="https://ebp.jupyterbook.org">Executable Book Project</a>
+</div>
+
+</div>
+
 
           
-          <div class="d-none d-xl-block col-xl-2 bd-toc">
-              
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse" data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu" aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation" title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i class="fas fa-download"></i></button>
+
+            
+            <div class="dropdown-buttons">
+                <!-- ipynb file if we had a myst markdown file -->
+                
+                <!-- Download raw file -->
+                <a class="dropdown-buttons" href="_sources/brazil_r0.rst.txt"><button type="button" class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip" data-placement="left">.rst</button></a>
+                <!-- Download PDF via print -->
+                <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF" onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+            </div>
+            
+        </div>
+
+        <!-- Source interaction buttons -->
+        
+        <div class="dropdown-buttons-trigger">
+            <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+            <div class="dropdown-buttons sourcebuttons">
+                <a class="repository-button" href="https://github.com/perone/covid19analysis"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left" title="Source repository"><i class="fab fa-github"></i>repository</button></a>
+                <a class="issues-button" href="https://github.com/perone/covid19analysis/issues/new?title=Issue%20on%20page%20%2Fbrazil_r0.html&body=Your%20issue%20content%20here."><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left" title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+                
+            </div>
+        </div>
+        
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="bottom" onclick="toggleFullScreen()" title="Fullscreen mode"><i class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+        
+    </div>
+    <div class="d-none d-md-block col-md-2 bd-toc show">
 <div class="tocsection onthispage pt-5 pb-3">
     <i class="fas fa-list"></i> On this page
 </div>
@@ -272,13 +273,11 @@
 </nav>
 
 
-              
-          </div>
-          
-
-          
-          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
-              
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
               <div>
                 
   <div class="section" id="june-covid-19-time-varying-reproduction-numbers-estimation-for-brazil">
@@ -288,7 +287,7 @@ the states in Brazil. These reports uses the method described in the work
 <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816335/">A New Framework and Software to Estimate Time-Varying Reproduction Numbers During Epidemics</a>. We used the serial interval parameters similar to the ones used
 by <a class="reference external" href="https://cmmid.github.io/topics/covid19/">CMMID</a> with a <span class="math notranslate nohighlight">\(\mu = 4.7 (3.7 - 6.0)\)</span>
 and <span class="math notranslate nohighlight">\(\sigma = 2.9 (1.9 - 4.9)\)</span>.</p>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from government, reports until
 07/June. This method is sensitive to changes in COVID-19
@@ -300,7 +299,7 @@ many analysis around there. Imported cases weren’t also
 considered in this analysis, neither the delay of the symptoms
 onset and reporting.</p>
 </div>
-<div class="alert alert-warning">
+<div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Remember that this is the instantaneous reproduction number, therefore when
 it is below 1.0 for one or two days, it doesn’t mean everything is ok.
@@ -512,8 +511,8 @@ about being below 1.0 for a single day but for weeks.</p>
 
 </tbody>
 </table><p class="rubric">Summary for the Facebook COVID-like illness survey (last date)</p>
-<a class="reference internal image-reference" href="_images/estim_all2.svg"><img alt="_images/estim_all2.svg" src="_images/estim_all2.svg" width="800" /></a>
-<div class="alert alert-info">
+<a class="reference internal image-reference" href="_images/estim_all1.svg"><img alt="_images/estim_all1.svg" src="_images/estim_all1.svg" width="800" /></a>
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This is the summary for the Facebook COVID-like illness survey using
 the last survey date available for each state. Note that not all states
@@ -736,7 +735,7 @@ also the last available date.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_ac.png"><img alt="_images/mobility_state_ac.png" src="_images/mobility_state_ac.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_ac1.png"><img alt="_images/state_ac1.png" src="_images/state_ac1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -755,7 +754,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_al.png"><img alt="_images/mobility_state_al.png" src="_images/mobility_state_al.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_al1.png"><img alt="_images/state_al1.png" src="_images/state_al1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -774,7 +773,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_am.png"><img alt="_images/mobility_state_am.png" src="_images/mobility_state_am.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_am1.png"><img alt="_images/state_am1.png" src="_images/state_am1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -793,7 +792,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_ap.png"><img alt="_images/mobility_state_ap.png" src="_images/mobility_state_ap.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_ap1.png"><img alt="_images/state_ap1.png" src="_images/state_ap1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -812,7 +811,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_ba.png"><img alt="_images/mobility_state_ba.png" src="_images/mobility_state_ba.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_ba1.png"><img alt="_images/state_ba1.png" src="_images/state_ba1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -831,7 +830,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_ce.png"><img alt="_images/mobility_state_ce.png" src="_images/mobility_state_ce.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_ce1.png"><img alt="_images/state_ce1.png" src="_images/state_ce1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -850,7 +849,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_df.png"><img alt="_images/mobility_state_df.png" src="_images/mobility_state_df.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_df1.png"><img alt="_images/state_df1.png" src="_images/state_df1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -869,7 +868,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_es.png"><img alt="_images/mobility_state_es.png" src="_images/mobility_state_es.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_es1.png"><img alt="_images/state_es1.png" src="_images/state_es1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -888,7 +887,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_go.png"><img alt="_images/mobility_state_go.png" src="_images/mobility_state_go.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_go1.png"><img alt="_images/state_go1.png" src="_images/state_go1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -907,7 +906,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_ma.png"><img alt="_images/mobility_state_ma.png" src="_images/mobility_state_ma.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_ma1.png"><img alt="_images/state_ma1.png" src="_images/state_ma1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -926,7 +925,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_mg.png"><img alt="_images/mobility_state_mg.png" src="_images/mobility_state_mg.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_mg1.png"><img alt="_images/state_mg1.png" src="_images/state_mg1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -945,7 +944,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_ms.png"><img alt="_images/mobility_state_ms.png" src="_images/mobility_state_ms.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_ms1.png"><img alt="_images/state_ms1.png" src="_images/state_ms1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -964,7 +963,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_mt.png"><img alt="_images/mobility_state_mt.png" src="_images/mobility_state_mt.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_mt1.png"><img alt="_images/state_mt1.png" src="_images/state_mt1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -983,7 +982,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_pa.png"><img alt="_images/mobility_state_pa.png" src="_images/mobility_state_pa.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_pa1.png"><img alt="_images/state_pa1.png" src="_images/state_pa1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1002,7 +1001,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_pb.png"><img alt="_images/mobility_state_pb.png" src="_images/mobility_state_pb.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_pb1.png"><img alt="_images/state_pb1.png" src="_images/state_pb1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1021,7 +1020,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_pe.png"><img alt="_images/mobility_state_pe.png" src="_images/mobility_state_pe.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_pe1.png"><img alt="_images/state_pe1.png" src="_images/state_pe1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1040,7 +1039,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_pi.png"><img alt="_images/mobility_state_pi.png" src="_images/mobility_state_pi.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_pi1.png"><img alt="_images/state_pi1.png" src="_images/state_pi1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1059,7 +1058,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_pr.png"><img alt="_images/mobility_state_pr.png" src="_images/mobility_state_pr.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_pr1.png"><img alt="_images/state_pr1.png" src="_images/state_pr1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1078,7 +1077,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_rj.png"><img alt="_images/mobility_state_rj.png" src="_images/mobility_state_rj.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_rj1.png"><img alt="_images/state_rj1.png" src="_images/state_rj1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1097,7 +1096,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_rn.png"><img alt="_images/mobility_state_rn.png" src="_images/mobility_state_rn.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_rn1.png"><img alt="_images/state_rn1.png" src="_images/state_rn1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1116,7 +1115,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_ro.png"><img alt="_images/mobility_state_ro.png" src="_images/mobility_state_ro.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_ro1.png"><img alt="_images/state_ro1.png" src="_images/state_ro1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1135,7 +1134,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_rr.png"><img alt="_images/mobility_state_rr.png" src="_images/mobility_state_rr.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_rr1.png"><img alt="_images/state_rr1.png" src="_images/state_rr1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1154,7 +1153,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_rs.png"><img alt="_images/mobility_state_rs.png" src="_images/mobility_state_rs.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_rs1.png"><img alt="_images/state_rs1.png" src="_images/state_rs1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1173,7 +1172,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_sc.png"><img alt="_images/mobility_state_sc.png" src="_images/mobility_state_sc.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_sc1.png"><img alt="_images/state_sc1.png" src="_images/state_sc1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1192,7 +1191,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_se.png"><img alt="_images/mobility_state_se.png" src="_images/mobility_state_se.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_se1.png"><img alt="_images/state_se1.png" src="_images/state_se1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1211,7 +1210,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_sp.png"><img alt="_images/mobility_state_sp.png" src="_images/mobility_state_sp.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_sp1.png"><img alt="_images/state_sp1.png" src="_images/state_sp1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1230,7 +1229,7 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 <a class="reference internal image-reference" href="_images/mobility_state_to.png"><img alt="_images/mobility_state_to.png" src="_images/mobility_state_to.png" style="width: 1000px;" /></a>
 <p class="rubric">Facebook symptom survey for the state</p>
 <a class="reference internal image-reference" href="_images/state_to1.png"><img alt="_images/state_to1.png" src="_images/state_to1.png" style="width: 1000px;" /></a>
-<div class="alert alert-info">
+<div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from Brazilian government as well as
 mobility data from Google Community Mobility Reports. The red markers
@@ -1243,39 +1242,33 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
 
               </div>
               
-              
-              <div class='prev-next-bottom'>
-                
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
     <a class='left-prev' id="prev-link" href="brazil.html" title="previous page">COVID-19 Analysis for Brazil</a>
     <a class='right-next' id="next-link" href="brazil_onset_delay.html" title="next page"><strong>04/May</strong> – Symptom onset to confirmation delay estimation for states in Brazil</a>
 
-              </div>
-              
-          </main>
-          
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Christian S. Perone<br/>
+        
+            &copy; Copyright 2020, Christian S. Perone.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
 
       </div>
     </div>
 
     <script src="_static/js/index.js"></script>
     
-<footer class="footer mt-5 mt-md-0">
-  <div class="container">
-    <p>
-          &copy; Copyright 2020, Christian S. Perone.<br/>
-        Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.4.4.<br/>
-    </p>
-  </div>
-</footer>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-30560129-4");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
   </body>
 </html>

@@ -35,6 +35,7 @@ extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.autosummary',
     'sphinx.ext.mathjax',
+    'sphinx_tabs.tabs',
 ]
 
 autosummary_generate = True
@@ -53,7 +54,8 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "pydata_sphinx_theme"
+#html_theme = "pydata_sphinx_theme"
+html_theme = "sphinx_book_theme"
 
 html_theme_options = {
     "external_links": [
@@ -63,8 +65,11 @@ html_theme_options = {
         }
     ],
     "github_url": "https://github.com/perone/covid19analysis",
+    "repository_url": "https://github.com/perone/covid19analysis",
     "twitter_url": "https://twitter.com/tarantulae",
     "use_edit_page_button": False,
+    "home_page_in_toc": True
+    #"search_bar_position": "sidebar"
 }
 
 html_context = {
@@ -75,8 +80,9 @@ html_context = {
 }
 
 html_logo = '_static/logo.png'
-
+html_title = "COVID-19 Analysis"
 google_analytics_id = "UA-30560129-4"
+html_favicon = '_static/logo.png'
 
 
 
