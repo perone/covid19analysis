@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>06/June – COVID-19 Time varying reproduction numbers estimation for Portugal &#8212; covid19analysis 0.1 documentation</title>
+    <title>07/June – COVID-19 Time varying reproduction numbers estimation for Portugal &#8212; covid19analysis 0.1 documentation</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <link rel="stylesheet" href="_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -61,6 +61,10 @@
         </li>
         
         <li class="nav-item ">
+            <a class="nav-link" href="brazil_death_reg.html">7/June – Death regression analysis for each state in Brazil</a>
+        </li>
+        
+        <li class="nav-item ">
             <a class="nav-link" href="brazil_symptoms_reg.html">18/May – Symptom regression for each state in Brazil</a>
         </li>
         
@@ -69,7 +73,7 @@
         </li>
         
         <li class="nav-item active">
-            <a class="nav-link" href="">06/June – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
+            <a class="nav-link" href="">07/June – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
         </li>
         
         
@@ -116,6 +120,8 @@
   
 
   <ul class="nav bd-sidenav">
+      
+      
       
       
       
@@ -267,7 +273,7 @@
               <div>
                 
   <div class="section" id="june-covid-19-time-varying-reproduction-numbers-estimation-for-portugal">
-<h1><strong>06/June</strong> – COVID-19 Time varying reproduction numbers estimation for Portugal<a class="headerlink" href="#june-covid-19-time-varying-reproduction-numbers-estimation-for-portugal" title="Permalink to this headline">¶</a></h1>
+<h1><strong>07/June</strong> – COVID-19 Time varying reproduction numbers estimation for Portugal<a class="headerlink" href="#june-covid-19-time-varying-reproduction-numbers-estimation-for-portugal" title="Permalink to this headline">¶</a></h1>
 <p>These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work
 <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816335/">A New Framework and Software to Estimate Time-Varying Reproduction Numbers During Epidemics</a>. We used the serial interval parameters similar to the ones used
@@ -276,7 +282,7 @@ and <span class="math notranslate nohighlight">\(\sigma = 2.9 (1.9 - 4.9)\)</spa
 <div class="alert alert-info">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data Data Science for Social Good Portugal, reports until
-06/June. This method is sensitive to changes in COVID-19
+07/June. This method is sensitive to changes in COVID-19
 testing procedures and the level of effort used to detect cases.
 Therefore, changes in the testing efforts will introduce bias
 if the testing practices are not kept consistent. So please
@@ -295,7 +301,7 @@ linear interpolation when I have negative incidence.</p>
 <iframe src="_static/restim_map_pt_continental.html" height="750px" width="100%" frameBorder="0"></iframe><p class="rubric">Map of states with mean reproduction number R(t) &gt; 1.0</p>
 <iframe src="_static/restim_badr_map_pt_continental.html" height="750px" width="100%" frameBorder="0"></iframe><p class="rubric">Map for the accumulated deaths by COVID-19</p>
 <iframe src="_static/restim_deaths_map_pt_continental.html" height="750px" width="100%" frameBorder="0"></iframe><p class="rubric">Summary for the last instantaneous reproduction number estimate</p>
-<p>Last update: <strong>06/June</strong></p>
+<p>Last update: <strong>07/June</strong></p>
 <a class="reference internal image-reference" href="_images/estim_all1.svg"><img alt="_images/estim_all1.svg" src="_images/estim_all1.svg" width="700" /></a>
 <p class="rubric">Summary table for the last instantaneous reproduction number estimate</p>
 <style>
@@ -352,27 +358,27 @@ linear interpolation when I have negative incidence.</p>
 
 <tr>
     <td>algarve</td>
-    <td>1.57 (0.90 - 2.42)</td>
+    <td>1.80 (1.09 - 2.68)</td>
 </tr>
 
 <tr>
     <td>alentejo</td>
-    <td>1.36 (0.61 - 2.41)</td>
-</tr>
-
-<tr>
-    <td>rlvt</td>
-    <td>1.15 (1.09 - 1.22)</td>
+    <td>1.71 (0.84 - 2.89)</td>
 </tr>
 
 <tr>
     <td>norte</td>
-    <td>0.99 (0.77 - 1.24)</td>
+    <td>1.30 (1.03 - 1.60)</td>
 </tr>
 
 <tr>
     <td>centro</td>
-    <td>0.97 (0.74 - 1.22)</td>
+    <td>1.27 (1.01 - 1.56)</td>
+</tr>
+
+<tr>
+    <td>rlvt</td>
+    <td>1.11 (1.05 - 1.18)</td>
 </tr>
 
 </tbody>
