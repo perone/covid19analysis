@@ -9,10 +9,11 @@ COVID-19 Analysis Repository
 This is a repository with on-going analysis I'm working on for COVID-19
 on different countries.
 
-.. note:: I'm not an epidemiologist, I have some background on epidemiology due to my background
-          on biomedical engineering, but I'm a Machine Learning engineer/researcher. However, data
-          is data and statistics is statistics. Please read about the limitations on each modelling
-          approach, as this is very important for you to understand what you're looking. In case
+.. note:: My name is Christian S. Perone and I'm a Computer Scientist with BSc in Computer Science (UPF/Brazil) and a MSc in
+          Biomedical Engineering (Polytechnique Montreal/UdeM/Canada). This website contains analysis related
+          to the COVID-19 outbreak for Brazil and Portugal. Please read about the
+          limitations on each modelling approach, as this is very important for you to
+          understand what you're looking. In case
           of doubt, please contact me on my `personal blog <http://blog.christianperone.com>`_ or
           `twitter <http://www.twitter.com/tarantulae>`_. If you use something from this work,
           please consider citing it.
