@@ -17,11 +17,11 @@ COVID-19 Analysis Repository
 
 .. raw:: html
 
-    <a href="/brazil_r0.html" class="btn btn-primary btn-block" role="button" style="color:#fff">
+    <a href="/covid19analysis/brazil_r0.html" class="btn btn-primary btn-block" role="button" style="color:#fff">
       <strong>R(t)</strong> estimates for Brazil
     </a>
 
-    <a href="/portugal_r0.html" class="btn btn-primary btn-block" role="button" style="color:#fff">
+    <a href="/covid19analysis/portugal_r0.html" class="btn btn-primary btn-block" role="button" style="color:#fff">
       <strong>R(t)</strong> estimates for Portugal
     </a>
 
