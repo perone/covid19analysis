@@ -110,7 +110,7 @@ Last update: **08/June**
     
     <tr>
         <td>alentejo</td>
-        <td>1.63 (0.79 - 2.79)</td>
+        <td>1.63 (0.79 - 2.78)</td>
     </tr>
     
     <tr>
@@ -120,7 +120,7 @@ Last update: **08/June**
     
     <tr>
         <td>algarve</td>
-        <td>1.46 (0.85 - 2.23)</td>
+        <td>1.46 (0.85 - 2.24)</td>
     </tr>
     
     <tr>
