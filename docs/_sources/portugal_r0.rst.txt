@@ -110,12 +110,12 @@ Last update: **09/June**
     
     <tr>
         <td>alentejo</td>
-        <td>2.08 (1.13 - 3.36)</td>
+        <td>2.09 (1.13 - 3.37)</td>
     </tr>
     
     <tr>
         <td>norte</td>
-        <td>1.44 (1.12 - 1.80)</td>
+        <td>1.42 (1.09 - 1.78)</td>
     </tr>
     
     <tr>
@@ -125,7 +125,7 @@ Last update: **09/June**
     
     <tr>
         <td>centro</td>
-        <td>1.28 (1.01 - 1.57)</td>
+        <td>1.27 (1.01 - 1.57)</td>
     </tr>
     
     <tr>
