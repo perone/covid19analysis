@@ -115,22 +115,22 @@ Last update: **09/June**
     
     <tr>
         <td>norte</td>
-        <td>1.42 (1.09 - 1.78)</td>
+        <td>1.43 (1.09 - 1.79)</td>
     </tr>
     
     <tr>
         <td>algarve</td>
-        <td>1.34 (0.79 - 2.04)</td>
+        <td>1.34 (0.78 - 2.05)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>1.27 (1.01 - 1.57)</td>
+        <td>1.28 (1.01 - 1.57)</td>
     </tr>
     
     <tr>
         <td>rlvt</td>
-        <td>1.17 (1.11 - 1.22)</td>
+        <td>1.17 (1.11 - 1.23)</td>
     </tr>
     
     </tbody>
