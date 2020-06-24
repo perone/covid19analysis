@@ -633,3 +633,63 @@ Rio Grande do Sul (RS)/Brazil for the date range of **March 10th** until
 
 .. note:: This animation used data from `Brasil.io <http://www.brasil.io/>`_, which is collected from
           the `TI Saude RS <http://ti.saude.rs.gov.br/covid19/>`_.
+
+**24/Jun** -- R(t) estimation for Porto Alegre/RS
+-------------------------------------------------------------------------------
+This is currently my best estimate for the R(t) in Porto Alegre using the
+scarce data made available by the state.
+
+- The method used is the same used for the states in Brazil, please see
+  the main page for the details. This method was chosen due to its 
+  proven performance on other outbreaks and a relative robustness
+  to under-reporting;
+- The estimation is made by the symptom onset, expected by the method
+  by the weighting of the serial interval (national level I use the
+  confirmed case dates);
+- No imported cases were taken into consideration;
+- To adjust for the right-censoring of the incidence by the symptom onset, I
+  estimated a gamma distribution from the delays of confirmation and
+  symptom onset dates, sampling then a posterior for this distribution;
+- For each sample of the posterior, I then parametrized a negative binomial
+  distribution to account for the uncertainty of the adjustment, this
+  distribution is parametrized by the CDF of the estimated gamma;
+- To propagate the uncertainty of the right-censoring I did a fit of 
+  1000 models for the R(t) gamma distribution estimation and then
+  later sampled from these 1000 different models to compute the 
+  posterior statistics such as the mean, posterior intervals, etc;
+
+Here is the analysis. In the first plot in the top you have the R(t)
+estimation with green and red lines showing when there was interventions
+such as closures of universities, restaurantes, etc, and when they were
+relaxed or partially relaxed, the transparency at the end of the plot
+is to denote the uncertainty of the recent estimates as it is impossible
+to adjust for the right-censoring without including bias.
+
+In the second plot (2nd row), you have the incidence by symptom onset and
+a green estimation of how it would look like without right-censoring, as
+some people already developed symptoms but were not confirmed yet, the
+green shades are the uncertainty of the negative binomial and the posterior
+of the estimate from the delay distribution.
+
+In the bottom (last row), you have the occupancy of the ICUs in Porto Alegre.
+Please note that Porto Alegre is a hub that receives patients from multiple
+cities, however we don't have data how many people are in these ICUs that
+are not from Porto Alegre, we only have this data for some days, as shown
+in black bars. As you can see, it seems that the growth in Porto Alegre/RS
+seems to be proportional to the region growth as well, which is not surprising
+given the commute dynamics of the region, mobility, etc.
+
+Unfortunately we don't have enough date from the state to do a better analysis
+and neither seems that state is showing their analysis, or are not computing
+the R(t) estimates, which is bad for both situations. Anyway, I think we will
+probably have the data in 2021, after the end of the outbreak.
+
+.. image:: _static/br/poa_rt_24jun.png
+  :width: 900
+
+
+
+
+
+
+

@@ -21,7 +21,7 @@
     <link rel="shortcut icon" href="_static/logo.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="07/June – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
+    <link rel="next" title="23/June – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
     <link rel="prev" title="COVID-19 Analysis Repository" href="index.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -60,14 +60,11 @@
   <li class="">
     <a href="index.html">COVID-19 Analysis Repository</a>
   </li>
-<li class="navbar-special">
-<p class="margin-caption">Contents:</p>
-</li>
   <li class="active">
     <a href="">COVID-19 Analysis for Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_r0.html">07/June – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+    <a href="brazil_r0.html">23/June – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
   </li>
   <li class="">
     <a href="brazil_onset_delay.html">04/May – Symptom onset to confirmation delay estimation for states in Brazil</a>
@@ -85,7 +82,7 @@
     <a href="portugal.html">COVID-19 Analysis for Portugal</a>
   </li>
   <li class="">
-    <a href="portugal_r0.html">08/June – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
+    <a href="portugal_r0.html">23/June – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
   </li>
 </ul>
 </nav>
@@ -308,6 +305,10 @@
     
         <li class="nav-item toc-entry toc-h3">
             <a href="#may-mapping-transmission-through-time" class="nav-link">05/May – Mapping transmission through time</a>
+        </li>
+    
+        <li class="nav-item toc-entry toc-h3">
+            <a href="#jun-r-t-estimation-for-porto-alegre-rs" class="nav-link">24/Jun – R(t) estimation for Porto Alegre/RS</a>
         </li>
     
             </ul>
@@ -1021,6 +1022,54 @@ Rio Grande do Sul (RS)/Brazil for the date range of <strong>March 10th</strong> 
 the <a class="reference external" href="http://ti.saude.rs.gov.br/covid19/">TI Saude RS</a>.</p>
 </div>
 </div>
+<div class="section" id="jun-r-t-estimation-for-porto-alegre-rs">
+<h3><strong>24/Jun</strong> – R(t) estimation for Porto Alegre/RS<a class="headerlink" href="#jun-r-t-estimation-for-porto-alegre-rs" title="Permalink to this headline">¶</a></h3>
+<p>This is currently my best estimate for the R(t) in Porto Alegre using the
+scarce data made available by the state.</p>
+<ul class="simple">
+<li><p>The method used is the same used for the states in Brazil, please see
+the main page for the details. This method was chosen due to its
+proven performance on other outbreaks and a relative robustness
+to under-reporting;</p></li>
+<li><p>The estimation is made by the symptom onset, expected by the method
+by the weighting of the serial interval (national level I use the
+confirmed case dates);</p></li>
+<li><p>No imported cases were taken into consideration;</p></li>
+<li><p>To adjust for the right-censoring of the incidence by the symptom onset, I
+estimated a gamma distribution from the delays of confirmation and
+symptom onset dates, sampling then a posterior for this distribution;</p></li>
+<li><p>For each sample of the posterior, I then parametrized a negative binomial
+distribution to account for the uncertainty of the adjustment, this
+distribution is parametrized by the CDF of the estimated gamma;</p></li>
+<li><p>To propagate the uncertainty of the right-censoring I did a fit of
+1000 models for the R(t) gamma distribution estimation and then
+later sampled from these 1000 different models to compute the
+posterior statistics such as the mean, posterior intervals, etc;</p></li>
+</ul>
+<p>Here is the analysis. In the first plot in the top you have the R(t)
+estimation with green and red lines showing when there was interventions
+such as closures of universities, restaurantes, etc, and when they were
+relaxed or partially relaxed, the transparency at the end of the plot
+is to denote the uncertainty of the recent estimates as it is impossible
+to adjust for the right-censoring without including bias.</p>
+<p>In the second plot (2nd row), you have the incidence by symptom onset and
+a green estimation of how it would look like without right-censoring, as
+some people already developed symptoms but were not confirmed yet, the
+green shades are the uncertainty of the negative binomial and the posterior
+of the estimate from the delay distribution.</p>
+<p>In the bottom (last row), you have the occupancy of the ICUs in Porto Alegre.
+Please note that Porto Alegre is a hub that receives patients from multiple
+cities, however we don’t have data how many people are in these ICUs that
+are not from Porto Alegre, we only have this data for some days, as shown
+in black bars. As you can see, it seems that the growth in Porto Alegre/RS
+seems to be proportional to the region growth as well, which is not surprising
+given the commute dynamics of the region, mobility, etc.</p>
+<p>Unfortunately we don’t have enough date from the state to do a better analysis
+and neither seems that state is showing their analysis, or are not computing
+the R(t) estimates, which is bad for both situations. Anyway, I think we will
+probably have the data in 2021, after the end of the outbreak.</p>
+<a class="reference internal image-reference" href="_images/poa_rt_24jun.png"><img alt="_images/poa_rt_24jun.png" src="_images/poa_rt_24jun.png" style="width: 900px;" /></a>
+</div>
 </div>
 </div>
 
@@ -1034,7 +1083,7 @@ the <a class="reference external" href="http://ti.saude.rs.gov.br/covid19/">TI S
     <div class='prev-next-bottom'>
         
     <a class='left-prev' id="prev-link" href="index.html" title="previous page">COVID-19 Analysis Repository</a>
-    <a class='right-next' id="next-link" href="brazil_r0.html" title="next page"><strong>07/June</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+    <a class='right-next' id="next-link" href="brazil_r0.html" title="next page"><strong>23/June</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
