@@ -687,6 +687,12 @@ probably have the data in 2021, after the end of the outbreak.
 .. image:: _static/br/poa_rt_24jun.png
   :width: 900
 
+The image below shows each patient on the ICUs in Porto Alegre/RS, last
+updates from SIVEP-Gripe (23/June):
+
+.. image:: _static/br/poa_icus_24jun.png
+  :width: 900
+
 
 
 
