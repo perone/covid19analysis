@@ -1,4 +1,4 @@
-**27/June** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**28/June** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          27/June. This method is sensitive to changes in COVID-19
+          28/June. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -47,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **27/June**
+Last update: **28/June**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -109,28 +109,28 @@ Last update: **27/June**
     <tbody>
     
     <tr>
-        <td>alentejo</td>
-        <td>1.13 (0.87 - 1.43)</td>
-    </tr>
-    
-    <tr>
         <td>norte</td>
-        <td>1.11 (0.96 - 1.27)</td>
-    </tr>
-    
-    <tr>
-        <td>centro</td>
-        <td>1.05 (0.86 - 1.25)</td>
+        <td>1.23 (1.07 - 1.39)</td>
     </tr>
     
     <tr>
         <td>rlvt</td>
-        <td>0.99 (0.94 - 1.03)</td>
+        <td>1.08 (1.03 - 1.13)</td>
+    </tr>
+    
+    <tr>
+        <td>alentejo</td>
+        <td>0.97 (0.77 - 1.20)</td>
+    </tr>
+    
+    <tr>
+        <td>centro</td>
+        <td>0.94 (0.77 - 1.13)</td>
     </tr>
     
     <tr>
         <td>algarve</td>
-        <td>0.87 (0.70 - 1.07)</td>
+        <td>0.84 (0.66 - 1.05)</td>
     </tr>
     
     </tbody>
