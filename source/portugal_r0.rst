@@ -120,7 +120,7 @@ Last update: **27/June**
     
     <tr>
         <td>centro</td>
-        <td>1.04 (0.86 - 1.25)</td>
+        <td>1.05 (0.86 - 1.25)</td>
     </tr>
     
     <tr>
@@ -130,7 +130,7 @@ Last update: **27/June**
     
     <tr>
         <td>algarve</td>
-        <td>0.87 (0.69 - 1.08)</td>
+        <td>0.87 (0.70 - 1.07)</td>
     </tr>
     
     </tbody>
