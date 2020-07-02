@@ -110,7 +110,7 @@ Last update: **01/July**
     
     <tr>
         <td>norte</td>
-        <td>1.27 (1.12 - 1.43)</td>
+        <td>1.27 (1.11 - 1.43)</td>
     </tr>
     
     <tr>
@@ -120,7 +120,7 @@ Last update: **01/July**
     
     <tr>
         <td>alentejo</td>
-        <td>0.83 (0.66 - 1.04)</td>
+        <td>0.84 (0.66 - 1.04)</td>
     </tr>
     
     <tr>
