@@ -693,7 +693,13 @@ updates from SIVEP-Gripe (23/June):
 .. image:: _static/br/poa_icus_24jun.png
   :width: 900
 
+**03/Jul** -- R(t) estimation for Rio Grande do Sul
+-------------------------------------------------------------------------------
+Extending the analysis from Porto Alegre/RS to the entire state
+of Rio Grande do Sul. Same methodoloy as for Porto Alegre.
 
+.. image:: _static/br/rs_rt_03jul.png
+  :width: 900
 
 
 
