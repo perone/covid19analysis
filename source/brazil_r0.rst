@@ -1,4 +1,4 @@
-**02/July** -- COVID-19 Time varying reproduction numbers estimation for Brazil
+**03/July** -- COVID-19 Time varying reproduction numbers estimation for Brazil
 *****************************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the states in Brazil. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data from government, reports until
-          02/July. This method is sensitive to changes in COVID-19
+          03/July. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -59,14 +59,14 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **02/July**
+Last update: **03/July**
 
 .. image:: _static/br/r0_estim/estim_all.svg
     :width: 800
 
 .. rubric:: Summary for recent median instantaneous reproduction number estimate
 
-Last update: **02/July**
+Last update: **03/July**
 
 The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
@@ -131,138 +131,138 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     <tbody>
     
     <tr>
-        <td>MG</td>
-        <td>1.38 (1.28 - 1.51)</td>
-    </tr>
-    
-    <tr>
         <td>PR</td>
-        <td>1.37 (1.30 - 1.44)</td>
-    </tr>
-    
-    <tr>
-        <td>RN</td>
-        <td>1.37 (1.21 - 1.57)</td>
-    </tr>
-    
-    <tr>
-        <td>BA</td>
-        <td>1.33 (1.20 - 1.52)</td>
+        <td>1.46 (1.35 - 1.55)</td>
     </tr>
     
     <tr>
         <td>MA</td>
-        <td>1.27 (1.21 - 1.31)</td>
+        <td>1.27 (1.17 - 1.35)</td>
     </tr>
     
     <tr>
-        <td>PI</td>
-        <td>1.25 (1.20 - 1.30)</td>
-    </tr>
-    
-    <tr>
-        <td>RR</td>
-        <td>1.20 (1.09 - 1.30)</td>
-    </tr>
-    
-    <tr>
-        <td>MT</td>
-        <td>1.17 (1.12 - 1.22)</td>
-    </tr>
-    
-    <tr>
-        <td>MS</td>
-        <td>1.15 (1.10 - 1.20)</td>
-    </tr>
-    
-    <tr>
-        <td>DF</td>
-        <td>1.15 (1.08 - 1.22)</td>
-    </tr>
-    
-    <tr>
-        <td>TO</td>
-        <td>1.13 (1.05 - 1.21)</td>
-    </tr>
-    
-    <tr>
-        <td>ES</td>
-        <td>1.13 (1.06 - 1.20)</td>
+        <td>BA</td>
+        <td>1.26 (1.17 - 1.39)</td>
     </tr>
     
     <tr>
         <td>SE</td>
-        <td>1.12 (1.05 - 1.21)</td>
+        <td>1.23 (1.17 - 1.29)</td>
     </tr>
     
     <tr>
-        <td>RS</td>
-        <td>1.09 (1.05 - 1.14)</td>
+        <td>PI</td>
+        <td>1.22 (1.15 - 1.28)</td>
     </tr>
     
     <tr>
-        <td>PB</td>
-        <td>1.08 (1.06 - 1.11)</td>
+        <td>RN</td>
+        <td>1.19 (1.08 - 1.35)</td>
     </tr>
     
     <tr>
-        <td>SP</td>
-        <td>1.07 (1.05 - 1.10)</td>
-    </tr>
-    
-    <tr>
-        <td>AC</td>
-        <td>1.07 (1.02 - 1.13)</td>
+        <td>MT</td>
+        <td>1.19 (1.14 - 1.24)</td>
     </tr>
     
     <tr>
         <td>SC</td>
-        <td>1.03 (0.98 - 1.09)</td>
+        <td>1.13 (1.08 - 1.18)</td>
     </tr>
     
     <tr>
-        <td>GO</td>
-        <td>1.02 (1.00 - 1.05)</td>
+        <td>RR</td>
+        <td>1.11 (1.03 - 1.19)</td>
     </tr>
     
     <tr>
-        <td>AM</td>
-        <td>1.00 (0.96 - 1.05)</td>
+        <td>TO</td>
+        <td>1.11 (1.04 - 1.18)</td>
+    </tr>
+    
+    <tr>
+        <td>ES</td>
+        <td>1.10 (1.05 - 1.16)</td>
+    </tr>
+    
+    <tr>
+        <td>MS</td>
+        <td>1.09 (1.04 - 1.15)</td>
     </tr>
     
     <tr>
         <td>PE</td>
-        <td>0.98 (0.95 - 1.02)</td>
+        <td>1.09 (1.06 - 1.12)</td>
+    </tr>
+    
+    <tr>
+        <td>RS</td>
+        <td>1.09 (1.05 - 1.13)</td>
+    </tr>
+    
+    <tr>
+        <td>DF</td>
+        <td>1.04 (1.00 - 1.10)</td>
+    </tr>
+    
+    <tr>
+        <td>MG</td>
+        <td>1.04 (0.96 - 1.13)</td>
+    </tr>
+    
+    <tr>
+        <td>SP</td>
+        <td>1.03 (1.01 - 1.05)</td>
+    </tr>
+    
+    <tr>
+        <td>AM</td>
+        <td>1.03 (0.99 - 1.06)</td>
     </tr>
     
     <tr>
         <td>CE</td>
-        <td>0.96 (0.92 - 1.00)</td>
+        <td>0.99 (0.96 - 1.02)</td>
     </tr>
     
     <tr>
-        <td>PA</td>
-        <td>0.90 (0.86 - 0.93)</td>
+        <td>PB</td>
+        <td>0.98 (0.95 - 1.01)</td>
     </tr>
     
     <tr>
         <td>AL</td>
-        <td>0.89 (0.86 - 0.92)</td>
+        <td>0.95 (0.92 - 0.99)</td>
     </tr>
     
     <tr>
-        <td>RO</td>
-        <td>0.87 (0.83 - 0.90)</td>
+        <td>PA</td>
+        <td>0.91 (0.87 - 0.94)</td>
+    </tr>
+    
+    <tr>
+        <td>AC</td>
+        <td>0.90 (0.85 - 0.95)</td>
+    </tr>
+    
+    <tr>
+        <td>GO</td>
+        <td>0.83 (0.80 - 0.85)</td>
     </tr>
     
     <tr>
         <td>RJ</td>
-        <td>0.76 (0.72 - 0.82)</td>
+        <td>0.77 (0.71 - 0.83)</td>
+    </tr>
+    
+    <tr>
+        <td>RO</td>
+        <td>0.69 (0.65 - 0.73)</td>
     </tr>
     
     <tr>
         <td>AP</td>
-        <td>0.35 (0.26 - 0.46)</td>
+        <td>0.45 (0.34 - 0.58)</td>
     </tr>
     
     </tbody>
@@ -303,6 +303,13 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
+        <td>Mato Grosso</td>
+        <td>6.33 (4.12 - 8.55)</td>
+        <td>679</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
         <td>Acre</td>
         <td>5.72 (0.44 - 11.00)</td>
         <td>101</td>
@@ -310,178 +317,171 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
-        <td>Amapá</td>
-        <td>5.67 (0.71 - 10.63)</td>
-        <td>113</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Paraíba</td>
-        <td>5.57 (2.83 - 8.30)</td>
-        <td>401</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Mato Grosso</td>
-        <td>4.85 (2.96 - 6.74)</td>
-        <td>706</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Piauí</td>
-        <td>4.12 (1.52 - 6.71)</td>
-        <td>300</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Espírito Santo</td>
-        <td>3.95 (2.10 - 5.80)</td>
-        <td>697</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Rio Grande do Norte</td>
-        <td>3.93 (1.87 - 5.98)</td>
-        <td>540</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Alagoas</td>
-        <td>3.58 (0.71 - 6.44)</td>
-        <td>230</td>
-        <td>30-06-2020
+        <td>Pará</td>
+        <td>4.82 (2.20 - 7.45)</td>
+        <td>374</td>
+        <td>01-07-2020
     </tr>
     
     <tr>
         <td>Maranhão</td>
-        <td>3.50 (1.08 - 5.93)</td>
-        <td>344</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Pará</td>
-        <td>3.21 (1.11 - 5.30)</td>
-        <td>376</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Sergipe</td>
-        <td>3.03 (0.13 - 5.93)</td>
-        <td>211</td>
-        <td>30-06-2020
+        <td>4.14 (1.59 - 6.68)</td>
+        <td>332</td>
+        <td>01-07-2020
     </tr>
     
     <tr>
         <td>Rondônia</td>
-        <td>2.76 (0.50 - 5.03)</td>
-        <td>260</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Ceará</td>
-        <td>2.71 (0.75 - 4.67)</td>
-        <td>426</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Goiás</td>
-        <td>2.48 (1.12 - 3.84)</td>
-        <td>830</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Tocantins</td>
-        <td>2.43 (-0.75 - 5.61)</td>
-        <td>149</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Rio de Janeiro</td>
-        <td>2.15 (0.87 - 3.43)</td>
-        <td>871</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Distrito Federal</td>
-        <td>1.69 (0.64 - 2.74)</td>
-        <td>1693</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Mato Grosso do Sul</td>
-        <td>1.49 (0.31 - 2.67)</td>
-        <td>563</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Bahia</td>
-        <td>1.48 (0.19 - 2.77)</td>
-        <td>508</td>
-        <td>30-06-2020
-    </tr>
-    
-    <tr>
-        <td>Pernambuco</td>
-        <td>1.45 (0.13 - 2.76)</td>
-        <td>455</td>
-        <td>30-06-2020
+        <td>4.13 (0.85 - 7.41)</td>
+        <td>254</td>
+        <td>01-07-2020
     </tr>
     
     <tr>
         <td>Amazonas</td>
-        <td>1.34 (-0.18 - 2.86)</td>
-        <td>388</td>
-        <td>30-06-2020
+        <td>3.90 (1.40 - 6.39)</td>
+        <td>373</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Alagoas</td>
+        <td>3.47 (0.66 - 6.28)</td>
+        <td>256</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Rio Grande do Norte</td>
+        <td>3.29 (1.29 - 5.28)</td>
+        <td>487</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Goiás</td>
+        <td>3.04 (1.53 - 4.56)</td>
+        <td>757</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Piauí</td>
+        <td>2.76 (0.45 - 5.08)</td>
+        <td>298</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Ceará</td>
+        <td>2.75 (0.84 - 4.67)</td>
+        <td>419</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Sergipe</td>
+        <td>2.47 (-0.12 - 5.06)</td>
+        <td>224</td>
+        <td>01-07-2020
     </tr>
     
     <tr>
         <td>Santa Catarina</td>
-        <td>1.05 (-0.13 - 2.23)</td>
-        <td>477</td>
-        <td>30-06-2020
+        <td>2.45 (0.73 - 4.18)</td>
+        <td>469</td>
+        <td>01-07-2020
     </tr>
     
     <tr>
-        <td>Rio Grande do Sul</td>
-        <td>0.97 (0.09 - 1.86)</td>
-        <td>713</td>
-        <td>30-06-2020
+        <td>Espírito Santo</td>
+        <td>2.28 (0.80 - 3.77)</td>
+        <td>677</td>
+        <td>01-07-2020
     </tr>
     
     <tr>
-        <td>Paraná</td>
-        <td>0.95 (0.02 - 1.88)</td>
-        <td>651</td>
-        <td>30-06-2020
+        <td>Bahia</td>
+        <td>1.95 (0.44 - 3.45)</td>
+        <td>478</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Rio de Janeiro</td>
+        <td>1.82 (0.66 - 2.99)</td>
+        <td>880</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Distrito Federal</td>
+        <td>1.79 (0.52 - 3.06)</td>
+        <td>1598</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Amapá</td>
+        <td>1.78 (-1.23 - 4.79)</td>
+        <td>105</td>
+        <td>01-07-2020
     </tr>
     
     <tr>
         <td>São Paulo</td>
-        <td>0.91 (0.48 - 1.35)</td>
-        <td>2848</td>
-        <td>30-06-2020
+        <td>1.59 (0.99 - 2.19)</td>
+        <td>2777</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Paraíba</td>
+        <td>1.41 (-0.09 - 2.91)</td>
+        <td>391</td>
+        <td>01-07-2020
     </tr>
     
     <tr>
         <td>Minas Gerais</td>
-        <td>0.82 (0.05 - 1.59)</td>
-        <td>823</td>
-        <td>30-06-2020
+        <td>1.13 (0.22 - 2.04)</td>
+        <td>770</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Mato Grosso do Sul</td>
+        <td>1.12 (-0.01 - 2.24)</td>
+        <td>559</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Rio Grande do Sul</td>
+        <td>0.99 (0.02 - 1.95)</td>
+        <td>645</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Tocantins</td>
+        <td>0.84 (-1.20 - 2.89)</td>
+        <td>114</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Pernambuco</td>
+        <td>0.68 (-0.27 - 1.63)</td>
+        <td>415</td>
+        <td>01-07-2020
+    </tr>
+    
+    <tr>
+        <td>Paraná</td>
+        <td>0.13 (-0.23 - 0.48)</td>
+        <td>635</td>
+        <td>01-07-2020
     </tr>
     
     </tbody>
