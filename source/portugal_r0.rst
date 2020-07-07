@@ -1,4 +1,4 @@
-**04/July** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**07/July** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          04/July. This method is sensitive to changes in COVID-19
+          07/July. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -47,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **04/July**
+Last update: **07/July**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -110,27 +110,27 @@ Last update: **04/July**
     
     <tr>
         <td>norte</td>
-        <td>1.30 (1.14 - 1.47)</td>
-    </tr>
-    
-    <tr>
-        <td>rlvt</td>
-        <td>1.00 (0.96 - 1.05)</td>
+        <td>1.25 (1.10 - 1.41)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>0.86 (0.67 - 1.08)</td>
+        <td>1.18 (0.95 - 1.43)</td>
     </tr>
     
     <tr>
-        <td>algarve</td>
-        <td>0.70 (0.53 - 0.90)</td>
+        <td>rlvt</td>
+        <td>0.95 (0.90 - 1.00)</td>
     </tr>
     
     <tr>
         <td>alentejo</td>
-        <td>0.59 (0.44 - 0.78)</td>
+        <td>0.84 (0.63 - 1.09)</td>
+    </tr>
+    
+    <tr>
+        <td>algarve</td>
+        <td>0.67 (0.48 - 0.90)</td>
     </tr>
     
     </tbody>
