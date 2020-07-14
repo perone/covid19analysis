@@ -701,6 +701,17 @@ of Rio Grande do Sul. Same methodoloy as for Porto Alegre.
 .. image:: _static/br/rs_rt_03jul.png
   :width: 900
 
+**14/Jul** -- R(t) estimation for Porto Alegre/RS
+-------------------------------------------------------------------------------
+This is the same analysis as shown above for Porto Alegre, but updated for
+today and with a better method to estimate delays (will release more details
+about it soon):
+
+.. image:: _static/br/poa_rt_14jul.png
+  :width: 900
+
+
+
 
 
 
