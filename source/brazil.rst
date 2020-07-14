@@ -710,6 +710,14 @@ about it soon):
 .. image:: _static/br/poa_rt_14jul.png
   :width: 900
 
+**14/Jul** -- Heatmap for age and symptom onset
+-------------------------------------------------------------------------------
+A couple of heatmaps for the 8th cities in RS/Brazil with the most number of
+cases. Interesting to note that in Passo Fundo there seem to have more cases
+in older age bins around the dates when a nursing home was found with infections.
+
+.. image:: _static/br/rs_heatmap_jul14.png
+  :width: 900
 
 
 
