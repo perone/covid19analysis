@@ -1,4 +1,4 @@
-**14/July** -- COVID-19 Time varying reproduction numbers estimation for Brazil
+**15/July** -- COVID-19 Time varying reproduction numbers estimation for Brazil
 *****************************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the states in Brazil. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data from government, reports until
-          14/July. This method is sensitive to changes in COVID-19
+          15/July. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -59,14 +59,14 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **14/July**
+Last update: **15/July**
 
 .. image:: _static/br/r0_estim/estim_all.svg
     :width: 800
 
 .. rubric:: Summary for recent median instantaneous reproduction number estimate
 
-Last update: **14/July**
+Last update: **15/July**
 
 The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
@@ -131,28 +131,28 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     <tbody>
     
     <tr>
-        <td>MS</td>
-        <td>1.15 (1.08 - 1.22)</td>
+        <td>RR</td>
+        <td>1.24 (1.17 - 1.32)</td>
     </tr>
     
     <tr>
-        <td>SE</td>
-        <td>1.14 (1.09 - 1.18)</td>
+        <td>MS</td>
+        <td>1.22 (1.16 - 1.29)</td>
+    </tr>
+    
+    <tr>
+        <td>AP</td>
+        <td>1.15 (1.05 - 1.24)</td>
     </tr>
     
     <tr>
         <td>SC</td>
-        <td>1.12 (1.09 - 1.16)</td>
+        <td>1.15 (1.11 - 1.19)</td>
     </tr>
     
     <tr>
-        <td>TO</td>
-        <td>1.09 (1.04 - 1.15)</td>
-    </tr>
-    
-    <tr>
-        <td>RR</td>
-        <td>1.09 (1.03 - 1.16)</td>
+        <td>SE</td>
+        <td>1.12 (1.08 - 1.17)</td>
     </tr>
     
     <tr>
@@ -161,68 +161,48 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
-        <td>SP</td>
-        <td>1.06 (1.05 - 1.08)</td>
-    </tr>
-    
-    <tr>
         <td>PR</td>
-        <td>1.02 (0.99 - 1.06)</td>
-    </tr>
-    
-    <tr>
-        <td>RS</td>
-        <td>1.02 (0.99 - 1.05)</td>
-    </tr>
-    
-    <tr>
-        <td>PE</td>
-        <td>1.00 (0.97 - 1.03)</td>
+        <td>1.05 (1.03 - 1.08)</td>
     </tr>
     
     <tr>
         <td>PI</td>
-        <td>0.99 (0.96 - 1.02)</td>
+        <td>1.04 (1.02 - 1.07)</td>
+    </tr>
+    
+    <tr>
+        <td>TO</td>
+        <td>1.02 (0.97 - 1.07)</td>
+    </tr>
+    
+    <tr>
+        <td>SP</td>
+        <td>1.01 (1.00 - 1.03)</td>
     </tr>
     
     <tr>
         <td>AL</td>
-        <td>0.99 (0.96 - 1.01)</td>
-    </tr>
-    
-    <tr>
-        <td>PA</td>
-        <td>0.98 (0.96 - 1.01)</td>
-    </tr>
-    
-    <tr>
-        <td>AC</td>
-        <td>0.98 (0.93 - 1.03)</td>
+        <td>1.00 (0.97 - 1.02)</td>
     </tr>
     
     <tr>
         <td>MA</td>
-        <td>0.97 (0.94 - 1.00)</td>
+        <td>1.00 (0.97 - 1.02)</td>
     </tr>
     
     <tr>
-        <td>CE</td>
-        <td>0.96 (0.94 - 0.98)</td>
+        <td>PE</td>
+        <td>0.99 (0.96 - 1.02)</td>
     </tr>
     
     <tr>
-        <td>AP</td>
-        <td>0.96 (0.87 - 1.04)</td>
+        <td>PA</td>
+        <td>0.97 (0.95 - 0.99)</td>
     </tr>
     
     <tr>
-        <td>MT</td>
-        <td>0.96 (0.92 - 0.99)</td>
-    </tr>
-    
-    <tr>
-        <td>BA</td>
-        <td>0.95 (0.93 - 0.97)</td>
+        <td>AC</td>
+        <td>0.96 (0.91 - 1.01)</td>
     </tr>
     
     <tr>
@@ -231,38 +211,58 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
-        <td>ES</td>
-        <td>0.89 (0.86 - 0.91)</td>
+        <td>RS</td>
+        <td>0.94 (0.92 - 0.97)</td>
     </tr>
     
     <tr>
-        <td>GO</td>
-        <td>0.88 (0.85 - 0.90)</td>
+        <td>BA</td>
+        <td>0.92 (0.91 - 0.94)</td>
     </tr>
     
     <tr>
         <td>AM</td>
-        <td>0.86 (0.84 - 0.89)</td>
+        <td>0.92 (0.89 - 0.95)</td>
     </tr>
     
     <tr>
-        <td>RN</td>
-        <td>0.86 (0.80 - 0.93)</td>
-    </tr>
-    
-    <tr>
-        <td>RJ</td>
-        <td>0.85 (0.81 - 0.89)</td>
-    </tr>
-    
-    <tr>
-        <td>RO</td>
-        <td>0.85 (0.81 - 0.89)</td>
+        <td>MT</td>
+        <td>0.90 (0.87 - 0.94)</td>
     </tr>
     
     <tr>
         <td>DF</td>
-        <td>0.84 (0.82 - 0.87)</td>
+        <td>0.87 (0.84 - 0.92)</td>
+    </tr>
+    
+    <tr>
+        <td>CE</td>
+        <td>0.85 (0.83 - 0.87)</td>
+    </tr>
+    
+    <tr>
+        <td>GO</td>
+        <td>0.84 (0.81 - 0.88)</td>
+    </tr>
+    
+    <tr>
+        <td>RO</td>
+        <td>0.84 (0.80 - 0.88)</td>
+    </tr>
+    
+    <tr>
+        <td>ES</td>
+        <td>0.83 (0.80 - 0.86)</td>
+    </tr>
+    
+    <tr>
+        <td>RN</td>
+        <td>0.82 (0.76 - 0.87)</td>
+    </tr>
+    
+    <tr>
+        <td>RJ</td>
+        <td>0.81 (0.78 - 0.84)</td>
     </tr>
     
     </tbody>
