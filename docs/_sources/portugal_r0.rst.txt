@@ -1,4 +1,4 @@
-**14/July** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**16/July** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          14/July. This method is sensitive to changes in COVID-19
+          16/July. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -47,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **14/July**
+Last update: **16/July**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -110,27 +110,27 @@ Last update: **14/July**
     
     <tr>
         <td>algarve</td>
-        <td>1.38 (1.05 - 1.74)</td>
-    </tr>
-    
-    <tr>
-        <td>norte</td>
-        <td>1.11 (0.99 - 1.24)</td>
+        <td>1.51 (1.13 - 1.95)</td>
     </tr>
     
     <tr>
         <td>rlvt</td>
-        <td>0.96 (0.92 - 1.01)</td>
+        <td>0.93 (0.88 - 0.97)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>0.88 (0.70 - 1.09)</td>
+        <td>0.93 (0.74 - 1.14)</td>
     </tr>
     
     <tr>
         <td>alentejo</td>
-        <td>0.79 (0.57 - 1.06)</td>
+        <td>0.90 (0.65 - 1.19)</td>
+    </tr>
+    
+    <tr>
+        <td>norte</td>
+        <td>0.87 (0.77 - 0.98)</td>
     </tr>
     
     </tbody>
