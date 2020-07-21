@@ -1,4 +1,4 @@
-**16/July** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**21/July** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          16/July. This method is sensitive to changes in COVID-19
+          21/July. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -47,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **16/July**
+Last update: **21/July**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -109,28 +109,28 @@ Last update: **16/July**
     <tbody>
     
     <tr>
+        <td>alentejo</td>
+        <td>0.97 (0.72 - 1.26)</td>
+    </tr>
+    
+    <tr>
         <td>algarve</td>
-        <td>1.51 (1.13 - 1.95)</td>
+        <td>0.93 (0.72 - 1.17)</td>
     </tr>
     
     <tr>
         <td>rlvt</td>
-        <td>0.93 (0.88 - 0.97)</td>
+        <td>0.84 (0.79 - 0.90)</td>
     </tr>
     
     <tr>
         <td>centro</td>
-        <td>0.93 (0.74 - 1.14)</td>
-    </tr>
-    
-    <tr>
-        <td>alentejo</td>
-        <td>0.90 (0.65 - 1.19)</td>
+        <td>0.79 (0.62 - 0.99)</td>
     </tr>
     
     <tr>
         <td>norte</td>
-        <td>0.87 (0.77 - 0.98)</td>
+        <td>0.66 (0.56 - 0.79)</td>
     </tr>
     
     </tbody>
