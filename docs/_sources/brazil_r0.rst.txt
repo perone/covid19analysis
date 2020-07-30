@@ -503,6 +503,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_ac.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_ac.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ac.png
@@ -532,6 +540,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_al.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_al.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -563,6 +579,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_am.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_am.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_am.png
@@ -592,6 +616,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_ap.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_ap.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -623,6 +655,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_ba.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_ba.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ba.png
@@ -652,6 +692,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_ce.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_ce.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -683,6 +731,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_df.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_df.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_df.png
@@ -712,6 +768,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_es.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_es.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -743,6 +807,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_go.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_go.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_go.png
@@ -772,6 +844,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_ma.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_ma.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -803,6 +883,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_mg.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_mg.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_mg.png
@@ -832,6 +920,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_ms.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_ms.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -863,6 +959,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_mt.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_mt.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_mt.png
@@ -892,6 +996,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_pa.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_pa.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -923,6 +1035,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_pb.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_pb.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_pb.png
@@ -952,6 +1072,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_pe.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_pe.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -983,6 +1111,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_pi.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_pi.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_pi.png
@@ -1012,6 +1148,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_pr.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_pr.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -1043,6 +1187,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_rj.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_rj.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_rj.png
@@ -1072,6 +1224,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_rn.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_rn.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -1103,6 +1263,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_ro.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_ro.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_ro.png
@@ -1132,6 +1300,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_rr.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_rr.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -1163,6 +1339,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_rs.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_rs.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_rs.png
@@ -1192,6 +1376,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_sc.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_sc.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
@@ -1223,6 +1415,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_se.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_se.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_se.png
@@ -1253,6 +1453,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 .. image:: _static/br/r0_estim/state_sp.png
   :width: 900
 
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_sp.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
+
 .. rubric:: Mobility data for the state
 
 .. image:: _static/br/r0_estim/mobility_state_sp.png
@@ -1282,6 +1490,14 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
 .. image:: _static/br/r0_estim/state_to.png
   :width: 900
+
+.. rubric:: Facebook mobility trend data for the state
+
+.. image:: _static/br/trend_maps/relchange_to.png
+  :width: 1000
+
+.. note:: This plot uses official data from Facebook mobility data. This data is
+          released with a Creative Commons Attribution International license.
 
 .. rubric:: Mobility data for the state
 
