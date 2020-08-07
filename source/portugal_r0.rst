@@ -1,4 +1,4 @@
-**05/August** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**06/August** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          05/August. This method is sensitive to changes in COVID-19
+          06/August. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -47,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **05/August**
+Last update: **06/August**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -109,18 +109,13 @@ Last update: **05/August**
     <tbody>
     
     <tr>
-        <td>norte</td>
-        <td>1.13 (0.99 - 1.30)</td>
-    </tr>
-    
-    <tr>
         <td>centro</td>
-        <td>0.99 (0.73 - 1.28)</td>
+        <td>1.18 (0.90 - 1.50)</td>
     </tr>
     
     <tr>
-        <td>algarve</td>
-        <td>0.98 (0.74 - 1.26)</td>
+        <td>norte</td>
+        <td>1.08 (0.94 - 1.22)</td>
     </tr>
     
     <tr>
@@ -130,7 +125,12 @@ Last update: **05/August**
     
     <tr>
         <td>alentejo</td>
-        <td>0.82 (0.60 - 1.07)</td>
+        <td>0.82 (0.59 - 1.08)</td>
+    </tr>
+    
+    <tr>
+        <td>algarve</td>
+        <td>0.69 (0.49 - 0.93)</td>
     </tr>
     
     </tbody>
