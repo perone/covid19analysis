@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <style>
+    .node {
+      font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
+      fill: #444;
+    }
+
+    .node:hover {
+      fill: #000;
+    }
+
+    .link {
+      stroke: steelblue;
+      stroke-opacity: 0.4;
+      fill: none;
+      pointer-events: none;
+    }
+
+    .node:hover,
+    .node--source,
+    .node--target {
+      font-weight: 700;
+    }
+
+    .node--source {
+      fill: #2ca02c;
+    }
+
+    .node--target {
+      fill: #d62728;
+    }
+
+    .link--source,
+    .link--target {
+      stroke-opacity: 1;
+      stroke-width: 2px;
+    }
+
+    .link--source {
+      stroke: #d62728;
+    }
+
+    .link--target {
+      stroke: #2ca02c;
+    }
+
+    /*.container {
+      width: auto;
+      max-width: 680px;
+      padding: 0 15px;
+    }*/
+
+    .sidebar {
+      background-color: #f5f5f5;
+      padding-top: 30px;
+      height: 100%;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 99%;
+      height: 90px;
+      background-color: #f5f5f5;
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2 px-1 bg-light sidebar" id="sticky-sidebar">
+        <h4>Estados</h4>
+        <ul class="nav nav-pills flex-column">
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_AC.html">Acre</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_AL.html">Alagoas</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_AM.html">Amazonas</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_AP.html">Amapá</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_BA.html">Bahia</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_CE.html">Ceará</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_DF.html">Distrito Federal</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_ES.html">Espírito Santo</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_GO.html">Goiás</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_MA.html">Maranhão</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_MG.html">Minas Gerais</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_MS.html">Mato Grosso do Sul</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_MT.html">Mato Grosso</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_PA.html">Pará</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link active" href="index_PB.html">Paraíba</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_PE.html">Pernambuco</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_PI.html">Piauí</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_PR.html">Paraná</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_RJ.html">Rio de Janeiro</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_RN.html">Rio Grande do Norte</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_RO.html">Rondônia</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_RR.html">Roraima</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_RS.html">Rio Grande do Sul</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_SC.html">Santa Catarina</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_SE.html">Sergipe</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_SP.html">São Paulo</a>
+            </li>
+            
+          
+            
+            <li class="nav-item">
+              <a class="nav-link" href="index_TO.html">Tocantins</a>
+            </li>
+            
+          
+        </ul>
+        <!--footer class="footer mt-auto py-3 pull-down">
+          <div class="container">
+            <span class="text-muted">Fonte de dados: SIVEP-Gripe. Criado por <a
+                href="http://www.twitter.com/tarantulae">Christian S. Perone</a>.</span>
+          </div>
+        </footer-->
+        </div>
+      <div class="col" id="main">
+        <h4 class="mt-5">Hospitalizações: Paraíba (PB)</h4>
+        <p class="lead">Este é um mapa interativo de hospitalizações de casos COVID-19, linhas vermelhas representam importação de
+          pacientes e linhas verdes representam exportação. Este mapa incluí dados do SIVEP-Gripe em que a cidade de residência e de
+          internação pertecem ao estado do Paraíba (PB). Nem todos dados hospitalares podem ter sido reportados
+          para o SIVEP-Gripe. 
+        </p>
+        <div id="map" class="align-middle"></div>
+        <p>Fonte dos dados: SIVEP-Gripe. Desenvolvido por <a
+          href="http://www.twitter.com/tarantulae">Christian S. Perone</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var diameter = 810,
+      radius = diameter / 2,
+      innerRadius = radius - 120;
+
+    var cluster = d3.cluster()
+      .size([360, innerRadius]);
+
+    var line = d3.radialLine()
+      .curve(d3.curveBundle.beta(0.5))
+      .radius(function (d) { return d.y; })
+      .angle(function (d) { return d.x / 180 * Math.PI; });
+
+    var svg = d3.select("#map").append("svg")
+      .attr("width", diameter)
+      .attr("height", diameter)
+      .append("g")
+      .attr("transform", "translate(" + radius + "," + radius + ")");
+
+    var link = svg.append("g").selectAll(".link"),
+      node = svg.append("g").selectAll(".node");
+
+    d3.json("data/data_PB.json", function (error, classes) {
+      if (error) throw error;
+
+      var root = packageHierarchy(classes)
+        .sum(function (d) { return d.size; });
+
+      cluster(root);
+
+      link = link
+        .data(packageImports(root.leaves()))
+        .enter().append("path")
+        .each(function (d) { d.source = d[0], d.target = d[d.length - 1]; })
+        .attr("class", "link")
+        .attr("d", line);
+
+      node = node
+        .data(root.leaves())
+        .enter().append("text")
+        .attr("class", "node")
+        .attr("dy", "0.31em")
+        .attr("transform", function (d) { return "rotate(" + (d.x - 90) + ")translate(" + (d.y + 8) + ",0)" + (d.x < 180 ? "" : "rotate(180)"); })
+        .attr("text-anchor", function (d) { return d.x < 180 ? "start" : "end"; })
+        .text(function (d) {
+          if (d.data.key != "FULL NAME")
+            return d.data.key;
+        })
+        .on("mouseover", mouseovered)
+        .on("mouseout", mouseouted);
+    });
+
+    function mouseovered(d) {
+      node
+        .each(function (n) { n.target = n.source = false; });
+
+      link
+        .classed("link--target", function (l) { if (l.target === d) return l.source.source = true; })
+        .classed("link--source", function (l) { if (l.source === d) return l.target.target = true; })
+        .filter(function (l) { return l.target === d || l.source === d; })
+        .raise();
+
+      node
+        .classed("node--target", function (n) { return n.target; })
+        .classed("node--source", function (n) { return n.source; });
+    }
+
+    function mouseouted(d) {
+      link
+        .classed("link--target", false)
+        .classed("link--source", false);
+
+      node
+        .classed("node--target", false)
+        .classed("node--source", false);
+    }
+
+    // Lazily construct the package hierarchy from class names.
+    function packageHierarchy(classes) {
+      var map = {};
+
+      function find(name, data) {
+        var node = map[name], i;
+        if (!node) {
+          node = map[name] = data || { name: name, children: [] };
+          if (name.length) {
+            node.parent = find(name.substring(0, i = name.lastIndexOf(".")));
+            node.parent.children.push(node);
+            node.key = name.substring(i + 1);
+          }
+        }
+        return node;
+      }
+
+      classes.forEach(function (d) {
+        if (typeof d.name != 'undefined')
+          find(d.name, d);
+      });
+
+      return d3.hierarchy(map[""]);
+    }
+
+    // Return a list of imports for the given array of nodes.
+    function packageImports(nodes) {
+      var map = {},
+        imports = [];
+
+      // Compute a map from name to node.
+      nodes.forEach(function (d) {
+        map[d.data.name] = d;
+      });
+
+      // For each import, construct a link from the source to target node.
+      nodes.forEach(function (d) {
+        if (d.data.imports)
+          d.data.imports.forEach(function (i) {
+            var input = map[d.data.name];
+            var mapi = map[i];
+            if (typeof mapi != 'undefined') {
+              var path = input.path(mapi);
+              imports.push(path);
+            }
+          });
+      });
+
+      return imports;
+    }
+
+  </script>
+
+</body>
+
+</html>
