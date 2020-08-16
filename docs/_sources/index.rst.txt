@@ -25,6 +25,10 @@ COVID-19 Analysis Repository
       <strong>R(t)</strong> estimates for Portugal
     </a>
 
+    <a href="/covid19analysis/hosp/index_RS.html" class="btn btn-primary btn-block" role="button" style="color:#fff">
+      <strong>Hospitalizations</strong> for each state in Brazil
+    </a>
+
     <br/><br/>
 
 .. toctree::
