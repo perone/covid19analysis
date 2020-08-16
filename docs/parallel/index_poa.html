@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="#" />
+
+  <script src="lib/d3.v5.min.js"></script>
+  <script src="dist/parcoords.standalone.js"></script>
+  <script src="lib/underscore.js"></script>
+
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="dist/parcoords.css">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+    
+  <style>
+    .sidebar {
+      background-color: #f5f5f5;
+      padding-top: 30px;
+      height: 100%;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 99%;
+      height: 90px;
+      background-color: #f5f5f5;
+
+    }
+
+    #nutrients { height: 600px; width: 98%; }
+    #nutrients text { font-size: 10px; }
+  </style>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col" id="main">
+        <h4 class="mt-5">Hospitalizações em Porto Alegre/RS</h4>
+        <p class="lead">Este é um gráfico interativo de coordenadas paralelas de hospitalizações de casos COVID-19. 
+            Este mapa incluí dados do SIVEP-Gripe em que a cidade de de hospitalização é Porto Alegre/RS.
+            Nem todos dados hospitalares podem ter sido reportados para o SIVEP-Gripe. Clique nas colunas e arraste
+            para criar critérios de filtragem.
+        </p>
+          <div id="nutrients" class="parcoords"></div>
+          <script id="brushing">
+              var parcoords = ParCoords()("#nutrients");
+              d3.csv('data.csv').then(function(data) {
+                  var colorList = ['#D64876', '#2F39A9', '#000000', '#DC5633', '#DB9F5F', '#672F32'];
+          
+                  var groups = _(data).chain()
+                      .pluck('Raça')
+                      .uniq();
+
+                  var colorScale = d3.scaleOrdinal().domain(groups).range(colorList);
+          
+                  var color = function(d) { return colorScale(d.Raça); };
+          
+                  parcoords
+                      .data(data)
+                      .color(color)
+                      .bundlingStrength(.4)
+                      //.hideAxis(['name'])
+                      .margin({ top: 24, left: 60, bottom: 12, right: 0 })
+                      .mode("queue")
+                      .alpha(0.1)
+                      .render()
+                      .bundleDimension("Evolução")
+                      .brushMode("1D-axes")
+                      .reorderable()
+                      .smoothness(.1)
+                      .interactive();
+          
+              });
+          </script>
+        <p>Fonte dos dados: SIVEP-Gripe. Desenvolvido por <a href="http://www.twitter.com/tarantulae">Christian S.
+            Perone</a>.</p>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
