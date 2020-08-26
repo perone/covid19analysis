@@ -1,4 +1,4 @@
-**16/August** -- COVID-19 Time varying reproduction numbers estimation for Portugal
+**26/August** -- COVID-19 Time varying reproduction numbers estimation for Portugal
 *****************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the regions in continental Portugal. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data Data Science for Social Good Portugal, reports until
-          16/August. This method is sensitive to changes in COVID-19
+          26/August. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -47,7 +47,7 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **16/August**
+Last update: **26/August**
 
 .. image:: _static/pt/r0_estim/estim_all.svg
     :width: 700
@@ -109,28 +109,28 @@ Last update: **16/August**
     <tbody>
     
     <tr>
-        <td>alentejo</td>
-        <td>1.71 (1.26 - 2.22)</td>
-    </tr>
-    
-    <tr>
-        <td>norte</td>
-        <td>1.23 (1.09 - 1.40)</td>
-    </tr>
-    
-    <tr>
         <td>centro</td>
-        <td>1.19 (0.93 - 1.49)</td>
+        <td>1.16 (0.92 - 1.42)</td>
     </tr>
     
     <tr>
         <td>algarve</td>
-        <td>1.15 (0.85 - 1.50)</td>
+        <td>1.14 (0.87 - 1.46)</td>
+    </tr>
+    
+    <tr>
+        <td>norte</td>
+        <td>1.12 (1.03 - 1.23)</td>
     </tr>
     
     <tr>
         <td>rlvt</td>
-        <td>0.96 (0.89 - 1.03)</td>
+        <td>1.06 (0.99 - 1.13)</td>
+    </tr>
+    
+    <tr>
+        <td>alentejo</td>
+        <td>0.88 (0.66 - 1.15)</td>
     </tr>
     
     </tbody>
