@@ -110,7 +110,7 @@ Last update: **09/September**
     
     <tr>
         <td>alentejo</td>
-        <td>1.65 (1.29 - 2.06)</td>
+        <td>1.65 (1.28 - 2.05)</td>
     </tr>
     
     <tr>
@@ -119,13 +119,13 @@ Last update: **09/September**
     </tr>
     
     <tr>
-        <td>rlvt</td>
-        <td>1.21 (1.14 - 1.28)</td>
+        <td>norte</td>
+        <td>1.21 (1.13 - 1.29)</td>
     </tr>
     
     <tr>
-        <td>norte</td>
-        <td>1.21 (1.13 - 1.29)</td>
+        <td>rlvt</td>
+        <td>1.21 (1.14 - 1.28)</td>
     </tr>
     
     <tr>
