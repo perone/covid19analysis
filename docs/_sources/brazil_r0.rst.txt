@@ -1,4 +1,4 @@
-**20/October** -- COVID-19 Time varying reproduction numbers estimation for Brazil
+**04/November** -- COVID-19 Time varying reproduction numbers estimation for Brazil
 *****************************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the states in Brazil. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data from government, reports until
-          20/October. This method is sensitive to changes in COVID-19
+          04/November. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -59,14 +59,14 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **20/October**
+Last update: **04/November**
 
 .. image:: _static/br/r0_estim/estim_all.svg
     :width: 800
 
 .. rubric:: Summary for recent median instantaneous reproduction number estimate
 
-Last update: **20/October**
+Last update: **04/November**
 
 The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
@@ -131,138 +131,138 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     <tbody>
     
     <tr>
-        <td>RN</td>
-        <td>1.65 (1.37 - 2.00)</td>
-    </tr>
-    
-    <tr>
-        <td>PA</td>
-        <td>1.27 (1.18 - 1.37)</td>
-    </tr>
-    
-    <tr>
-        <td>SE</td>
-        <td>1.23 (1.16 - 1.29)</td>
-    </tr>
-    
-    <tr>
-        <td>SC</td>
-        <td>1.22 (1.19 - 1.26)</td>
-    </tr>
-    
-    <tr>
-        <td>RR</td>
-        <td>1.21 (1.14 - 1.29)</td>
-    </tr>
-    
-    <tr>
-        <td>AM</td>
-        <td>1.17 (1.12 - 1.22)</td>
-    </tr>
-    
-    <tr>
-        <td>PE</td>
-        <td>1.12 (1.07 - 1.17)</td>
-    </tr>
-    
-    <tr>
-        <td>RS</td>
-        <td>1.12 (1.07 - 1.17)</td>
-    </tr>
-    
-    <tr>
-        <td>TO</td>
-        <td>1.11 (1.05 - 1.17)</td>
-    </tr>
-    
-    <tr>
-        <td>MS</td>
-        <td>1.11 (1.05 - 1.16)</td>
-    </tr>
-    
-    <tr>
-        <td>PB</td>
-        <td>1.10 (1.06 - 1.14)</td>
-    </tr>
-    
-    <tr>
-        <td>BA</td>
-        <td>1.10 (1.08 - 1.12)</td>
-    </tr>
-    
-    <tr>
-        <td>RJ</td>
-        <td>1.10 (1.03 - 1.17)</td>
-    </tr>
-    
-    <tr>
-        <td>ES</td>
-        <td>1.09 (1.05 - 1.15)</td>
-    </tr>
-    
-    <tr>
-        <td>MA</td>
-        <td>1.09 (1.03 - 1.15)</td>
-    </tr>
-    
-    <tr>
-        <td>GO</td>
-        <td>1.07 (1.01 - 1.14)</td>
-    </tr>
-    
-    <tr>
-        <td>PI</td>
-        <td>1.07 (1.03 - 1.10)</td>
-    </tr>
-    
-    <tr>
-        <td>DF</td>
-        <td>1.05 (1.00 - 1.09)</td>
-    </tr>
-    
-    <tr>
-        <td>SP</td>
-        <td>1.05 (1.02 - 1.09)</td>
-    </tr>
-    
-    <tr>
-        <td>MT</td>
-        <td>1.04 (0.99 - 1.09)</td>
+        <td>AP</td>
+        <td>1.11 (1.00 - 1.23)</td>
     </tr>
     
     <tr>
         <td>AC</td>
-        <td>1.03 (0.91 - 1.16)</td>
+        <td>1.11 (1.03 - 1.19)</td>
     </tr>
     
     <tr>
-        <td>RO</td>
-        <td>1.02 (0.96 - 1.08)</td>
+        <td>SC</td>
+        <td>1.06 (1.03 - 1.09)</td>
+    </tr>
+    
+    <tr>
+        <td>ES</td>
+        <td>1.01 (0.97 - 1.04)</td>
+    </tr>
+    
+    <tr>
+        <td>RS</td>
+        <td>0.96 (0.93 - 0.99)</td>
     </tr>
     
     <tr>
         <td>AL</td>
-        <td>1.00 (0.89 - 1.11)</td>
+        <td>0.95 (0.88 - 1.03)</td>
     </tr>
     
     <tr>
-        <td>MG</td>
-        <td>0.99 (0.96 - 1.02)</td>
+        <td>MS</td>
+        <td>0.88 (0.85 - 0.92)</td>
     </tr>
     
     <tr>
-        <td>AP</td>
-        <td>0.98 (0.91 - 1.05)</td>
+        <td>RO</td>
+        <td>0.84 (0.78 - 0.91)</td>
     </tr>
     
     <tr>
-        <td>PR</td>
-        <td>0.91 (0.87 - 0.96)</td>
+        <td>PI</td>
+        <td>0.83 (0.79 - 0.87)</td>
+    </tr>
+    
+    <tr>
+        <td>PB</td>
+        <td>0.82 (0.78 - 0.88)</td>
+    </tr>
+    
+    <tr>
+        <td>RR</td>
+        <td>0.81 (0.75 - 0.86)</td>
+    </tr>
+    
+    <tr>
+        <td>TO</td>
+        <td>0.79 (0.74 - 0.85)</td>
     </tr>
     
     <tr>
         <td>CE</td>
-        <td>0.87 (0.75 - 1.00)</td>
+        <td>0.79 (0.74 - 0.84)</td>
+    </tr>
+    
+    <tr>
+        <td>AM</td>
+        <td>0.78 (0.73 - 0.84)</td>
+    </tr>
+    
+    <tr>
+        <td>PR</td>
+        <td>0.78 (0.73 - 0.83)</td>
+    </tr>
+    
+    <tr>
+        <td>DF</td>
+        <td>0.77 (0.72 - 0.83)</td>
+    </tr>
+    
+    <tr>
+        <td>MG</td>
+        <td>0.76 (0.73 - 0.80)</td>
+    </tr>
+    
+    <tr>
+        <td>MT</td>
+        <td>0.74 (0.68 - 0.81)</td>
+    </tr>
+    
+    <tr>
+        <td>MA</td>
+        <td>0.73 (0.67 - 0.81)</td>
+    </tr>
+    
+    <tr>
+        <td>SP</td>
+        <td>0.73 (0.68 - 0.79)</td>
+    </tr>
+    
+    <tr>
+        <td>RN</td>
+        <td>0.73 (0.66 - 0.80)</td>
+    </tr>
+    
+    <tr>
+        <td>SE</td>
+        <td>0.70 (0.58 - 0.84)</td>
+    </tr>
+    
+    <tr>
+        <td>PE</td>
+        <td>0.69 (0.65 - 0.75)</td>
+    </tr>
+    
+    <tr>
+        <td>PA</td>
+        <td>0.67 (0.61 - 0.76)</td>
+    </tr>
+    
+    <tr>
+        <td>GO</td>
+        <td>0.67 (0.61 - 0.75)</td>
+    </tr>
+    
+    <tr>
+        <td>BA</td>
+        <td>0.65 (0.61 - 0.70)</td>
+    </tr>
+    
+    <tr>
+        <td>RJ</td>
+        <td>0.59 (0.54 - 0.66)</td>
     </tr>
     
     </tbody>
@@ -317,6 +317,13 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
+        <td>Pernambuco</td>
+        <td>4.86 (0.91 - 8.81)</td>
+        <td>172</td>
+        <td>03-11-2020
+    </tr>
+    
+    <tr>
         <td>Amapá</td>
         <td>4.56 (-0.21 - 9.32)</td>
         <td>103</td>
@@ -324,24 +331,38 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
-        <td>Mato Grosso</td>
-        <td>4.46 (0.39 - 8.53)</td>
-        <td>130</td>
-        <td>18-10-2020
+        <td>Espírito Santo</td>
+        <td>4.01 (0.24 - 7.77)</td>
+        <td>161</td>
+        <td>03-11-2020
+    </tr>
+    
+    <tr>
+        <td>Pará</td>
+        <td>3.41 (-0.03 - 6.85)</td>
+        <td>156</td>
+        <td>03-11-2020
     </tr>
     
     <tr>
         <td>Maranhão</td>
-        <td>4.07 (-0.43 - 8.57)</td>
-        <td>102</td>
-        <td>14-10-2020
+        <td>3.40 (-0.56 - 7.36)</td>
+        <td>111</td>
+        <td>19-10-2020
     </tr>
     
     <tr>
-        <td>Ceará</td>
-        <td>3.37 (-0.04 - 6.77)</td>
-        <td>154</td>
-        <td>18-10-2020
+        <td>Amazonas</td>
+        <td>3.33 (-0.67 - 7.34)</td>
+        <td>105</td>
+        <td>31-10-2020
+    </tr>
+    
+    <tr>
+        <td>Goiás</td>
+        <td>3.26 (0.39 - 6.13)</td>
+        <td>227</td>
+        <td>03-11-2020
     </tr>
     
     <tr>
@@ -352,17 +373,17 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
-        <td>Pará</td>
-        <td>2.92 (-0.19 - 6.02)</td>
-        <td>155</td>
-        <td>18-10-2020
+        <td>Rio Grande do Norte</td>
+        <td>2.51 (-1.24 - 6.26)</td>
+        <td>108</td>
+        <td>02-11-2020
     </tr>
     
     <tr>
-        <td>Rio Grande do Norte</td>
-        <td>2.41 (-0.84 - 5.66)</td>
-        <td>116</td>
-        <td>18-10-2020
+        <td>Rio de Janeiro</td>
+        <td>2.40 (1.01 - 3.78)</td>
+        <td>760</td>
+        <td>03-11-2020
     </tr>
     
     <tr>
@@ -373,17 +394,10 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
-        <td>Rio de Janeiro</td>
-        <td>2.03 (0.72 - 3.35)</td>
-        <td>775</td>
-        <td>18-10-2020
-    </tr>
-    
-    <tr>
-        <td>Amazonas</td>
-        <td>1.98 (-1.17 - 5.14)</td>
-        <td>119</td>
-        <td>18-10-2020
+        <td>Paraíba</td>
+        <td>1.72 (-1.30 - 4.74)</td>
+        <td>106</td>
+        <td>03-11-2020
     </tr>
     
     <tr>
@@ -394,6 +408,13 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
+        <td>Mato Grosso</td>
+        <td>1.50 (-1.18 - 4.18)</td>
+        <td>110</td>
+        <td>03-11-2020
+    </tr>
+    
+    <tr>
         <td>Piauí</td>
         <td>1.48 (-1.44 - 4.41)</td>
         <td>110</td>
@@ -401,87 +422,66 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
-        <td>Paraíba</td>
-        <td>1.42 (-1.15 - 3.98)</td>
-        <td>120</td>
-        <td>18-10-2020
+        <td>Distrito Federal</td>
+        <td>1.44 (-0.88 - 3.76)</td>
+        <td>227</td>
+        <td>03-11-2020
     </tr>
     
     <tr>
-        <td>Santa Catarina</td>
-        <td>1.39 (-0.09 - 2.87)</td>
-        <td>344</td>
-        <td>18-10-2020
-    </tr>
-    
-    <tr>
-        <td>Mato Grosso do Sul</td>
-        <td>1.12 (-0.91 - 3.15)</td>
-        <td>143</td>
-        <td>18-10-2020
-    </tr>
-    
-    <tr>
-        <td>Espírito Santo</td>
-        <td>0.91 (-0.81 - 2.64)</td>
-        <td>172</td>
-        <td>18-10-2020
-    </tr>
-    
-    <tr>
-        <td>Paraná</td>
-        <td>0.91 (-0.13 - 1.94)</td>
-        <td>527</td>
-        <td>18-10-2020
+        <td>Ceará</td>
+        <td>1.42 (-0.71 - 3.56)</td>
+        <td>182</td>
+        <td>03-11-2020
     </tr>
     
     <tr>
         <td>Rio Grande do Sul</td>
-        <td>0.90 (-0.01 - 1.81)</td>
-        <td>581</td>
-        <td>18-10-2020
-    </tr>
-    
-    <tr>
-        <td>São Paulo</td>
-        <td>0.85 (0.40 - 1.29)</td>
-        <td>2448</td>
-        <td>18-10-2020
-    </tr>
-    
-    <tr>
-        <td>Bahia</td>
-        <td>0.79 (-0.55 - 2.14)</td>
-        <td>228</td>
-        <td>18-10-2020
-    </tr>
-    
-    <tr>
-        <td>Goiás</td>
-        <td>0.73 (-0.54 - 1.99)</td>
-        <td>246</td>
-        <td>18-10-2020
+        <td>1.31 (0.18 - 2.43)</td>
+        <td>616</td>
+        <td>03-11-2020
     </tr>
     
     <tr>
         <td>Minas Gerais</td>
-        <td>0.57 (-0.12 - 1.26)</td>
-        <td>665</td>
-        <td>18-10-2020
+        <td>1.19 (0.17 - 2.22)</td>
+        <td>664</td>
+        <td>03-11-2020
     </tr>
     
     <tr>
-        <td>Pernambuco</td>
-        <td>0.00 (0.00 - 0.00)</td>
-        <td>176</td>
-        <td>18-10-2020
+        <td>Santa Catarina</td>
+        <td>1.15 (-0.34 - 2.64)</td>
+        <td>411</td>
+        <td>03-11-2020
     </tr>
     
     <tr>
-        <td>Distrito Federal</td>
+        <td>São Paulo</td>
+        <td>0.98 (0.47 - 1.49)</td>
+        <td>2252</td>
+        <td>03-11-2020
+    </tr>
+    
+    <tr>
+        <td>Paraná</td>
+        <td>0.57 (-0.30 - 1.43)</td>
+        <td>512</td>
+        <td>03-11-2020
+    </tr>
+    
+    <tr>
+        <td>Bahia</td>
+        <td>0.21 (-0.43 - 0.84)</td>
+        <td>280</td>
+        <td>03-11-2020
+    </tr>
+    
+    <tr>
+        <td>Mato Grosso do Sul</td>
         <td>0.00 (0.00 - 0.00)</td>
-        <td>218</td>
-        <td>18-10-2020
+        <td>103</td>
+        <td>03-11-2020
     </tr>
     
     </tbody>
