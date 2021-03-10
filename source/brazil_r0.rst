@@ -1,4 +1,4 @@
-**06/March** -- COVID-19 Time varying reproduction numbers estimation for Brazil
+**10/March** -- COVID-19 Time varying reproduction numbers estimation for Brazil
 *****************************************************************************************************
 These plots show the estimation of the instantaneous reproduction number for all
 the states in Brazil. These reports uses the method described in the work 
@@ -7,7 +7,7 @@ by `CMMID <https://cmmid.github.io/topics/covid19/>`_ with a :math:`\mu = 4.7 (3
 and :math:`\sigma = 2.9 (1.9 - 4.9)`.
 
 .. note:: This plot uses official data from government, reports until
-          06/March. This method is sensitive to changes in COVID-19
+          10/March. This method is sensitive to changes in COVID-19
           testing procedures and the level of effort used to detect cases.
           Therefore, changes in the testing efforts will introduce bias
           if the testing practices are not kept consistent. So please
@@ -59,14 +59,14 @@ Summary for the last instantaneous reproduction number estimate
 
 .. rubric:: Summary for the last instantaneous reproduction number estimate
 
-Last update: **06/March**
+Last update: **10/March**
 
 .. image:: _static/br/r0_estim/estim_all.svg
     :width: 800
 
 .. rubric:: Summary for recent median instantaneous reproduction number estimate
 
-Last update: **06/March**
+Last update: **10/March**
 
 The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
 
@@ -131,88 +131,93 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     <tbody>
     
     <tr>
-        <td>DF</td>
-        <td>1.28 (1.22 - 1.34)</td>
+        <td>PR</td>
+        <td>1.58 (1.31 - 1.87)</td>
     </tr>
     
     <tr>
         <td>RS</td>
-        <td>1.27 (1.21 - 1.33)</td>
-    </tr>
-    
-    <tr>
-        <td>PI</td>
-        <td>1.21 (1.16 - 1.26)</td>
-    </tr>
-    
-    <tr>
-        <td>RO</td>
-        <td>1.21 (1.14 - 1.27)</td>
-    </tr>
-    
-    <tr>
-        <td>PR</td>
-        <td>1.17 (1.15 - 1.20)</td>
-    </tr>
-    
-    <tr>
-        <td>CE</td>
-        <td>1.16 (1.11 - 1.22)</td>
-    </tr>
-    
-    <tr>
-        <td>MA</td>
-        <td>1.10 (1.05 - 1.15)</td>
-    </tr>
-    
-    <tr>
-        <td>SC</td>
-        <td>1.10 (1.06 - 1.13)</td>
-    </tr>
-    
-    <tr>
-        <td>MT</td>
-        <td>1.09 (1.06 - 1.12)</td>
-    </tr>
-    
-    <tr>
-        <td>GO</td>
-        <td>1.07 (1.04 - 1.12)</td>
-    </tr>
-    
-    <tr>
-        <td>SP</td>
-        <td>1.07 (1.06 - 1.08)</td>
-    </tr>
-    
-    <tr>
-        <td>AL</td>
-        <td>1.07 (1.02 - 1.12)</td>
-    </tr>
-    
-    <tr>
-        <td>AC</td>
-        <td>1.07 (1.02 - 1.11)</td>
-    </tr>
-    
-    <tr>
-        <td>TO</td>
-        <td>1.06 (1.01 - 1.12)</td>
-    </tr>
-    
-    <tr>
-        <td>ES</td>
-        <td>1.06 (1.03 - 1.08)</td>
-    </tr>
-    
-    <tr>
-        <td>MG</td>
-        <td>1.06 (1.04 - 1.07)</td>
+        <td>1.26 (1.20 - 1.32)</td>
     </tr>
     
     <tr>
         <td>AP</td>
-        <td>1.05 (1.00 - 1.11)</td>
+        <td>1.21 (1.12 - 1.29)</td>
+    </tr>
+    
+    <tr>
+        <td>PI</td>
+        <td>1.18 (1.12 - 1.26)</td>
+    </tr>
+    
+    <tr>
+        <td>SP</td>
+        <td>1.16 (1.11 - 1.19)</td>
+    </tr>
+    
+    <tr>
+        <td>RN</td>
+        <td>1.16 (1.11 - 1.19)</td>
+    </tr>
+    
+    <tr>
+        <td>DF</td>
+        <td>1.13 (1.09 - 1.19)</td>
+    </tr>
+    
+    <tr>
+        <td>MG</td>
+        <td>1.10 (1.09 - 1.12)</td>
+    </tr>
+    
+    <tr>
+        <td>TO</td>
+        <td>1.10 (1.06 - 1.14)</td>
+    </tr>
+    
+    <tr>
+        <td>MA</td>
+        <td>1.09 (1.06 - 1.14)</td>
+    </tr>
+    
+    <tr>
+        <td>RO</td>
+        <td>1.09 (1.05 - 1.14)</td>
+    </tr>
+    
+    <tr>
+        <td>ES</td>
+        <td>1.08 (1.06 - 1.10)</td>
+    </tr>
+    
+    <tr>
+        <td>AL</td>
+        <td>1.08 (1.04 - 1.12)</td>
+    </tr>
+    
+    <tr>
+        <td>CE</td>
+        <td>1.08 (1.05 - 1.12)</td>
+    </tr>
+    
+    <tr>
+        <td>SE</td>
+        <td>1.07 (1.03 - 1.11)</td>
+    </tr>
+    
+    <tr>
+        <td>MT</td>
+        <td>1.07 (1.03 - 1.10)</td>
+    </tr>
+    
+    <tr>
+        <td>GO</td>
+        <td>1.06 (1.04 - 1.09)</td>
+    </tr>
+    
+    <tr>
+        <td>RJ</td>
+        <td>1.05 (1.02 - 1.07)</td>
     </tr>
     
     <tr>
@@ -221,48 +226,43 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
-        <td>RN</td>
-        <td>1.03 (0.99 - 1.08)</td>
-    </tr>
-    
-    <tr>
-        <td>SE</td>
-        <td>1.02 (0.97 - 1.09)</td>
-    </tr>
-    
-    <tr>
-        <td>PE</td>
-        <td>1.02 (1.00 - 1.05)</td>
+        <td>AM</td>
+        <td>1.03 (1.00 - 1.07)</td>
     </tr>
     
     <tr>
         <td>BA</td>
-        <td>1.02 (0.99 - 1.04)</td>
+        <td>1.02 (1.01 - 1.04)</td>
     </tr>
     
     <tr>
         <td>PB</td>
-        <td>0.96 (0.93 - 0.99)</td>
+        <td>1.02 (0.99 - 1.05)</td>
     </tr>
     
     <tr>
         <td>PA</td>
-        <td>0.94 (0.91 - 0.96)</td>
+        <td>1.01 (0.97 - 1.04)</td>
     </tr>
     
     <tr>
-        <td>RJ</td>
-        <td>0.90 (0.87 - 0.93)</td>
+        <td>AC</td>
+        <td>0.97 (0.94 - 1.01)</td>
     </tr>
     
     <tr>
-        <td>AM</td>
-        <td>0.88 (0.83 - 0.93)</td>
+        <td>PE</td>
+        <td>0.96 (0.94 - 0.99)</td>
+    </tr>
+    
+    <tr>
+        <td>SC</td>
+        <td>0.67 (0.65 - 0.71)</td>
     </tr>
     
     <tr>
         <td>RR</td>
-        <td>0.88 (0.83 - 0.92)</td>
+        <td>0.66 (0.61 - 0.71)</td>
     </tr>
     
     </tbody>
@@ -317,171 +317,171 @@ The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.
     </tr>
     
     <tr>
-        <td>MaranhÃ£o</td>
-        <td>4.04 (1.38 - 6.70)</td>
-        <td>290</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>RondÃ´nia</td>
-        <td>3.93 (0.27 - 7.59)</td>
-        <td>167</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>ParaÃ­ba</td>
-        <td>3.89 (1.09 - 6.68)</td>
-        <td>278</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Rio Grande do Norte</td>
-        <td>3.41 (0.94 - 5.89)</td>
-        <td>334</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>PiauÃ­</td>
-        <td>3.27 (0.32 - 6.23)</td>
-        <td>189</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Alagoas</td>
-        <td>3.20 (-0.05 - 6.45)</td>
-        <td>176</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
         <td>ParÃ¡</td>
-        <td>3.16 (1.03 - 5.28)</td>
-        <td>354</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Rio Grande do Sul</td>
-        <td>3.01 (1.91 - 4.11)</td>
-        <td>1459</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Santa Catarina</td>
-        <td>3.01 (1.53 - 4.48)</td>
-        <td>791</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>CearÃ¡</td>
-        <td>2.84 (1.10 - 4.57)</td>
-        <td>526</td>
-        <td>04-03-2021
+        <td>5.73 (2.96 - 8.50)</td>
+        <td>359</td>
+        <td>08-03-2021
     </tr>
     
     <tr>
         <td>Amazonas</td>
-        <td>2.76 (0.25 - 5.27)</td>
-        <td>245</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Mato Grosso</td>
-        <td>2.45 (0.40 - 4.50)</td>
-        <td>348</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Distrito Federal</td>
-        <td>2.39 (0.64 - 4.14)</td>
-        <td>505</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Sergipe</td>
-        <td>2.35 (-1.25 - 5.95)</td>
-        <td>108</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Bahia</td>
-        <td>2.33 (0.80 - 3.87)</td>
-        <td>542</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>GoiÃ¡s</td>
-        <td>2.32 (0.84 - 3.81)</td>
-        <td>619</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Pernambuco</td>
-        <td>2.22 (0.57 - 3.87)</td>
-        <td>451</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>EspÃ­rito Santo</td>
-        <td>1.97 (0.03 - 3.92)</td>
-        <td>301</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>SÃ£o Paulo</td>
-        <td>1.81 (1.31 - 2.31)</td>
-        <td>4648</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>ParanÃ¡</td>
-        <td>1.54 (0.67 - 2.42)</td>
-        <td>1186</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Tocantins</td>
-        <td>1.43 (-1.24 - 4.10)</td>
-        <td>106</td>
-        <td>04-03-2021
-    </tr>
-    
-    <tr>
-        <td>Minas Gerais</td>
-        <td>1.37 (0.58 - 2.15)</td>
-        <td>1280</td>
-        <td>04-03-2021
+        <td>5.15 (1.63 - 8.67)</td>
+        <td>214</td>
+        <td>08-03-2021
     </tr>
     
     <tr>
         <td>Mato Grosso do Sul</td>
-        <td>1.32 (-0.19 - 2.83)</td>
-        <td>319</td>
-        <td>04-03-2021
+        <td>4.67 (1.57 - 7.77)</td>
+        <td>283</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Pernambuco</td>
+        <td>4.02 (1.64 - 6.40)</td>
+        <td>404</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Mato Grosso</td>
+        <td>3.86 (1.49 - 6.23)</td>
+        <td>335</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>EspÃ­rito Santo</td>
+        <td>3.82 (1.30 - 6.33)</td>
+        <td>338</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>CearÃ¡</td>
+        <td>3.70 (1.78 - 5.62)</td>
+        <td>506</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>RondÃ´nia</td>
+        <td>3.62 (0.30 - 6.94)</td>
+        <td>167</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>MaranhÃ£o</td>
+        <td>3.38 (0.76 - 5.99)</td>
+        <td>252</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Rio Grande do Norte</td>
+        <td>3.33 (0.75 - 5.92)</td>
+        <td>303</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Bahia</td>
+        <td>3.22 (1.52 - 4.92)</td>
+        <td>594</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Sergipe</td>
+        <td>3.16 (-0.57 - 6.89)</td>
+        <td>124</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Alagoas</td>
+        <td>3.07 (0.08 - 6.06)</td>
+        <td>165</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Distrito Federal</td>
+        <td>2.80 (0.89 - 4.71)</td>
+        <td>522</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>GoiÃ¡s</td>
+        <td>2.52 (1.05 - 3.99)</td>
+        <td>620</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>ParaÃ­ba</td>
+        <td>2.46 (0.21 - 4.71)</td>
+        <td>264</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Rio Grande do Sul</td>
+        <td>2.22 (1.25 - 3.20)</td>
+        <td>1369</td>
+        <td>08-03-2021
     </tr>
     
     <tr>
         <td>Rio de Janeiro</td>
-        <td>1.10 (0.33 - 1.87)</td>
-        <td>1287</td>
-        <td>04-03-2021
+        <td>1.85 (0.94 - 2.77)</td>
+        <td>1306</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>SÃ£o Paulo</td>
+        <td>1.67 (1.19 - 2.15)</td>
+        <td>4532</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Tocantins</td>
+        <td>1.56 (-1.30 - 4.41)</td>
+        <td>104</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Minas Gerais</td>
+        <td>1.51 (0.72 - 2.30)</td>
+        <td>1415</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>ParanÃ¡</td>
+        <td>1.45 (0.59 - 2.31)</td>
+        <td>1132</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>Santa Catarina</td>
+        <td>1.10 (0.15 - 2.05)</td>
+        <td>705</td>
+        <td>08-03-2021
+    </tr>
+    
+    <tr>
+        <td>PiauÃ­</td>
+        <td>0.99 (-0.78 - 2.77)</td>
+        <td>163</td>
+        <td>08-03-2021
     </tr>
     
     </tbody>
