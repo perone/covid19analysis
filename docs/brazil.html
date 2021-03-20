@@ -1,31 +1,48 @@
 
-
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COVID-19 Analysis for Brazil &#8212; COVID-19 Analysis</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link href="_static/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.101715efdecc9b59cb6e1ddfa685c31f.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabs.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d8bbf5861d671d414e1a.js">
+
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="shortcut icon" href="_static/logo.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="30/September – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
+    <link rel="next" title="19/March – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
     <link rel="prev" title="COVID-19 Analysis Repository" href="index.html" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="docsearch:language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
 
 
 
@@ -61,28 +78,28 @@
     <a href="index.html">COVID-19 Analysis Repository</a>
   </li>
   <li class="active">
-    <a href="">COVID-19 Analysis for Brazil</a>
+    <a href="#">COVID-19 Analysis for Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_r0.html">30/September – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+    <a href="brazil_r0.html"><strong>19/March</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_onset_delay.html">04/May – Symptom onset to confirmation delay estimation for states in Brazil</a>
+    <a href="brazil_onset_delay.html"><strong>04/May</strong> – Symptom onset to confirmation delay estimation for states in Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_icu_stay.html">18/May – ICU length of stay (LOS) estimation for states in Brazil</a>
+    <a href="brazil_icu_stay.html"><strong>18/May</strong> – ICU length of stay (LOS) estimation for states in Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_death_reg.html">7/June – Death regression analysis for each state in Brazil</a>
+    <a href="brazil_death_reg.html"><strong>7/June</strong> – Death regression analysis for each state in Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_symptoms_reg.html">18/May – Symptom regression for each state in Brazil</a>
+    <a href="brazil_symptoms_reg.html"><strong>18/May</strong> – Symptom regression for each state in Brazil</a>
   </li>
   <li class="">
     <a href="portugal.html">COVID-19 Analysis for Portugal</a>
   </li>
   <li class="">
-    <a href="portugal_r0.html">30/September – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
+    <a href="portugal_r0.html"><strong>08/November</strong> – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
   </li>
 </ul>
 </nav>
@@ -152,181 +169,337 @@
 </div>
 
 <nav id="bd-toc-nav">
-    <ul class="nav section-nav flex-column">
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#brazil-country-wide-analysis" class="nav-link">Brazil: country-wide analysis</a><ul class="nav section-nav flex-column">
-                
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#bayesian-death-count-modelling" class="nav-link">Bayesian death count modelling</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#bayesian-icu-uti-occupancy-forecasts" class="nav-link">Bayesian ICU (UTI) occupancy forecasts</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-severe-acute-respiratory-syndrome-sars-cases-in-brazil-fiocruz" class="nav-link">04/April – Severe Acute Respiratory Syndrome (SARS) cases in Brazil (Fiocruz)</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-death-count-analysis-and-forecast" class="nav-link">07/April – Death count analysis and forecast</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id1" class="nav-link">08/April – Death count analysis and forecast</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id2" class="nav-link">09/April – Death count analysis and forecast</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-death-count-reported-by-government-vs-notary-s-offices" class="nav-link">09/April – Death count reported by government vs notary’s offices</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id3" class="nav-link">10/April – Death count analysis and forecast</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id4" class="nav-link">11/April – Death count analysis and forecast</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id5" class="nav-link">12/April – Death count analysis and forecast</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id6" class="nav-link">13/April – Death count analysis and forecast</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id7" class="nav-link">17/April – Death count analysis and forecast</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#may-daily-death-count-analysis-and-forecast" class="nav-link">04/May – Daily death count analysis and forecast</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#may-sivep-deaths-and-icus" class="nav-link">24/May – SIVEP deaths and ICUs</a>
-        </li>
-    
-            </ul>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-rio-grande-do-sul-rs" class="nav-link">State: Rio Grande do Sul (RS)</a><ul class="nav section-nav flex-column">
-                
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-mapping-transmission-through-time" class="nav-link">07/April – Mapping transmission through time</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id8" class="nav-link">09/April – Mapping transmission through time</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-icu-uti-occupancy-forecast-for-porto-alegre-rs" class="nav-link">09/April – ICU (UTI) Occupancy Forecast for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id11" class="nav-link">10/April – ICU (UTI) Occupancy Forecast for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-icu-uti-occupancy-animation-for-porto-alegre-rs" class="nav-link">10/April – ICU (UTI) Occupancy Animation for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-age-distribution-of-infected-cases-by-time-for-porto-alegre-rs" class="nav-link">11/April – Age distribution of infected cases by time for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-gender-distribution-of-infected-cases-by-time-for-porto-alegre-rs" class="nav-link">11/April – Gender distribution of infected cases by time for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-estimated-instantaneous-reproduction-number-for-rio-grande-do-sul-rs" class="nav-link">11/April – Estimated instantaneous reproduction number for Rio Grande do Sul (RS)</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-what-rio-grande-do-sul-rs-and-portugal-have-in-common" class="nav-link">12/April – What Rio Grande do Sul (RS) and Portugal have in common ?</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id12" class="nav-link">12/April – Mapping transmission through time</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id15" class="nav-link">12/April – ICU (UTI) Occupancy Forecast for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-regarding-results-from-ufpel-study-in-brazil" class="nav-link">15/April – Regarding results from UFPel study in Brazil</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id16" class="nav-link">15/April – Mapping transmission through time</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-elderly-population-risk-estimation" class="nav-link">16/April – Elderly population risk estimation</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id19" class="nav-link">17/April – Age distribution of infected cases by time for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id20" class="nav-link">17/April – Gender distribution of infected cases by time for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-high-resolution-elderly-population-density-in-rio-grande-do-sul" class="nav-link">21/April – High-resolution elderly population density in Rio Grande do Sul</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#id21" class="nav-link">23/April – Mapping transmission through time</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-map-of-icu-units-and-confirmed-cases-in-rio-grande-do-sul" class="nav-link">25/April – Map of ICU units and confirmed cases in Rio Grande do Sul</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#april-high-resolution-elderly-population-density-in-passo-fundo-rs" class="nav-link">26/April – High-resolution elderly population density in Passo Fundo / RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#may-icu-ocuppancy-on-porto-alegre-rs-and-portugal" class="nav-link">03/May – ICU ocuppancy on Porto Alegre/RS and Portugal</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#may-mapping-transmission-through-time" class="nav-link">05/May – Mapping transmission through time</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#jun-r-t-estimation-for-porto-alegre-rs" class="nav-link">24/Jun – R(t) estimation for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#jul-r-t-estimation-for-rio-grande-do-sul" class="nav-link">03/Jul – R(t) estimation for Rio Grande do Sul</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#jul-r-t-estimation-for-porto-alegre-rs" class="nav-link">14/Jul – R(t) estimation for Porto Alegre/RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h3">
-            <a href="#jul-heatmap-for-age-and-symptom-onset" class="nav-link">14/Jul – Heatmap for age and symptom onset</a>
-        </li>
-    
-            </ul>
-        </li>
-    
-    </ul>
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#brazil-country-wide-analysis">
+   Brazil: country-wide analysis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bayesian-death-count-modelling">
+     Bayesian death count modelling
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#bayesian-icu-uti-occupancy-forecasts">
+     Bayesian ICU (UTI) occupancy forecasts
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-severe-acute-respiratory-syndrome-sars-cases-in-brazil-fiocruz">
+     <strong>
+      04/April
+     </strong>
+     – Severe Acute Respiratory Syndrome (SARS) cases in Brazil (Fiocruz)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-death-count-analysis-and-forecast">
+     <strong>
+      07/April
+     </strong>
+     – Death count analysis and forecast
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     <strong>
+      08/April
+     </strong>
+     – Death count analysis and forecast
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     <strong>
+      09/April
+     </strong>
+     – Death count analysis and forecast
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-death-count-reported-by-government-vs-notary-s-offices">
+     <strong>
+      09/April
+     </strong>
+     – Death count reported by government vs notary’s offices
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     <strong>
+      10/April
+     </strong>
+     – Death count analysis and forecast
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     <strong>
+      11/April
+     </strong>
+     – Death count analysis and forecast
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     <strong>
+      12/April
+     </strong>
+     – Death count analysis and forecast
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id6">
+     <strong>
+      13/April
+     </strong>
+     – Death count analysis and forecast
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id7">
+     <strong>
+      17/April
+     </strong>
+     – Death count analysis and forecast
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#may-daily-death-count-analysis-and-forecast">
+     <strong>
+      04/May
+     </strong>
+     – Daily death count analysis and forecast
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#may-sivep-deaths-and-icus">
+     <strong>
+      24/May
+     </strong>
+     – SIVEP deaths and ICUs
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-rio-grande-do-sul-rs">
+   State: Rio Grande do Sul (RS)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-mapping-transmission-through-time">
+     <strong>
+      07/April
+     </strong>
+     – Mapping transmission through time
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id8">
+     <strong>
+      09/April
+     </strong>
+     – Mapping transmission through time
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-icu-uti-occupancy-forecast-for-porto-alegre-rs">
+     <strong>
+      09/April
+     </strong>
+     – ICU (UTI) Occupancy Forecast for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id11">
+     <strong>
+      10/April
+     </strong>
+     – ICU (UTI) Occupancy Forecast for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-icu-uti-occupancy-animation-for-porto-alegre-rs">
+     <strong>
+      10/April
+     </strong>
+     – ICU (UTI) Occupancy Animation for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-age-distribution-of-infected-cases-by-time-for-porto-alegre-rs">
+     <strong>
+      11/April
+     </strong>
+     – Age distribution of infected cases by time for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-gender-distribution-of-infected-cases-by-time-for-porto-alegre-rs">
+     <strong>
+      11/April
+     </strong>
+     – Gender distribution of infected cases by time for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-estimated-instantaneous-reproduction-number-for-rio-grande-do-sul-rs">
+     <strong>
+      11/April
+     </strong>
+     – Estimated instantaneous reproduction number for Rio Grande do Sul (RS)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-what-rio-grande-do-sul-rs-and-portugal-have-in-common">
+     <strong>
+      12/April
+     </strong>
+     – What Rio Grande do Sul (RS) and Portugal have in common ?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id12">
+     <strong>
+      12/April
+     </strong>
+     – Mapping transmission through time
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id15">
+     <strong>
+      12/April
+     </strong>
+     – ICU (UTI) Occupancy Forecast for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-regarding-results-from-ufpel-study-in-brazil">
+     <strong>
+      15/April
+     </strong>
+     – Regarding results from UFPel study in Brazil
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id16">
+     <strong>
+      15/April
+     </strong>
+     – Mapping transmission through time
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-elderly-population-risk-estimation">
+     <strong>
+      16/April
+     </strong>
+     – Elderly population risk estimation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id19">
+     <strong>
+      17/April
+     </strong>
+     – Age distribution of infected cases by time for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id20">
+     <strong>
+      17/April
+     </strong>
+     – Gender distribution of infected cases by time for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-high-resolution-elderly-population-density-in-rio-grande-do-sul">
+     <strong>
+      21/April
+     </strong>
+     – High-resolution elderly population density in Rio Grande do Sul
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id21">
+     <strong>
+      23/April
+     </strong>
+     – Mapping transmission through time
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-map-of-icu-units-and-confirmed-cases-in-rio-grande-do-sul">
+     <strong>
+      25/April
+     </strong>
+     – Map of ICU units and confirmed cases in Rio Grande do Sul
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#april-high-resolution-elderly-population-density-in-passo-fundo-rs">
+     <strong>
+      26/April
+     </strong>
+     – High-resolution elderly population density in Passo Fundo / RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#may-icu-ocuppancy-on-porto-alegre-rs-and-portugal">
+     <strong>
+      03/May
+     </strong>
+     – ICU ocuppancy on Porto Alegre/RS and Portugal
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#may-mapping-transmission-through-time">
+     <strong>
+      05/May
+     </strong>
+     – Mapping transmission through time
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#jun-r-t-estimation-for-porto-alegre-rs">
+     <strong>
+      24/Jun
+     </strong>
+     – R(t) estimation for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#jul-r-t-estimation-for-rio-grande-do-sul">
+     <strong>
+      03/Jul
+     </strong>
+     – R(t) estimation for Rio Grande do Sul
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#jul-r-t-estimation-for-porto-alegre-rs">
+     <strong>
+      14/Jul
+     </strong>
+     – R(t) estimation for Porto Alegre/RS
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#jul-heatmap-for-age-and-symptom-onset">
+     <strong>
+      14/Jul
+     </strong>
+     – Heatmap for age and symptom onset
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
 </nav>
 
 
@@ -1103,7 +1276,7 @@ about it soon):</p>
 <p>A couple of heatmaps for the 8th cities in RS/Brazil with the most number of
 cases. Interesting to note that in Passo Fundo there seem to have more cases
 in older age bins around the dates when a nursing home was found with infections.</p>
-<a class="reference internal image-reference" href="_static/br/rs_heatmap_jul14.png"><img alt="_static/br/rs_heatmap_jul14.png" src="_static/br/rs_heatmap_jul14.png" style="width: 900px;" /></a>
+<a class="reference internal image-reference" href="_images/rs_heatmap_jul14.png"><img alt="_images/rs_heatmap_jul14.png" src="_images/rs_heatmap_jul14.png" style="width: 900px;" /></a>
 </div>
 </div>
 </div>
@@ -1118,7 +1291,7 @@ in older age bins around the dates when a nursing home was found with infections
     <div class='prev-next-bottom'>
         
     <a class='left-prev' id="prev-link" href="index.html" title="previous page">COVID-19 Analysis Repository</a>
-    <a class='right-next' id="next-link" href="brazil_r0.html" title="next page"><strong>30/September</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+    <a class='right-next' id="next-link" href="brazil_r0.html" title="next page"><strong>19/March</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
@@ -1137,7 +1310,10 @@ in older age bins around the dates when a nursing home was found with infections
       </div>
     </div>
 
-    <script src="_static/js/index.js"></script>
+    
+  <script src="_static/js/index.d8bbf5861d671d414e1a.js"></script>
+
+
     
   </body>
 </html>

@@ -1,31 +1,48 @@
 
-
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>04/May – Symptom onset to confirmation delay estimation for states in Brazil &#8212; COVID-19 Analysis</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link href="_static/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.101715efdecc9b59cb6e1ddfa685c31f.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabs.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d8bbf5861d671d414e1a.js">
+
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="shortcut icon" href="_static/logo.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="18/May – ICU length of stay (LOS) estimation for states in Brazil" href="brazil_icu_stay.html" />
-    <link rel="prev" title="30/September – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
+    <link rel="prev" title="19/March – COVID-19 Time varying reproduction numbers estimation for Brazil" href="brazil_r0.html" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="docsearch:language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
 
 
 
@@ -64,25 +81,25 @@
     <a href="brazil.html">COVID-19 Analysis for Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_r0.html">30/September – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+    <a href="brazil_r0.html"><strong>19/March</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
   </li>
   <li class="active">
-    <a href="">04/May – Symptom onset to confirmation delay estimation for states in Brazil</a>
+    <a href="#"><strong>04/May</strong> – Symptom onset to confirmation delay estimation for states in Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_icu_stay.html">18/May – ICU length of stay (LOS) estimation for states in Brazil</a>
+    <a href="brazil_icu_stay.html"><strong>18/May</strong> – ICU length of stay (LOS) estimation for states in Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_death_reg.html">7/June – Death regression analysis for each state in Brazil</a>
+    <a href="brazil_death_reg.html"><strong>7/June</strong> – Death regression analysis for each state in Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_symptoms_reg.html">18/May – Symptom regression for each state in Brazil</a>
+    <a href="brazil_symptoms_reg.html"><strong>18/May</strong> – Symptom regression for each state in Brazil</a>
   </li>
   <li class="">
     <a href="portugal.html">COVID-19 Analysis for Portugal</a>
   </li>
   <li class="">
-    <a href="portugal_r0.html">30/September – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
+    <a href="portugal_r0.html"><strong>08/November</strong> – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
   </li>
 </ul>
 </nav>
@@ -152,101 +169,190 @@
 </div>
 
 <nav id="bd-toc-nav">
-    <ul class="nav section-nav flex-column">
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#summary-for-the-last-instantaneous-reproduction-number-estimate" class="nav-link">Summary for the last instantaneous reproduction number estimate</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-alagoas-al" class="nav-link">State: Alagoas / AL</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-amazonas-am" class="nav-link">State: Amazonas / AM</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-bahia-ba" class="nav-link">State: Bahia / BA</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-ceara-ce" class="nav-link">State: Ceará / CE</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-distrito-federal-df" class="nav-link">State: Distrito Federal / DF</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-espirito-santo-es" class="nav-link">State: Espírito Santo / ES</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-goias-go" class="nav-link">State: Goiás / GO</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-maranhao-ma" class="nav-link">State: Maranhão / MA</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-minas-gerais-mg" class="nav-link">State: Minas Gerais / MG</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-mato-grosso-do-sul-ms" class="nav-link">State: Mato Grosso do Sul / MS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-mato-grosso-mt" class="nav-link">State: Mato Grosso / MT</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-para-pa" class="nav-link">State: Pará / PA</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-paraiba-pb" class="nav-link">State: Paraíba / PB</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-pernambuco-pe" class="nav-link">State: Pernambuco / PE</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-piaui-pi" class="nav-link">State: Piauí / PI</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-parana-pr" class="nav-link">State: Paraná / PR</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-rio-de-janeiro-rj" class="nav-link">State: Rio de Janeiro / RJ</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-rio-grande-do-norte-rn" class="nav-link">State: Rio Grande do Norte / RN</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-rio-grande-do-sul-rs" class="nav-link">State: Rio Grande do Sul / RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-santa-catarina-sc" class="nav-link">State: Santa Catarina / SC</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-sergipe-se" class="nav-link">State: Sergipe / SE</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-sao-paulo-sp" class="nav-link">State: São Paulo / SP</a>
-        </li>
-    
-    </ul>
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summary-for-the-last-instantaneous-reproduction-number-estimate">
+   Summary for the last instantaneous reproduction number estimate
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-alagoas-al">
+   <strong>
+    State
+   </strong>
+   : Alagoas / AL
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-amazonas-am">
+   <strong>
+    State
+   </strong>
+   : Amazonas / AM
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-bahia-ba">
+   <strong>
+    State
+   </strong>
+   : Bahia / BA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-ceara-ce">
+   <strong>
+    State
+   </strong>
+   : Ceará / CE
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-distrito-federal-df">
+   <strong>
+    State
+   </strong>
+   : Distrito Federal / DF
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-espirito-santo-es">
+   <strong>
+    State
+   </strong>
+   : Espírito Santo / ES
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-goias-go">
+   <strong>
+    State
+   </strong>
+   : Goiás / GO
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-maranhao-ma">
+   <strong>
+    State
+   </strong>
+   : Maranhão / MA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-minas-gerais-mg">
+   <strong>
+    State
+   </strong>
+   : Minas Gerais / MG
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-mato-grosso-do-sul-ms">
+   <strong>
+    State
+   </strong>
+   : Mato Grosso do Sul / MS
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-mato-grosso-mt">
+   <strong>
+    State
+   </strong>
+   : Mato Grosso / MT
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-para-pa">
+   <strong>
+    State
+   </strong>
+   : Pará / PA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-paraiba-pb">
+   <strong>
+    State
+   </strong>
+   : Paraíba / PB
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-pernambuco-pe">
+   <strong>
+    State
+   </strong>
+   : Pernambuco / PE
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-piaui-pi">
+   <strong>
+    State
+   </strong>
+   : Piauí / PI
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-parana-pr">
+   <strong>
+    State
+   </strong>
+   : Paraná / PR
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-rio-de-janeiro-rj">
+   <strong>
+    State
+   </strong>
+   : Rio de Janeiro / RJ
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-rio-grande-do-norte-rn">
+   <strong>
+    State
+   </strong>
+   : Rio Grande do Norte / RN
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-rio-grande-do-sul-rs">
+   <strong>
+    State
+   </strong>
+   : Rio Grande do Sul / RS
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-santa-catarina-sc">
+   <strong>
+    State
+   </strong>
+   : Santa Catarina / SC
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-sergipe-se">
+   <strong>
+    State
+   </strong>
+   : Sergipe / SE
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-sao-paulo-sp">
+   <strong>
+    State
+   </strong>
+   : São Paulo / SP
+  </a>
+ </li>
+</ul>
+
 </nav>
 
 
@@ -628,7 +734,7 @@ the SIVED dataset.</p>
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="brazil_r0.html" title="previous page"><strong>30/September</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+    <a class='left-prev' id="prev-link" href="brazil_r0.html" title="previous page"><strong>19/March</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
     <a class='right-next' id="next-link" href="brazil_icu_stay.html" title="next page"><strong>18/May</strong> – ICU length of stay (LOS) estimation for states in Brazil</a>
 
     </div>
@@ -648,7 +754,10 @@ the SIVED dataset.</p>
       </div>
     </div>
 
-    <script src="_static/js/index.js"></script>
+    
+  <script src="_static/js/index.d8bbf5861d671d414e1a.js"></script>
+
+
     
   </body>
 </html>

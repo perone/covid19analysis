@@ -1,31 +1,48 @@
 
-
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
-    <title>10/March – COVID-19 Time varying reproduction numbers estimation for Brazil &#8212; COVID-19 Analysis</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
-    <link href="_static/css/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>19/March – COVID-19 Time varying reproduction numbers estimation for Brazil &#8212; COVID-19 Analysis</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.101715efdecc9b59cb6e1ddfa685c31f.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabs.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d8bbf5861d671d414e1a.js">
+
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-    <script src="_static/sphinx-book-theme.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/sphinx-book-theme.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="_static/sphinx-book-theme.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="shortcut icon" href="_static/logo.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="04/May – Symptom onset to confirmation delay estimation for states in Brazil" href="brazil_onset_delay.html" />
     <link rel="prev" title="COVID-19 Analysis for Brazil" href="brazil.html" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="docsearch:language" content="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
 
 
 
@@ -64,25 +81,25 @@
     <a href="brazil.html">COVID-19 Analysis for Brazil</a>
   </li>
   <li class="active">
-    <a href="">10/March – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
+    <a href="#"><strong>19/March</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_onset_delay.html">04/May – Symptom onset to confirmation delay estimation for states in Brazil</a>
+    <a href="brazil_onset_delay.html"><strong>04/May</strong> – Symptom onset to confirmation delay estimation for states in Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_icu_stay.html">18/May – ICU length of stay (LOS) estimation for states in Brazil</a>
+    <a href="brazil_icu_stay.html"><strong>18/May</strong> – ICU length of stay (LOS) estimation for states in Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_death_reg.html">7/June – Death regression analysis for each state in Brazil</a>
+    <a href="brazil_death_reg.html"><strong>7/June</strong> – Death regression analysis for each state in Brazil</a>
   </li>
   <li class="">
-    <a href="brazil_symptoms_reg.html">18/May – Symptom regression for each state in Brazil</a>
+    <a href="brazil_symptoms_reg.html"><strong>18/May</strong> – Symptom regression for each state in Brazil</a>
   </li>
   <li class="">
     <a href="portugal.html">COVID-19 Analysis for Portugal</a>
   </li>
   <li class="">
-    <a href="portugal_r0.html">08/November – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
+    <a href="portugal_r0.html"><strong>08/November</strong> – COVID-19 Time varying reproduction numbers estimation for Portugal</a>
   </li>
 </ul>
 </nav>
@@ -152,121 +169,230 @@
 </div>
 
 <nav id="bd-toc-nav">
-    <ul class="nav section-nav flex-column">
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#summary-for-the-last-instantaneous-reproduction-number-estimate" class="nav-link">Summary for the last instantaneous reproduction number estimate</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-acre-ac" class="nav-link">State: Acre / AC</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-alagoas-al" class="nav-link">State: Alagoas / AL</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-amazonas-am" class="nav-link">State: Amazonas / AM</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-amapa-ap" class="nav-link">State: Amapá / AP</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-bahia-ba" class="nav-link">State: Bahia / BA</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-ceara-ce" class="nav-link">State: Ceará / CE</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-distrito-federal-df" class="nav-link">State: Distrito Federal / DF</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-espirito-santo-es" class="nav-link">State: Espírito Santo / ES</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-goias-go" class="nav-link">State: Goiás / GO</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-maranhao-ma" class="nav-link">State: Maranhão / MA</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-minas-gerais-mg" class="nav-link">State: Minas Gerais / MG</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-mato-grosso-do-sul-ms" class="nav-link">State: Mato Grosso do Sul / MS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-mato-grosso-mt" class="nav-link">State: Mato Grosso / MT</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-para-pa" class="nav-link">State: Pará / PA</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-paraiba-pb" class="nav-link">State: Paraíba / PB</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-pernambuco-pe" class="nav-link">State: Pernambuco / PE</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-piaui-pi" class="nav-link">State: Piauí / PI</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-parana-pr" class="nav-link">State: Paraná / PR</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-rio-de-janeiro-rj" class="nav-link">State: Rio de Janeiro / RJ</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-rio-grande-do-norte-rn" class="nav-link">State: Rio Grande do Norte / RN</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-rondonia-ro" class="nav-link">State: Rondônia / RO</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-roraima-rr" class="nav-link">State: Roraima / RR</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-rio-grande-do-sul-rs" class="nav-link">State: Rio Grande do Sul / RS</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-santa-catarina-sc" class="nav-link">State: Santa Catarina / SC</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-sergipe-se" class="nav-link">State: Sergipe / SE</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-sao-paulo-sp" class="nav-link">State: São Paulo / SP</a>
-        </li>
-    
-        <li class="nav-item toc-entry toc-h2">
-            <a href="#state-tocantins-to" class="nav-link">State: Tocantins / TO</a>
-        </li>
-    
-    </ul>
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summary-for-the-last-instantaneous-reproduction-number-estimate">
+   Summary for the last instantaneous reproduction number estimate
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-acre-ac">
+   <strong>
+    State
+   </strong>
+   : Acre / AC
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-alagoas-al">
+   <strong>
+    State
+   </strong>
+   : Alagoas / AL
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-amazonas-am">
+   <strong>
+    State
+   </strong>
+   : Amazonas / AM
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-amapa-ap">
+   <strong>
+    State
+   </strong>
+   : Amapá / AP
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-bahia-ba">
+   <strong>
+    State
+   </strong>
+   : Bahia / BA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-ceara-ce">
+   <strong>
+    State
+   </strong>
+   : Ceará / CE
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-distrito-federal-df">
+   <strong>
+    State
+   </strong>
+   : Distrito Federal / DF
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-espirito-santo-es">
+   <strong>
+    State
+   </strong>
+   : Espírito Santo / ES
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-goias-go">
+   <strong>
+    State
+   </strong>
+   : Goiás / GO
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-maranhao-ma">
+   <strong>
+    State
+   </strong>
+   : Maranhão / MA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-minas-gerais-mg">
+   <strong>
+    State
+   </strong>
+   : Minas Gerais / MG
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-mato-grosso-do-sul-ms">
+   <strong>
+    State
+   </strong>
+   : Mato Grosso do Sul / MS
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-mato-grosso-mt">
+   <strong>
+    State
+   </strong>
+   : Mato Grosso / MT
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-para-pa">
+   <strong>
+    State
+   </strong>
+   : Pará / PA
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-paraiba-pb">
+   <strong>
+    State
+   </strong>
+   : Paraíba / PB
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-pernambuco-pe">
+   <strong>
+    State
+   </strong>
+   : Pernambuco / PE
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-piaui-pi">
+   <strong>
+    State
+   </strong>
+   : Piauí / PI
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-parana-pr">
+   <strong>
+    State
+   </strong>
+   : Paraná / PR
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-rio-de-janeiro-rj">
+   <strong>
+    State
+   </strong>
+   : Rio de Janeiro / RJ
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-rio-grande-do-norte-rn">
+   <strong>
+    State
+   </strong>
+   : Rio Grande do Norte / RN
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-rondonia-ro">
+   <strong>
+    State
+   </strong>
+   : Rondônia / RO
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-roraima-rr">
+   <strong>
+    State
+   </strong>
+   : Roraima / RR
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-rio-grande-do-sul-rs">
+   <strong>
+    State
+   </strong>
+   : Rio Grande do Sul / RS
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-santa-catarina-sc">
+   <strong>
+    State
+   </strong>
+   : Santa Catarina / SC
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-sergipe-se">
+   <strong>
+    State
+   </strong>
+   : Sergipe / SE
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-sao-paulo-sp">
+   <strong>
+    State
+   </strong>
+   : São Paulo / SP
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#state-tocantins-to">
+   <strong>
+    State
+   </strong>
+   : Tocantins / TO
+  </a>
+ </li>
+</ul>
+
 </nav>
 
 
@@ -278,7 +404,7 @@
               <div>
                 
   <div class="section" id="march-covid-19-time-varying-reproduction-numbers-estimation-for-brazil">
-<h1><strong>10/March</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil<a class="headerlink" href="#march-covid-19-time-varying-reproduction-numbers-estimation-for-brazil" title="Permalink to this headline">¶</a></h1>
+<h1><strong>19/March</strong> – COVID-19 Time varying reproduction numbers estimation for Brazil<a class="headerlink" href="#march-covid-19-time-varying-reproduction-numbers-estimation-for-brazil" title="Permalink to this headline">¶</a></h1>
 <p>These plots show the estimation of the instantaneous reproduction number for all
 the states in Brazil. These reports uses the method described in the work
 <a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3816335/">A New Framework and Software to Estimate Time-Varying Reproduction Numbers During Epidemics</a>. We used the serial interval parameters similar to the ones used
@@ -287,7 +413,7 @@ and <span class="math notranslate nohighlight">\(\sigma = 2.9 (1.9 - 4.9)\)</spa
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This plot uses official data from government, reports until
-10/March. This method is sensitive to changes in COVID-19
+19/March. This method is sensitive to changes in COVID-19
 testing procedures and the level of effort used to detect cases.
 Therefore, changes in the testing efforts will introduce bias
 if the testing practices are not kept consistent. So please
@@ -316,10 +442,10 @@ about being below 1.0 for a single day but for weeks.</p>
 <iframe src="_static/restim_map.html" height="591px" width="100%" frameBorder="0"></iframe><p class="rubric">Map of states with mean reproduction number R(t) &gt; 1.0</p>
 <iframe src="_static/restim_badr_map.html" height="591px" width="100%" frameBorder="0"></iframe><p class="rubric">Map for the accumulated deaths by COVID-19</p>
 <iframe src="_static/restim_deaths_map.html" height="591px" width="100%" frameBorder="0"></iframe><p class="rubric">Summary for the last instantaneous reproduction number estimate</p>
-<p>Last update: <strong>10/March</strong></p>
+<p>Last update: <strong>19/March</strong></p>
 <a class="reference internal image-reference" href="_images/estim_all.svg"><img alt="_images/estim_all.svg" src="_images/estim_all.svg" width="800" /></a>
 <p class="rubric">Summary for recent median instantaneous reproduction number estimate</p>
-<p>Last update: <strong>10/March</strong></p>
+<p>Last update: <strong>19/March</strong></p>
 <p>The median R(t) estimates are clipped in 2.0 to avoid issues with the colormap.</p>
 <iframe src="_static/br/r0_estim/estim_timeline_all.html" height="650px" width="100%" frameBorder="0"></iframe><p class="rubric">Summary table for the last instantaneous reproduction number estimate</p>
 <style>
@@ -375,138 +501,138 @@ about being below 1.0 for a single day but for weeks.</p>
 <tbody>
 
 <tr>
-    <td>PR</td>
-    <td>1.58 (1.31 - 1.87)</td>
-</tr>
-
-<tr>
-    <td>RS</td>
-    <td>1.26 (1.20 - 1.32)</td>
+    <td>SE</td>
+    <td>1.48 (1.34 - 1.59)</td>
 </tr>
 
 <tr>
     <td>AP</td>
-    <td>1.21 (1.12 - 1.29)</td>
-</tr>
-
-<tr>
-    <td>PI</td>
-    <td>1.18 (1.12 - 1.26)</td>
-</tr>
-
-<tr>
-    <td>SP</td>
-    <td>1.16 (1.11 - 1.19)</td>
-</tr>
-
-<tr>
-    <td>RN</td>
-    <td>1.16 (1.11 - 1.19)</td>
-</tr>
-
-<tr>
-    <td>DF</td>
-    <td>1.13 (1.09 - 1.19)</td>
-</tr>
-
-<tr>
-    <td>MG</td>
-    <td>1.10 (1.09 - 1.12)</td>
-</tr>
-
-<tr>
-    <td>TO</td>
-    <td>1.10 (1.06 - 1.14)</td>
-</tr>
-
-<tr>
-    <td>MA</td>
-    <td>1.09 (1.06 - 1.14)</td>
-</tr>
-
-<tr>
-    <td>RO</td>
-    <td>1.09 (1.05 - 1.14)</td>
-</tr>
-
-<tr>
-    <td>ES</td>
-    <td>1.08 (1.06 - 1.10)</td>
-</tr>
-
-<tr>
-    <td>AL</td>
-    <td>1.08 (1.04 - 1.12)</td>
-</tr>
-
-<tr>
-    <td>CE</td>
-    <td>1.08 (1.05 - 1.12)</td>
-</tr>
-
-<tr>
-    <td>SE</td>
-    <td>1.07 (1.03 - 1.11)</td>
-</tr>
-
-<tr>
-    <td>MT</td>
-    <td>1.07 (1.03 - 1.10)</td>
-</tr>
-
-<tr>
-    <td>GO</td>
-    <td>1.06 (1.04 - 1.09)</td>
-</tr>
-
-<tr>
-    <td>RJ</td>
-    <td>1.05 (1.02 - 1.07)</td>
-</tr>
-
-<tr>
-    <td>MS</td>
-    <td>1.04 (1.01 - 1.07)</td>
-</tr>
-
-<tr>
-    <td>AM</td>
-    <td>1.03 (1.00 - 1.07)</td>
-</tr>
-
-<tr>
-    <td>BA</td>
-    <td>1.02 (1.01 - 1.04)</td>
-</tr>
-
-<tr>
-    <td>PB</td>
-    <td>1.02 (0.99 - 1.05)</td>
-</tr>
-
-<tr>
-    <td>PA</td>
-    <td>1.01 (0.97 - 1.04)</td>
+    <td>1.36 (1.23 - 1.46)</td>
 </tr>
 
 <tr>
     <td>AC</td>
-    <td>0.97 (0.94 - 1.01)</td>
+    <td>1.27 (1.20 - 1.34)</td>
+</tr>
+
+<tr>
+    <td>PA</td>
+    <td>1.26 (1.20 - 1.32)</td>
 </tr>
 
 <tr>
     <td>PE</td>
-    <td>0.96 (0.94 - 0.99)</td>
+    <td>1.26 (1.18 - 1.37)</td>
+</tr>
+
+<tr>
+    <td>AL</td>
+    <td>1.25 (1.16 - 1.34)</td>
+</tr>
+
+<tr>
+    <td>ES</td>
+    <td>1.24 (1.17 - 1.31)</td>
+</tr>
+
+<tr>
+    <td>MT</td>
+    <td>1.20 (1.15 - 1.25)</td>
 </tr>
 
 <tr>
     <td>SC</td>
-    <td>0.67 (0.65 - 0.71)</td>
+    <td>1.17 (1.07 - 1.30)</td>
+</tr>
+
+<tr>
+    <td>MG</td>
+    <td>1.16 (1.12 - 1.20)</td>
+</tr>
+
+<tr>
+    <td>CE</td>
+    <td>1.14 (1.09 - 1.20)</td>
+</tr>
+
+<tr>
+    <td>TO</td>
+    <td>1.13 (1.08 - 1.18)</td>
+</tr>
+
+<tr>
+    <td>MS</td>
+    <td>1.12 (1.08 - 1.16)</td>
+</tr>
+
+<tr>
+    <td>SP</td>
+    <td>1.12 (1.10 - 1.16)</td>
+</tr>
+
+<tr>
+    <td>RJ</td>
+    <td>1.11 (1.07 - 1.14)</td>
+</tr>
+
+<tr>
+    <td>MA</td>
+    <td>1.11 (1.05 - 1.17)</td>
+</tr>
+
+<tr>
+    <td>DF</td>
+    <td>1.03 (1.00 - 1.06)</td>
+</tr>
+
+<tr>
+    <td>RO</td>
+    <td>1.03 (1.00 - 1.06)</td>
+</tr>
+
+<tr>
+    <td>PI</td>
+    <td>0.99 (0.96 - 1.02)</td>
+</tr>
+
+<tr>
+    <td>AM</td>
+    <td>0.97 (0.93 - 1.01)</td>
+</tr>
+
+<tr>
+    <td>PB</td>
+    <td>0.96 (0.94 - 0.99)</td>
+</tr>
+
+<tr>
+    <td>RS</td>
+    <td>0.96 (0.94 - 0.99)</td>
+</tr>
+
+<tr>
+    <td>BA</td>
+    <td>0.93 (0.92 - 0.95)</td>
+</tr>
+
+<tr>
+    <td>GO</td>
+    <td>0.93 (0.90 - 0.96)</td>
 </tr>
 
 <tr>
     <td>RR</td>
-    <td>0.66 (0.61 - 0.71)</td>
+    <td>0.90 (0.85 - 0.96)</td>
+</tr>
+
+<tr>
+    <td>PR</td>
+    <td>0.80 (0.68 - 0.90)</td>
+</tr>
+
+<tr>
+    <td>RN</td>
+    <td>0.51 (0.45 - 0.60)</td>
 </tr>
 
 </tbody>
@@ -555,171 +681,171 @@ also the last available date.</p>
 </tr>
 
 <tr>
-    <td>ParÃ¡</td>
-    <td>5.73 (2.96 - 8.50)</td>
-    <td>359</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
     <td>Amazonas</td>
-    <td>5.15 (1.63 - 8.67)</td>
-    <td>214</td>
-    <td>08-03-2021
+    <td>6.56 (2.74 - 10.37)</td>
+    <td>243</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
-    <td>Mato Grosso do Sul</td>
-    <td>4.67 (1.57 - 7.77)</td>
-    <td>283</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>Pernambuco</td>
-    <td>4.02 (1.64 - 6.40)</td>
-    <td>404</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>Mato Grosso</td>
-    <td>3.86 (1.49 - 6.23)</td>
-    <td>335</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>EspÃ­rito Santo</td>
-    <td>3.82 (1.30 - 6.33)</td>
-    <td>338</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>CearÃ¡</td>
-    <td>3.70 (1.78 - 5.62)</td>
-    <td>506</td>
-    <td>08-03-2021
+    <td>ParÃ¡</td>
+    <td>6.02 (3.45 - 8.60)</td>
+    <td>481</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
     <td>RondÃ´nia</td>
-    <td>3.62 (0.30 - 6.94)</td>
-    <td>167</td>
-    <td>08-03-2021
+    <td>4.92 (1.18 - 8.65)</td>
+    <td>221</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>Mato Grosso</td>
+    <td>3.93 (1.63 - 6.22)</td>
+    <td>386</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
     <td>MaranhÃ£o</td>
-    <td>3.38 (0.76 - 5.99)</td>
-    <td>252</td>
-    <td>08-03-2021
+    <td>3.70 (1.22 - 6.17)</td>
+    <td>329</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
     <td>Rio Grande do Norte</td>
-    <td>3.33 (0.75 - 5.92)</td>
-    <td>303</td>
-    <td>08-03-2021
+    <td>3.48 (1.15 - 5.80)</td>
+    <td>348</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
-    <td>Bahia</td>
-    <td>3.22 (1.52 - 4.92)</td>
-    <td>594</td>
-    <td>08-03-2021
+    <td>Pernambuco</td>
+    <td>3.40 (1.57 - 5.24)</td>
+    <td>549</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
-    <td>Sergipe</td>
-    <td>3.16 (-0.57 - 6.89)</td>
-    <td>124</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>Alagoas</td>
-    <td>3.07 (0.08 - 6.06)</td>
-    <td>165</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>Distrito Federal</td>
-    <td>2.80 (0.89 - 4.71)</td>
-    <td>522</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>GoiÃ¡s</td>
-    <td>2.52 (1.05 - 3.99)</td>
-    <td>620</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>ParaÃ­ba</td>
-    <td>2.46 (0.21 - 4.71)</td>
-    <td>264</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>Rio Grande do Sul</td>
-    <td>2.22 (1.25 - 3.20)</td>
-    <td>1369</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>Rio de Janeiro</td>
-    <td>1.85 (0.94 - 2.77)</td>
-    <td>1306</td>
-    <td>08-03-2021
-</tr>
-
-<tr>
-    <td>SÃ£o Paulo</td>
-    <td>1.67 (1.19 - 2.15)</td>
-    <td>4532</td>
-    <td>08-03-2021
+    <td>EspÃ­rito Santo</td>
+    <td>3.33 (1.11 - 5.55)</td>
+    <td>445</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
     <td>Tocantins</td>
-    <td>1.56 (-1.30 - 4.41)</td>
-    <td>104</td>
-    <td>08-03-2021
+    <td>2.96 (-0.68 - 6.60)</td>
+    <td>109</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
-    <td>Minas Gerais</td>
-    <td>1.51 (0.72 - 2.30)</td>
-    <td>1415</td>
-    <td>08-03-2021
+    <td>CearÃ¡</td>
+    <td>2.65 (1.00 - 4.30)</td>
+    <td>543</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
-    <td>ParanÃ¡</td>
-    <td>1.45 (0.59 - 2.31)</td>
-    <td>1132</td>
-    <td>08-03-2021
+    <td>Rio de Janeiro</td>
+    <td>2.52 (1.48 - 3.56)</td>
+    <td>1375</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
-    <td>Santa Catarina</td>
-    <td>1.10 (0.15 - 2.05)</td>
-    <td>705</td>
-    <td>08-03-2021
+    <td>Alagoas</td>
+    <td>2.51 (-0.17 - 5.20)</td>
+    <td>201</td>
+    <td>18-03-2021
 </tr>
 
 <tr>
     <td>PiauÃ­</td>
-    <td>0.99 (-0.78 - 2.77)</td>
-    <td>163</td>
-    <td>08-03-2021
+    <td>2.42 (-0.25 - 5.09)</td>
+    <td>197</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>Sergipe</td>
+    <td>2.39 (-0.52 - 5.29)</td>
+    <td>155</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>Santa Catarina</td>
+    <td>2.36 (1.01 - 3.71)</td>
+    <td>756</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>Bahia</td>
+    <td>2.29 (0.81 - 3.76)</td>
+    <td>568</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>Mato Grosso do Sul</td>
+    <td>2.07 (0.25 - 3.89)</td>
+    <td>359</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>SÃ£o Paulo</td>
+    <td>2.02 (1.53 - 2.50)</td>
+    <td>5319</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>GoiÃ¡s</td>
+    <td>2.02 (0.83 - 3.20)</td>
+    <td>731</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>Distrito Federal</td>
+    <td>2.01 (0.52 - 3.50)</td>
+    <td>575</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>Minas Gerais</td>
+    <td>1.54 (0.75 - 2.33)</td>
+    <td>1505</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>ParanÃ¡</td>
+    <td>1.53 (0.71 - 2.35)</td>
+    <td>1312</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>Rio Grande do Sul</td>
+    <td>1.13 (0.43 - 1.83)</td>
+    <td>1457</td>
+    <td>18-03-2021
+</tr>
+
+<tr>
+    <td>ParaÃ­ba</td>
+    <td>1.00 (-0.30 - 2.30)</td>
+    <td>353</td>
+    <td>18-03-2021
 </tr>
 
 </tbody>
@@ -1457,7 +1583,10 @@ the Facebook Symptom survey data kindly hosted by University of Maryland.</p>
       </div>
     </div>
 
-    <script src="_static/js/index.js"></script>
+    
+  <script src="_static/js/index.d8bbf5861d671d414e1a.js"></script>
+
+
     
   </body>
 </html>
